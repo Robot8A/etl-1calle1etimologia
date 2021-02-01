@@ -1,0 +1,44 @@
+#!/bin/bash
+
+TYPE=$1
+OPTS=$2
+
+shift 2
+
+REGIONS=("${@:-ES}")
+
+if [[ $1 == "ccaa" ]]; then
+  REGIONS=(AN AS AR CN CB CL CM CT M VC PV EX GA IB RI NA MU)
+elif [[ $1 == "prov" ]]; then
+  REGIONS=(C A AB AL VI AV BA B BI BU CC CA CS CE CR CO CU SS GI GR GU H HU J GC LE L LU MA ML OR P PO SA TF SG SE SO T TE TO V VA ZA Z)
+fi
+
+ERR=error.log
+rm -f $ERR
+
+for region in "${REGIONS[@]}"
+do
+  VAR="REGION="
+  [ $# -gt 0 ] && VAR+=\'$region\'
+
+  if [ $TYPE == "feature" ]; then
+    echo -ne "Creando GeoJSON para $region... \t\t\t"
+    FILE=./features/"$region".geojson
+  elif [ $TYPE == "report" ]; then
+    echo -ne "Creando informe para $region... \t\t\t"
+    FILE=./reports/$(date +%Y%m)/"$region".csv
+  fi
+
+  mkdir -p $(dirname $FILE)
+
+  psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="$VAR" $OPTS > $FILE 2>> $ERR
+
+  [ $? -eq 0 ] && echo -ne "[\033[0;32mOK\033[0m]\t\t\t" || echo -ne "[\033[0;31merror\033[0m]\t\t\t"
+  echo -ne "$(basename $FILE)\t$(wc -c $FILE | cut -d ' ' -f 1 | numfmt --to=si)"
+
+  echo
+done
+
+[ -s $ERR ] && echo && cat $ERR && exit 1 || rm -f $ERR
+
+exit 0;

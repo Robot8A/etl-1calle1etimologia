@@ -1,5 +1,5 @@
 #!/bin/bash
 
-$(dirname $0)/runner report "--csv --file=1calle1nombre.sql" "$@"
+$(dirname $0)/runner report "--csv --file=config/1calle1nombre.sql" "$@"
 
 exit $?;

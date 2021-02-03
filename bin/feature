@@ -1,5 +1,5 @@
 #!/bin/bash
 
-$(dirname $0)/runner feature "--tuples-only --file=geojson.sql" "$@"
+$(dirname $0)/runner feature "--tuples-only --file=config/geojson.sql" "$@"
 
 exit $?;

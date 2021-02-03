@@ -48,9 +48,9 @@ do
   elif [ $TYPE == "merge" ]; then
 
     # join all reports into a single file
-    awk '(NR == 1) || (FNR > 1)' "./reports/*/$region.csv" > "$region.join.csv"
+    awk '(NR == 1) || (FNR > 1)' ./reports/*/"$region.csv" > "$region.join.csv"
     # run mapshaper transforming the data
-    npx mapshaper -i "features/$region.geojson" -clean -join "$region.join.csv" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=topojson "$region.1calle1nombre.topo.json"
+    npx mapshaper -i features/"$region.geojson" -clean -join "$region.join.csv" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=topojson "$region.1calle1nombre.topo.json"
     rm --force "$region.join.csv"
   fi
 done

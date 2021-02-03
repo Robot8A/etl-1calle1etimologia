@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# execute the runner with a preset of parameters
 $(dirname $0)/runner merge -- "$@"
 
 exit $?;

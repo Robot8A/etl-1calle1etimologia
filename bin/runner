@@ -37,7 +37,7 @@ do
     psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="$VAR" $OPTS > "$FILE" 2>> $ERR
 
     [ $? -eq 0 ] && echo -ne "[\033[0;32mOK\033[0m]\t\t\t" || echo -ne "[\033[0;31merror\033[0m]\t\t\t"
-    echo -ne "$(basename $FILE)\t$(wc -c $FILE | cut -d ' ' -f 1 | numfmt --to=si)"
+    echo -ne $(basename "$FILE")"\t"$(wc -c "$FILE" | cut -d ' ' -f 1 | numfmt --to=si)
 
     echo
   elif [ $TYPE == "merge" ]; then

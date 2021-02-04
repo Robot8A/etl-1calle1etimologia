@@ -22,37 +22,27 @@ trap "echo; exit 1" INT TERM
 
 for region in "${REGIONS[@]}"
 do
-  if [ $TYPE == "feature" ] || [ $TYPE == "report" ]; then
+  # feature or report must set the query param "region" in order to get the proper results
+  VAR="REGION="
+  [ $# -gt 0 ] && VAR+=\'$region\'
 
-    # feature or report must set the query param "region" in order to get the proper results
-    VAR="REGION="
-    [ $# -gt 0 ] && VAR+=\'$region\'
-
-    if [ $TYPE == "feature" ]; then
-      echo -ne "Creando GeoJSON para $region... \t\t\t"
-      FILE=./features/"$region".geojson
-    elif [ $TYPE == "report" ]; then
-      echo -ne "Creando informe para $region... \t\t\t"
-      FILE=./reports/$(date +%Y%m)/"$region".csv
-    fi
-
-    mkdir --parents $(dirname "$FILE")
-
-    # run psql with the corresponding variables
-    psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="$VAR" $OPTS > "$FILE" 2>> $ERR
-
-    [ $? -eq 0 ] && echo -ne "[\033[0;32mOK\033[0m]\t\t\t" || echo -ne "[\033[0;31merror\033[0m]\t\t\t"
-    echo -ne $(basename "$FILE")"\t"$(wc -c "$FILE" | cut -d ' ' -f 1 | numfmt --to=si)
-
-    echo
-  elif [ $TYPE == "merge" ]; then
-
-    # join all reports into a single file
-    awk '(NR == 1) || (FNR > 1)' ./reports/*/"$region.csv" > "$region.join.csv"
-    # run mapshaper transforming the data
-    npx mapshaper -i features/"$region.geojson" -clean -join "$region.join.csv" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=topojson "$region.1calle1nombre.topo.json"
-    rm --force "$region.join.csv"
+  if [ $TYPE == "feature" ]; then
+    echo -ne "Creando GeoJSON para $region... \t\t\t"
+    FILE=./features/"$region".geojson
+  elif [ $TYPE == "report" ]; then
+    echo -ne "Creando informe para $region... \t\t\t"
+    FILE=./reports/$(date +%Y%m)/"$region".csv
   fi
+
+  mkdir --parents $(dirname "$FILE")
+
+  # run psql with the corresponding variables
+  psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="$VAR" $OPTS > "$FILE" 2>> $ERR
+
+  [ $? -eq 0 ] && echo -ne "[\033[0;32mOK\033[0m]\t\t\t" || echo -ne "[\033[0;31merror\033[0m]\t\t\t"
+  echo -ne $(basename "$FILE")"\t"$(wc -c "$FILE" | cut -d ' ' -f 1 | numfmt --to=si)
+
+  echo
 done
 
 # display the errors, if any

@@ -1,6 +1,20 @@
 #!/bin/bash
 
-# execute the runner with a preset of parameters
-$(dirname $0)/runner merge -- "$@"
+# check for minimun number of arguments
+[ $# -lt 2 ] && echo "Missing arguments" && exit 1
 
-exit $?;
+reports=$1
+feature=$2
+format=${3:-topojson}
+
+# handle kill signs
+trap "echo; exit 1" INT TERM
+# remove previous report 
+rm --force reports.merged.csv
+# join all reports into a single file
+awk '(NR == 1) || (FNR > 1)' $reports > reports.merged.csv
+# run mapshaper transforming the data
+npx mapshaper -i $feature -clean -join reports.merged.csv string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=$format "1calle1nombre.topo.json"
+rm --force reports.merged.csv
+
+exit 0;

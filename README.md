@@ -35,11 +35,28 @@ $ bin/feature prov                   # GeoJSONs para cada provincia: A.geojson, 
 $ bin/feature RI lugo                # GeoJSONs para La Rioja y lugo: RI.geojson, lugo.geojson
 ```
 
-#### **bin/merge <location>**
-Genera un fichero [TopoJSON](https://github.com/topojson/topojson-specification/blob/master/README.md) con todos los CSV de las carpetas de `reports/*` a partir del GeoJSON especificado. El archivo se crea en la carpeta inicial del proyecto con el nombre elegido en `location`
+#### **bin/merge <csv> <feature> <format>**
+Genera un fichero [TopoJSON](https://github.com/topojson/topojson-specification/blob/master/README.md) a partir de uno (o varios) CSV y el GeoJSON que se especifique. El archivo _1calle1nombre.json_ resultante se crea en la carpeta raíz del proyecto. Este comando utiliza _node_ para ejecutar la herramienta [mapshaper](https://mapshaper.org/).
 
-Funciona de igual manera que los precedentes scripts, pero es __importante__ tener en cuenta que el `location` escogido debe ser el mismo del CSV, como del GeoJSON. Es decir, si ejecutamos:
+Los dos primeros parámetros son obligatorios, donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos para indicar más de un elemento, envolviendo el argumento entre comillas) y `feature` la ruta del GeoJSON en concreto. El tercer parámetro `format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson).
+
 ```sh
-$ bin/merge CL
+$ bin/merge reports/202001/CL.csv features/CL.geojson       # Output en TopoJSON
+$ bin/merge "reports/*/GL.csv" features/GL.geojson geojson  # Output en GeoJSON con datos de todos los csv
 ```
-ha de existir previamente un fichero `features/CL.geojson` y al menos un informe llamado `CL` en `reports/*/CL.csv`. Por tanto se recomienda ejecutar previamente los comandos `report` y `feature`.
+La unión de archivos se produce a través del campo `id` presente tanto en los _reports_ como las _features_, correspondiente al código INE del municipio. Por tanto, aplicar unos csv a un geojson de una región diferente, no producirá el resultado esperado.
+
+Actualmente se ejecuta una transformación de los datos del informe, agrupando cada `date` y `percentage` en una propiedad llamada `values`, y dejando `id` y `name` tal cual. Es decir, un objeto `properties` de la forma:
+```json
+{
+  "id": "05154",
+  "name": "Navadijos",
+  "values": {
+    "2020-01-01": 0,
+    "2020-11-01": 0.52,
+    "2020-12-01": 0.52,
+    "2021-01-01": 0.52,
+    "2021-02-03": 0.52
+  }
+}
+```

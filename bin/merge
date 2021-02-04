@@ -14,7 +14,7 @@ rm --force reports.merged.csv
 # join all reports into a single file
 awk '(NR == 1) || (FNR > 1)' $reports > reports.merged.csv
 # run mapshaper transforming the data
-npx mapshaper -i $feature -clean -join reports.merged.csv string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=$format "1calle1nombre.topo.json"
+npx mapshaper -i $feature -clean -join reports.merged.csv string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=$format "1calle1nombre.json"
 rm --force reports.merged.csv
 
 exit 0;

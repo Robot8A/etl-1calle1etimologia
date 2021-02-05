@@ -1,10 +1,12 @@
 #!/bin/bash
 
+# root path project
+__root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 # remove previous dump, if any
-rm --force spain-latest.osm.pbf
+rm --force "${__root}"/spain-latest.osm.pbf
 # fetch the latest dump
 curl --progress-bar --remote-name https://download.geofabrik.de/europe/spain-latest.osm.pbf
 # load the dump into osm database
-osm2pgsql --create --slim --cache=2048 --multi-geometry --proj=4326 --style=config/1calle1nombre.style --database=osm --username="$(whoami)" spain-latest.osm.pbf
+osm2pgsql --create --slim --cache=2048 --multi-geometry --proj=4326 --style="${__root}"/config/1calle1nombre.style --database=osm --username="$(whoami)" "${__root}"/spain-latest.osm.pbf
 
 exit $?;

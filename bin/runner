@@ -2,7 +2,9 @@
 
 # get the preset from the wrapper scripts
 type=$1
-opts=$2
+opts=($2)
+
+shift 2
 
 REGIONS=("${@:-ES}")
 
@@ -12,7 +14,7 @@ elif [[ "${1,,}" == "prov" ]]; then
   REGIONS=(C A AB AL VI AV BA B BI BU CC CA CS CE CR CO CU SS GI GR GU H HU J GC LE L LU MA ML OR P PO SA TF SG SE SO T TE TO V VA ZA Z)
 fi
 
-# root path project
+  # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
 err="${__root}"/error.log
@@ -24,8 +26,11 @@ trap "echo; exit 1" INT TERM
 for region in "${REGIONS[@]}"
 do
   # feature or report must set the query param "region" in order to get the proper results
-  var="REGION="
-  [ $# -gt 0 ] && var+=\'${region}\'
+  if [ $# -gt 0 ]; then
+    var="REGION=\'${region}\'"
+  else
+    var="REGION=''"
+  fi
 
   if [ "${type}" == "feature" ]; then
     echo -ne "Creando GeoJSON para ${region}... \t\t\t"
@@ -38,7 +43,7 @@ do
   mkdir --parents "$(dirname "${file}")"
 
   # run psql with the corresponding variables
-  if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" "${opts}" > "${file}" 2>> "${err}"; then
+  if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" "${opts[@]}" > "${file}" 2>> "${err}"; then
     echo -ne "[\033[0;32mOK\033[0m]\t\t\t"
   else
     echo -ne "[\033[0;31merror\033[0m]\t\t\t"

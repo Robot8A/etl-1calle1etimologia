@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# root path project
+__root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 # execute the runner with a preset of parameters
-"$(dirname "$0")"/runner feature "--tuples-only --file=config/geojson.sql" "$@"
+"$(dirname "$0")"/runner feature "--tuples-only --file=${__root}/config/geojson.sql" "$@"
 
 exit $?;

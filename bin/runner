@@ -4,8 +4,6 @@
 type=$1
 opts=$2
 
-shift 2
-
 REGIONS=("${@:-ES}")
 
 if [[ "${1,,}" == "ccaa" ]]; then
@@ -14,7 +12,10 @@ elif [[ "${1,,}" == "prov" ]]; then
   REGIONS=(C A AB AL VI AV BA B BI BU CC CA CS CE CR CO CU SS GI GR GU H HU J GC LE L LU MA ML OR P PO SA TF SG SE SO T TE TO V VA ZA Z)
 fi
 
-err=error.log
+# root path project
+__root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
+
+err="${__root}"/error.log
 rm --force "${err}"
 
 # handle kill signs
@@ -28,10 +29,10 @@ do
 
   if [ "${type}" == "feature" ]; then
     echo -ne "Creando GeoJSON para ${region}... \t\t\t"
-    file=./features/"${region}".geojson
+    file="${__root}"/features/"${region}".geojson
   elif [ "${type}" == "report" ]; then
     echo -ne "Creando informe para ${region}... \t\t\t"
-    file=./reports/$(date +%Y%m)/"${region}".csv
+    file="${__root}"/reports/$(date +%Y%m)/"${region}".csv
   fi
 
   mkdir --parents "$(dirname "${file}")"

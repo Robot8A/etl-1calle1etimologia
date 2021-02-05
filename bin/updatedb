@@ -5,6 +5,6 @@ rm --force spain-latest.osm.pbf
 # fetch the latest dump
 curl --progress-bar --remote-name https://download.geofabrik.de/europe/spain-latest.osm.pbf
 # load the dump into osm database
-osm2pgsql --create --slim --cache=2048 --multi-geometry --proj=4326 --style=config/1calle1nombre.style --database=osm --username=$(whoami) spain-latest.osm.pbf
+osm2pgsql --create --slim --cache=2048 --multi-geometry --proj=4326 --style=config/1calle1nombre.style --database=osm --username="$(whoami)" spain-latest.osm.pbf
 
 exit $?;

@@ -7,14 +7,24 @@ reports=$1
 feature=$2
 format=${3:-topojson}
 
+# root path project
+__root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
+
+# temporary file
+tmpfile="${__root}"/reports.merged.csv
+
 # handle kill signs
 trap "echo; exit 1" INT TERM
+
 # remove previous report 
-rm --force reports.merged.csv
+rm --force "${tmpfile}"
+
 # join all reports into a single file
-awk '(NR == 1) || (FNR > 1)' $reports > reports.merged.csv
+awk '(NR == 1) || (FNR > 1)' ${reports} > "${tmpfile}"
+
 # run mapshaper transforming the data
-npx mapshaper -i $feature -clean -join reports.merged.csv string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format=$format "1calle1nombre.json"
-rm --force reports.merged.csv
+npx mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format="${format}" "1calle1nombre.json"
+
+rm --force "${tmpfile}"
 
 exit 0;

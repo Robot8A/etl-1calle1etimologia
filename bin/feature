@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # execute the runner with a preset of parameters
-$(dirname $0)/runner feature "--tuples-only --file=config/geojson.sql" "$@"
+"$(dirname "$0")"/runner feature "--tuples-only --file=config/geojson.sql" "$@"
 
 exit $?;

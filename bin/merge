@@ -5,12 +5,13 @@ usage() {
   
   cat <<-EOF | column -s"~" -t
   ~
-  Usage:~${0}-r <informe/s>.csv -g <feature>.geojson [-f <formato>] [-n <nombre>]
+  Modo de empleo:
+    ${0} -r <informe/s>.csv -g <feature>.geojson [-f <formato>] [-n <nombre>]
   ~
-  -r|--reports CSV~Obligatorio. Ruta del fichero, o ficheros, CSV; para especificar más de uno, envolverlo entre comillas.
-  -g|--feature GEOJSON~Obligatorio. Ruta del archivo GeoJSON
-  -f|--format FORMATO~Formato de salida: topojson|geojson (default: topojson)
-  -n|--name NOMBRE~Nombre de archivo resultante (default: 1calle1nombre.json)
+  -r, --reports=CSV~Obligatorio. Ruta del fichero, o ficheros, CSV; para especificar más de uno, envolverlo entre comillas.
+  -g, --feature=GEOJSON~Obligatorio. Ruta del archivo GeoJSON
+  -f, --format=FORMATO~Formato de salida: topojson|geojson (default: topojson)
+  -n, --name=NOMBRE~Nombre de archivo resultante (default: 1calle1nombre.json)
   ~
 EOF
 

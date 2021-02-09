@@ -1,11 +1,60 @@
 #!/bin/bash
 
-# check for minimun number of arguments
-[ $# -lt 2 ] && echo "Missing arguments" && exit 1
+usage() {
+  [[ -n $1 ]] && echo "$1"
+  
+  cat <<-EOF | column -s"~" -t
+  ~
+  Usage:~${0}-r <informe/s>.csv -g <feature>.geojson [-f <formato>] [-n <nombre>]
+  ~
+  -r|--reports CSV~Obligatorio. Ruta del fichero, o ficheros, CSV; para especificar más de uno, envolverlo entre comillas.
+  -g|--feature GEOJSON~Obligatorio. Ruta del archivo GeoJSON
+  -f|--format FORMATO~Formato de salida: topojson|geojson (default: topojson)
+  -n|--name NOMBRE~Nombre de archivo resultante (default: 1calle1nombre.json)
+  ~
+EOF
 
-reports=($1)
-feature=$2
-format=${3:-topojson}
+  exit 1;
+}
+
+# defaults
+reports=
+feature=
+format=topojson
+name=1calle1nombre.json
+
+# parse arguments
+while true
+do
+  case $1 in
+    -r|--reports)
+        reports=($2)
+        shift 2
+        ;;
+    -g|--feature)
+        feature=$2
+        shift 2
+        ;;
+    -f|--format)
+        format=$2
+        shift 2
+        ;;
+    -n|--name)
+        name=$2
+        shift 2
+        ;;
+    --)
+        shift
+        break
+        ;;
+    *)
+        break
+  esac
+done
+
+# mandatory options
+[ -z "${reports}" ] && usage "ERROR: No se ha especificado ningún informe CSV"
+[ -z "${feature}" ] && usage "ERROR: No se ha especificado ningún archivo GeoJSON"
 
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
@@ -23,7 +72,7 @@ rm --force "${tmpfile}"
 awk '(NR == 1) || (FNR > 1)' "${reports[@]}" > "${tmpfile}"
 
 # run mapshaper transforming the data
-npx mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format="${format}" "1calle1nombre.json"
+npx mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format="${format}" "${name}"
 
 rm --force "${tmpfile}"
 

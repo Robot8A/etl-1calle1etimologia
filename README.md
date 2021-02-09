@@ -35,14 +35,15 @@ $ bin/feature prov                   # GeoJSONs para cada provincia: A.geojson, 
 $ bin/feature RI lugo                # GeoJSONs para La Rioja y lugo: RI.geojson, lugo.geojson
 ```
 
-#### **bin/merge <csv> <feature> <format>**
+#### **bin/merge -r|--reports <csv> -g|--feature <feature> [-f|--format <format>] [-n|--name <name>]**
 Genera un fichero [TopoJSON](https://github.com/topojson/topojson-specification/blob/master/README.md) a partir de uno (o varios) CSV y el GeoJSON que se especifique. El archivo _1calle1nombre.json_ resultante se crea en la carpeta raíz del proyecto. Este comando utiliza _node_ para ejecutar la herramienta [mapshaper](https://mapshaper.org/).
 
-Los dos primeros parámetros son obligatorios, donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos para indicar más de un elemento, envolviendo el argumento entre comillas) y `feature` la ruta del GeoJSON en concreto. El tercer parámetro `format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson).
+Los parámetros `-r`, también se puede escribir `--reports`, y `-f`, o `--feature` en su versión larga, son obligatorios; donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos para indicar más de un elemento, envolviendo el argumento entre comillas) y `feature` la ruta del GeoJSON en concreto. El parámetro `-f` o `--format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson). Por último, el parámetro opcional `-n` o `--name` para cambiar el nombre al archivo resultante, que por defecto es _1calle1nombre.json_
 
 ```sh
-$ bin/merge reports/202001/CL.csv features/CL.geojson       # Output en TopoJSON
-$ bin/merge "reports/*/GL.csv" features/GL.geojson geojson  # Output en GeoJSON con datos de todos los csv
+$ bin/merge -r reports/202001/CL.csv -g features/CL.geojson       # Output en TopoJSON
+$ bin/merge -r "reports/*/GL.csv" -g features/GL.geojson -f geojson  # Output en GeoJSON con datos de todos los csv
+$ bin/merge -r "reports/*/GL.csv" -g features/GL.geojson -n GL.json  # Fichero resultante GL.json en formato TopoJSON
 ```
 La unión de archivos se produce a través del campo `id` presente tanto en los _reports_ como las _features_, correspondiente al código INE del municipio. Por tanto, aplicar unos csv a un geojson de una región diferente, no producirá el resultado esperado.
 

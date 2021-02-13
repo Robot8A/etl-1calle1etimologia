@@ -4,7 +4,8 @@ La fuente original de datos es https://download.geofabrik.de/europe/spain.html
 
 ## Requisitos
 
-- [osm2pgsql](https://osm2pgsql.org/doc/install.html) transformará el fichero _.pbf_ descargado de Geofabrik. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada.
+- [osmium-tool](https://osmcode.org/osmium-tool/) unirá en un solo fichero _.pbf_ los datos descargados de Geofabrik (_spain_ + _canary-islands_)
+- [osm2pgsql](https://osm2pgsql.org/doc/install.html) insertará el _.pbf_ del paso anterior en la base de datos. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada.
 - [nodejs](https://nodejs.org/en/) (opcional, solo para _merge_) utilizará la herramienta `npx` para ejecutar [mapshaper](https://github.com/mbloch/mapshaper) que es quién unirá en un fichero geográfico (topojson) los datos CSV con los GeoJSON. 
 
 ## Herramientas

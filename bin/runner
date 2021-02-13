@@ -2,9 +2,12 @@
 
 # get the preset from the wrapper scripts
 type=$1
-opts=($2)
+IFS='|'
+read -ra opts <<< "$2"
+IFS=' '
+file="$3"
 
-shift 2
+shift 3
 
 REGIONS=("${@:-ES}")
 
@@ -14,10 +17,10 @@ elif [[ "${1,,}" == "prov" ]]; then
   REGIONS=(C A AB AL VI AV BA B BI BU CC CA CS CE CR CO CU SS GI GR GU H HU J GC LE L LU MA ML OR P PO SA TF SG SE SO T TE TO V VA ZA Z)
 fi
 
-  # root path project
+# root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
-err="${__root}"/error.log
+err="${__root}/error.log"
 rm --force "${err}"
 
 # handle kill signs
@@ -27,29 +30,30 @@ for region in "${REGIONS[@]}"
 do
   # feature or report must set the query param "region" in order to get the proper results
   if [ $# -gt 0 ]; then
-    var="REGION=\'${region}\'"
+    var="REGION='${region}'"
   else
     var="REGION=''"
   fi
 
+  # prepend the region to the output file
   if [ "${type}" == "feature" ]; then
     echo -ne "Creando GeoJSON para ${region}... \t\t\t"
-    file="${__root}"/features/"${region}".geojson
+    output="$(dirname "${file}")/${region}.$(basename "${file}")"
   elif [ "${type}" == "report" ]; then
     echo -ne "Creando informe para ${region}... \t\t\t"
-    file="${__root}"/reports/$(date +%Y%m)/"${region}".csv
+    output="$(dirname "${file}")/${region}.$(basename "${file}")"
   fi
 
-  mkdir --parents "$(dirname "${file}")"
+  mkdir --parents "$(dirname "${output}")"
 
   # run psql with the corresponding variables
-  if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" "${opts[@]}" > "${file}" 2>> "${err}"; then
+  if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" --output="${output}" "${opts[@]}" 2>> "${err}"; then
     echo -ne "[\033[0;32mOK\033[0m]\t\t\t"
   else
     echo -ne "[\033[0;31merror\033[0m]\t\t\t"
   fi
 
-  echo -ne "$(basename "${file}")$(printf '\t')$(wc -c "${file}" | cut -d ' ' -f 1 | numfmt --to=si)\n"
+  echo -ne "$(basename "${output}")$(printf '\t')$(wc -c "${output}" | cut -d ' ' -f 1 | numfmt --to=si)\n"
 done
 
 # display the errors, if any

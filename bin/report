@@ -2,7 +2,12 @@
 
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
+
+# defaults
+file="${__root}/config/1calle1nombre.sql"
+output="${__root}/reports/$(date +%Y%m)/report.csv"
+
 # execute the runner with a preset of parameters
-"$(dirname "$0")"/runner report "--csv --file="${__root}"/config/1calle1nombre.sql" "$@"
+"$(dirname "$0")"/runner report "--csv|--file=${file}" "${output}" "$@"
 
 exit $?;

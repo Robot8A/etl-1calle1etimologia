@@ -2,11 +2,17 @@
 
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
-# remove previous dump, if any
-rm --force "${__root}"/spain-latest.osm.pbf
-# fetch the latest dump
+
+# remove previous dumps, if any
+rm --force "${__root}"/*-latest.osm.pbf
+
+# fetch the latest dumps
 curl --progress-bar --remote-name https://download.geofabrik.de/europe/spain-latest.osm.pbf
-# load the dump into osm database
-osm2pgsql --create --slim --cache=2048 --multi-geometry --proj=4326 --style="${__root}"/config/1calle1nombre.style --database=osm --username="$(whoami)" "${__root}"/spain-latest.osm.pbf
+curl --progress-bar --remote-name https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf
+
+# combine both dumps into a single one
+osmium merge --progress "${__root}"/*.pbf --output "${__root}/full-spain-latest.osm.pbf"
+# load the dumps into osm database
+osm2pgsql --create --slim --cache=1024 --multi-geometry --proj=4326 --database=osm --username="$(whoami)" --style="${__root}/config/1calle1nombre.style" "${__root}/full-spain-latest.osm.pbf"
 
 exit $?;

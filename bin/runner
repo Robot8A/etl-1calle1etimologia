@@ -12,9 +12,9 @@ shift 3
 REGIONS=("${@:-ES}")
 
 if [[ "${1,,}" == "ccaa" ]]; then
-  REGIONS=(AN AS AR CN CB CL CM CT M VC PV EX GA IB RI NA MU)
+  REGIONS=(AN AR AS CB CE CL CM CN CT EX GA IB MC MD ML NC PV RI VC)
 elif [[ "${1,,}" == "prov" ]]; then
-  REGIONS=(C A AB AL VI AV BA B BI BU CC CA CS CE CR CO CU SS GI GR GU H HU J GC LE L LU MA ML OR P PO SA TF SG SE SO T TE TO V VA ZA Z)
+  REGIONS=(A AB AL AV B BA BI BU C CA CC CO CR CS CU GC GI GR GU H HU J L LE LO LU M MA MU NA O OR P PM PO S SA SE SG SO SS T TE TF TO V VA VI Z ZA)
 fi
 
 # root path project

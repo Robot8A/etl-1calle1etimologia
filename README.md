@@ -31,9 +31,9 @@ Generador de ficheros GeoJSON en la carpeta `features/<location>.<admin>.geojson
 
 Funciona de igual manera que `bin/report`: acepta un parámetro de entrada `location` para generar el informe específico de un sitio. Si se ejecuta sin parámetros el informe se crea para todo el país (`ES`). Este parámetro puede ser los dos digitos identificativos del código __ISO3166-2__ de la provincia/comunidad o su __nombre__, también acepta __ccaa__ y __prov__ como atajos para todas las comunidades y todas las provincias, respectivamente.
 
-La opción `--admin` sirve para agrupar el parámetro de entrada según se indique. Si no se especifica, el archivo resultante esta dividido por municipios. Acepta __ccaa__ y __prov__, los cuales dividirán la entrada en comunidad autónoma o provincia.
+La opción `-a`, o también `--admin`, sirve para agrupar el parámetro de entrada según se indique. Si no se especifica, el archivo resultante esta dividido por municipios. Acepta __ccaa__ y __prov__, los cuales dividirán la entrada en comunidad autónoma o provincia.
 
-La opción `--tolerance` especifica el nivel de detalle del GeoJSON. Corresponde con la función __ST_Simplify__ de PostGIS. Acepta valores entre 0 y 1, donde _1_ es mínimo nivel de detalle. Por defecto es de _0.001_.
+La opción `-a`, o también `--tolerance`, especifica el nivel de detalle del GeoJSON. Corresponde con la función __ST_Simplify__ de PostGIS. Acepta valores entre 0 y 1, donde _1_ es mínimo nivel de detalle. Por defecto es de _0.001_.
 
 ```sh
 $ bin/feature prov                 # Divisiones municipales cada provincia: A.municipios.geojson, AB.municipios.geojson...

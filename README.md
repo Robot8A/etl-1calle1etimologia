@@ -1,6 +1,6 @@
 ## Introducción 
 `etl-1calle1nombre` es un generador de informes CSV y ficheros GeoJSON para el proyecto **#1calle1nombre**.
-La fuente original de datos es https://download.geofabrik.de/europe/spain.html
+La fuente original de datos es https://download.geofabrik.de/europe/spain.html y https://download.geofabrik.de/africa/canary-islands.html
 
 ## Requisitos
 
@@ -14,7 +14,7 @@ Ejecutar los distintos comandos desde el directorio raíz.
 #### **bin/updatedb**
 Encargado de descargarse los datos de Geofabrik y ejecutar _osm2pgsql_. Por defecto la base de datos es `osm` y el usuario con el que se ejecuta es el nombre de tu propio usuario.
 
-#### **bin/report <location>**
+#### **bin/report _location_**
 Generador de informes CSV en la carpeta `reports/<YYYYMM>/<location>.csv`, donde `YYYYMM` es una carpeta con un nombre de tipo fecha en dicho formato; y `location` es el nombre del parámetro que hayamos puesto.
 
 Acepta un parámetro de entrada `location` para generar el informe específico de un sitio. Si se ejecuta sin parámetros el informe se crea para todo el país (`ES`). Este parámetro puede ser los dos digitos identificativos del código __ISO3166-2__ de la provincia/comunidad o su __nombre__, también acepta __ccaa__ y __prov__ como atajos para todas las comunidades y todas las provincias, respectivamente.
@@ -26,12 +26,12 @@ $ bin/report badajoz "La rioja"     # Informes para badajoz y la rioja: badajoz.
 $ bin/report cádiz SEVILLA M        # Informes para Cádiz, Sevilla y Madrid: cádiz.csv, SEVILLA.csv, M.csv
 ```
 
-#### **bin/feature [-a|--admin <admin_level>] [-t|--tolerance <zoom>] <location>**
+#### **bin/feature [-a|--admin _admin_level_] [-t|--tolerance _tolerance_] _location_**
 Generador de ficheros GeoJSON en la carpeta `features/<location>.<admin>.geojson`, donde `location` es el nombre del parámetro que hayamos puesto, y `admin`, el nivel administativo, que por defecto es __municipios__. Opcionalmente, se puede especificar el nivel de agrupación `--admin` y el detalle `--tolerance` de la feature generada.
 
 Funciona de igual manera que `bin/report`: acepta un parámetro de entrada `location` para generar el informe específico de un sitio. Si se ejecuta sin parámetros el informe se crea para todo el país (`ES`). Este parámetro puede ser los dos digitos identificativos del código __ISO3166-2__ de la provincia/comunidad o su __nombre__, también acepta __ccaa__ y __prov__ como atajos para todas las comunidades y todas las provincias, respectivamente.
 
-La opción `--admin` sirve para agrupar el parámetro de entrada según se indique. Sino se especifica, el archivo resultante esta dividido por municipios. Acepta __ccaa__ y __prov__, los cuales dividirán la entrada en comunidad autónoma o provincia.
+La opción `--admin` sirve para agrupar el parámetro de entrada según se indique. Si no se especifica, el archivo resultante esta dividido por municipios. Acepta __ccaa__ y __prov__, los cuales dividirán la entrada en comunidad autónoma o provincia.
 
 La opción `--tolerance` especifica el nivel de detalle del GeoJSON. Corresponde con la función __ST_Simplify__ de PostGIS. Acepta valores entre 0 y 1, donde _1_ es mínimo nivel de detalle. Por defecto es de _0.001_.
 
@@ -42,7 +42,7 @@ $ bin/feature -a ccaa              # Divisiones de comunidad para cada CCAA: AS.
 $ bin/feature -t 0.01 -a prov VA   # Divisiones provinciales para Valladolid con un detalle menor: VA.prov.geojson
 ```
 
-#### **bin/merge -r|--reports <csv> -g|--feature <feature> [-f|--format <format>] [-n|--name <name>]**
+#### **bin/merge -r|--reports _csv_ -g|--feature _feature_ [-f|--format _format_] [-n|--name _name_]**
 Genera un fichero [TopoJSON](https://github.com/topojson/topojson-specification/blob/master/README.md) a partir de uno (o varios) CSV y el GeoJSON que se especifique. El archivo _1calle1nombre.json_ resultante se crea en la carpeta raíz del proyecto. Este comando utiliza _node_ para ejecutar la herramienta [mapshaper](https://mapshaper.org/).
 
 Los parámetros `-r`, también se puede escribir `--reports`, y `-f`, o `--feature` en su versión larga, son obligatorios; donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos para indicar más de un elemento, envolviendo el argumento entre comillas) y `feature` la ruta del GeoJSON en concreto. El parámetro `-f` o `--format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson). Por último, el parámetro opcional `-n` o `--name` para cambiar el nombre al archivo resultante, que por defecto es _1calle1nombre.json_

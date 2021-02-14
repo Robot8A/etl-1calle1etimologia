@@ -4,21 +4,26 @@
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
 # defaults
-level="LEVEL=''"
-division="municipios"
+admin="ADMIN=''"
+admin_level="municipios"
+tolerance="TOLERANCE=''"
 file="${__root}/config/geojson.sql"
 
 # parse arguments
 while true
 do
   case $1 in
-    -l|--level)
-      level="LEVEL='"$2"'"
+    -a|--admin)
+      admin="ADMIN='"$2"'"
       if [ "$2" == "ccaa" ]; then
-        division="ccaa"
+        admin_level="ccaa"
       elif [ "$2" == "prov" ]; then
-        division="prov"
+        admin_level="prov"
       fi
+      shift 2
+      ;;
+    -t|--tolerance)
+      tolerance="TOLERANCE='"$2"'"
       shift 2
       ;;
     *)
@@ -26,9 +31,9 @@ do
   esac
 done
 
-output="${__root}/features/${division}.geojson"
+output="${__root}/features/${admin_level}.geojson"
 
 # execute the runner with a preset of parameters
-"$(dirname "$0")"/runner feature "--variable=${level}|--tuples-only|--file=${file}" "${output}" "$@"
+"$(dirname "$0")"/runner feature "--variable=${admin}|--variable=${tolerance}|--tuples-only|--file=${file}" "${output}" "$@"
 
 exit $?;

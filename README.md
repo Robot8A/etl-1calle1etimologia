@@ -5,7 +5,7 @@ La fuente original de datos es https://download.geofabrik.de/europe/spain.html
 ## Requisitos
 
 - [osmium-tool](https://osmcode.org/osmium-tool/) unirá en un solo fichero _.pbf_ los datos descargados de Geofabrik (_spain_ + _canary-islands_)
-- [osm2pgsql](https://osm2pgsql.org/doc/install.html) insertará el _.pbf_ del paso anterior en la base de datos. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada.
+- [osm2pgsql](https://osm2pgsql.org/doc/install.html) insertará el _.pbf_ del paso anterior en la base de datos. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada, con su correspondiente extensión [PostGIS](https://postgis.net/).
 - [nodejs](https://nodejs.org/en/) (opcional, solo para _merge_) utilizará la herramienta `npx` para ejecutar [mapshaper](https://github.com/mbloch/mapshaper) que es quién unirá en un fichero geográfico (topojson) los datos CSV con los GeoJSON. 
 
 ## Herramientas
@@ -26,14 +26,20 @@ $ bin/report badajoz "La rioja"     # Informes para badajoz y la rioja: badajoz.
 $ bin/report cádiz SEVILLA M        # Informes para Cádiz, Sevilla y Madrid: cádiz.csv, SEVILLA.csv, M.csv
 ```
 
-#### **bin/feature <location>**
-Generador de ficheros GeoJSON en la carpeta `features/<location>.geojson`, donde `location` es el nombre del parámetro que hayamos puesto.
+#### **bin/feature [-a|--admin <admin_level>] [-t|--tolerance <zoom>] <location>**
+Generador de ficheros GeoJSON en la carpeta `features/<location>.<admin>.geojson`, donde `location` es el nombre del parámetro que hayamos puesto, y `admin`, el nivel administativo, que por defecto es __municipios__. Opcionalmente, se puede especificar el nivel de agrupación `--admin` y el detalle `--tolerance` de la feature generada.
 
 Funciona de igual manera que `bin/report`: acepta un parámetro de entrada `location` para generar el informe específico de un sitio. Si se ejecuta sin parámetros el informe se crea para todo el país (`ES`). Este parámetro puede ser los dos digitos identificativos del código __ISO3166-2__ de la provincia/comunidad o su __nombre__, también acepta __ccaa__ y __prov__ como atajos para todas las comunidades y todas las provincias, respectivamente.
 
+La opción `--admin` sirve para agrupar el parámetro de entrada según se indique. Sino se especifica, el archivo resultante esta dividido por municipios. Acepta __ccaa__ y __prov__, los cuales dividirán la entrada en comunidad autónoma o provincia.
+
+La opción `--tolerance` especifica el nivel de detalle del GeoJSON. Corresponde con la función __ST_Simplify__ de PostGIS. Acepta valores entre 0 y 1, donde _1_ es mínimo nivel de detalle. Por defecto es de _0.001_.
+
 ```sh
-$ bin/feature prov                   # GeoJSONs para cada provincia: A.geojson, AB.geojson, AL.geojson...
-$ bin/feature RI lugo                # GeoJSONs para La Rioja y lugo: RI.geojson, lugo.geojson
+$ bin/feature prov                 # Divisiones municipales cada provincia: A.municipios.geojson, AB.municipios.geojson...
+$ bin/feature RI lugo              # Divisiones municipales para La Rioja y lugo: RI.municipios.geojson, lugo.municipios.geojson
+$ bin/feature -a ccaa              # Divisiones de comunidad para cada CCAA: AS.ccaa.geojson, AN.ccaa.geojson...
+$ bin/feature -t 0.01 -a prov VA   # Divisiones provinciales para Valladolid con un detalle menor: VA.prov.geojson
 ```
 
 #### **bin/merge -r|--reports <csv> -g|--feature <feature> [-f|--format <format>] [-n|--name <name>]**

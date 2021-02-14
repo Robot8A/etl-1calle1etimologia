@@ -15,8 +15,7 @@ FROM
         )
       ) AS feature
     FROM
-      planet_osm_line pol
-      , (
+     (
           SELECT
             coalesce("ine:municipio", "ISO3166-2") AS id
             , name
@@ -57,11 +56,6 @@ FROM
               )
             )
       ) AS divisiones
-    WHERE
-      ST_Within(
-        pol.way
-        , divisiones.way
-      )
     GROUP BY
       divisiones.id
       , divisiones.name

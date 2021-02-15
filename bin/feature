@@ -26,6 +26,9 @@ do
       tolerance="TOLERANCE='"$2"'"
       shift 2
       ;;
+    -*)
+	echo "Error"
+	exit 1;;
     *)
       break
   esac

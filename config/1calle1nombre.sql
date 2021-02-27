@@ -4,10 +4,10 @@ SELECT
   , current_date AS date
   , results.incomplete
   , results.total
-  , CASE WHEN results.total = 0 THEN 0 ELSE round( 1-( results.incomplete::NUMERIC / results.total ) , 2 ) END AS percentage
-  , round(results.length_total::NUMERIC, 2) AS length_total
+  , CASE WHEN results.total = 0 THEN 1 ELSE round( 1-( results.incomplete::NUMERIC / results.total ) , 2 ) END AS percentage
   , round(results.length_incomplete::NUMERIC, 2) AS length_incomplete
-  , CASE WHEN results.length_total = 0 THEN 0 ELSE round((1-( results.length_incomplete / results.length_total ))::NUMERIC, 2) END AS length_percentage
+  , round(results.length_total::NUMERIC, 2) AS length_total
+  , CASE WHEN results.length_total = 0 THEN 1 ELSE round((1-( results.length_incomplete / results.length_total ))::NUMERIC, 2) END AS length_percentage
 FROM
   (
     SELECT
@@ -23,7 +23,7 @@ FROM
         SELECT
           name
           , way
-          , "ine:municipio"
+          , COALESCE("ine:municipio", osm_id::TEXT) AS "ine:municipio"
         FROM
           planet_osm_polygon
         WHERE

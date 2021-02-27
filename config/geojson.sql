@@ -17,7 +17,7 @@ FROM
     FROM
       (
         SELECT
-          COALESCE("ine:municipio", "ISO3166-2") AS id
+          COALESCE(COALESCE("ine:municipio", "ISO3166-2"), osm_id::TEXT) AS id
           , name
           , way
         FROM

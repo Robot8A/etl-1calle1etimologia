@@ -2248,14 +2248,14 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 49272,Villaveza de Valverde,2020-11-01,16,16,0.00,3057.66,3057.66,0.00
 49273,Viñas,2020-11-01,29,29,0.00,5648.56,5648.56,0.00
 49275,Zamora,2020-11-01,136,1148,0.88,16933.07,134356.14,0.87
-,Cabeza Alta,2020-11-01,0,0,0,0.00,0.00,0
-,Comunidad de Arauzo de Miel y Huerta del Rey,2020-11-01,0,0,0,0.00,0.00,0
-,Comunidad de Cubillo del Campo y Hontoria de la Cantera,2020-11-01,0,0,0,0.00,0.00,0
-,Comunidad de Los Ausines y Revilla del Campo,2020-11-01,0,0,0,0.00,0.00,0
+-10907060,Cabeza Alta,2020-11-01,0,0,0,0.00,0.00,0
+-341746,Comunidad de Arauzo de Miel y Huerta del Rey,2020-11-01,0,0,0,0.00,0.00,0
+-10906113,Comunidad de Cubillo del Campo y Hontoria de la Cantera,2020-11-01,0,0,0,0.00,0.00,0
+-10906114,Comunidad de Los Ausines y Revilla del Campo,2020-11-01,0,0,0,0.00,0.00,0
 ,"Comunidad de Merindad de Río Ubierna, Quintanilla Vivar y Sotragero",2020-11-01,0,0,0,0.00,0.00,0
-,Comunidad de Quintanar de la Sierra y Vilviestre del Pinar,2020-11-01,0,0,0,0.00,0.00,0
-,Coto Mancomunado,2020-11-01,0,0,0,0.00,0.00,0
+-341749,Comunidad de Quintanar de la Sierra y Vilviestre del Pinar,2020-11-01,0,0,0,0.00,0.00,0
+-10977404,Coto Mancomunado,2020-11-01,0,0,0,0.00,0.00,0
 ,"Ledanía de Castrillo de la Reina, Hacinas, Monasterio de la Sierra y Castrovido",2020-11-01,0,0,0,0.00,0.00,0
 ,"Ledanía de Castrillo de la Reina, Hacinas y Salas de los Infantes",2020-11-01,0,0,0,0.00,0.00,0
-,Ledanía de Hacinas y Salas de los Infantes,2020-11-01,0,0,0,0.00,0.00,0
+-345992,Ledanía de Hacinas y Salas de los Infantes,2020-11-01,0,0,0,0.00,0.00,0
 ,Monte Revenga,2020-11-01,0,0,0,0.00,0.00,0

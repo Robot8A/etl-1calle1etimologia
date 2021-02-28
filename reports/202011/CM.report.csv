@@ -918,4 +918,4 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 45204,Yunclillos,2020-11-01,23,54,0.57,3791.58,10870.98,0.65
 45205,Yuncos,2020-11-01,59,331,0.82,6322.59,65753.74,0.90
 45901,Santo Domingo-Caudilla,2020-11-01,23,117,0.80,4112.85,18440.84,0.78
--342516,Comunidad de Albalate de Zorita e Illana,2020-11-01,0,0,0,0.00,0.00,0
+-342516,Comunidad de Albalate de Zorita e Illana,2020-11-01,0,0,1,0.00,0.00,1

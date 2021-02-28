@@ -50,7 +50,7 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 01409,Okondo,2020-01-01,1,18,0.94,24.62,2556.19,0.99
 01901,Iruña Oka/Iruña de Oca,2020-01-01,0,304,1.00,0.00,35117.58,1.00
 01902,Lantarón,2020-01-01,39,138,0.72,4411.29,19912.83,0.78
-20001,Abaltzisketa,2020-01-01,0,0,0,0.00,0.00,0
+20001,Abaltzisketa,2020-01-01,0,0,1,0.00,0.00,1
 20002,Aduna,2020-01-01,10,14,0.29,895.71,1145.66,0.22
 20003,Aizarnazabal,2020-01-01,15,18,0.17,1715.24,2157.06,0.20
 20004,Albiztur,2020-01-01,2,19,0.89,126.34,962.72,0.87
@@ -75,7 +75,7 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 20023,Berrobi,2020-01-01,19,28,0.32,1327.94,2922.85,0.55
 20024,Bidania-Goiatz,2020-01-01,5,23,0.78,550.25,1871.74,0.71
 20025,Zegama,2020-01-01,2,52,0.96,331.80,3430.13,0.90
-20026,Zerain,2020-01-01,0,0,0,0.00,0.00,0
+20026,Zerain,2020-01-01,0,0,1,0.00,0.00,1
 20027,Zestoa,2020-01-01,42,97,0.57,5030.93,11237.03,0.55
 20028,Zizurkil,2020-01-01,18,27,0.33,2390.62,3152.16,0.24
 20029,Deba,2020-01-01,22,92,0.76,2855.89,10368.87,0.72
@@ -136,8 +136,8 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 20903,Astigarraga,2020-01-01,58,99,0.41,6322.70,12588.56,0.50
 20904,Baliarrain,2020-01-01,2,3,0.33,364.10,549.80,0.34
 20905,Orendain,2020-01-01,4,6,0.33,455.09,582.28,0.22
-20906,Altzaga,2020-01-01,0,0,0,0.00,0.00,0
-20907,Gaztelu,2020-01-01,0,0,0,0.00,0.00,0
+20906,Altzaga,2020-01-01,0,0,1,0.00,0.00,1
+20907,Gaztelu,2020-01-01,0,0,1,0.00,0.00,1
 48001,Abadiño,2020-01-01,113,186,0.39,11722.36,20827.41,0.44
 48002,Abanto y Ciérvana-Abanto Zierbena,2020-01-01,59,122,0.52,9227.55,22151.24,0.58
 48003,Amorebieta-Etxano,2020-01-01,164,265,0.38,25243.17,42160.75,0.40
@@ -250,9 +250,9 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 48913,Zierbena,2020-01-01,37,67,0.45,3443.98,7199.99,0.52
 48914,Arratzu,2020-01-01,8,8,0.00,1181.11,1181.11,0.00
 48915,Ziortza-Bolibar,2020-01-01,9,9,0.00,817.26,817.26,0.00
--2854004,Enirio-Aralarko Mankomunitatea,2020-01-01,0,0,0,0.00,0.00,0
--340988,Gipuzkoa eta Arabako Partzuergo Orokorra,2020-01-01,0,0,0,0.00,0.00,0
+-2854004,Enirio-Aralarko Mankomunitatea,2020-01-01,0,0,1,0.00,0.00,1
+-340988,Gipuzkoa eta Arabako Partzuergo Orokorra,2020-01-01,0,0,1,0.00,0.00,1
 ,Itsaso,2020-01-01,0,7,1.00,0.00,532.76,1.00
--7278919,Parzonería de Badaya/Badaiako partzuergoa,2020-01-01,0,0,0,0.00,0.00,0
-,Parzonería General de Encía,2020-01-01,0,0,0,0.00,0.00,0
--2854005,Parzonería Menor de Guipúzcoa/Gipuzkoako Partzuergo Txikia,2020-01-01,0,0,0,0.00,0.00,0
+-7278919,Parzonería de Badaya/Badaiako partzuergoa,2020-01-01,0,0,1,0.00,0.00,1
+,Parzonería General de Encía,2020-01-01,0,0,1,0.00,0.00,1
+-2854005,Parzonería Menor de Guipúzcoa/Gipuzkoako Partzuergo Txikia,2020-01-01,0,0,1,0.00,0.00,1

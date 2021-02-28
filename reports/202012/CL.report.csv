@@ -610,7 +610,7 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 09482,Zarzosa de Río Pisuerga,2020-12-01,0,28,1.00,0.00,1834.13,1.00
 09483,Zazuar,2020-12-01,0,64,1.00,0.00,4955.64,1.00
 09485,Zuñeda,2020-12-01,0,20,1.00,0.00,1688.19,1.00
-09813,Comunidad de Vizcaínos y Jaramillo de la Fuente,2020-12-01,0,0,0,0.00,0.00,0
+09813,Comunidad de Vizcaínos y Jaramillo de la Fuente,2020-12-01,0,0,1,0.00,0.00,1
 09901,Quintanilla del Agua y Tordueles,2020-12-01,21,77,0.73,1995.35,7313.04,0.73
 09902,Valle de Santibáñez,2020-12-01,28,226,0.88,1158.88,14296.73,0.92
 09903,Villarcayo de Merindad de Castilla la Vieja,2020-12-01,217,513,0.58,23899.61,67205.26,0.64
@@ -2248,14 +2248,14 @@ id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_p
 49272,Villaveza de Valverde,2020-12-01,16,16,0.00,3057.66,3057.66,0.00
 49273,Viñas,2020-12-01,29,29,0.00,5648.56,5648.56,0.00
 49275,Zamora,2020-12-01,136,1150,0.88,16933.07,134374.09,0.87
--10907060,Cabeza Alta,2020-12-01,0,0,0,0.00,0.00,0
--341748,Comunero de Revenga,2020-12-01,0,0,0,0.00,0.00,0
--341746,Comunidad de Arauzo de Miel y Huerta del Rey,2020-12-01,0,0,0,0.00,0.00,0
--10906113,Comunidad de Cubillo del Campo y Hontoria de la Cantera,2020-12-01,0,0,0,0.00,0.00,0
--10906114,Comunidad de Los Ausines y Revilla del Campo,2020-12-01,0,0,0,0.00,0.00,0
-,"Comunidad de Merindad de Río Ubierna, Quintanilla Vivar y Sotragero",2020-12-01,0,0,0,0.00,0.00,0
--341749,Comunidad de Quintanar de la Sierra y Vilviestre del Pinar,2020-12-01,0,0,0,0.00,0.00,0
--10977404,Coto Mancomunado,2020-12-01,0,0,0,0.00,0.00,0
-,"Ledanía de Castrillo de la Reina, Hacinas, Monasterio de la Sierra y Castrovido",2020-12-01,0,0,0,0.00,0.00,0
-,"Ledanía de Castrillo de la Reina, Hacinas y Salas de los Infantes",2020-12-01,0,0,0,0.00,0.00,0
--345992,Ledanía de Hacinas y Salas de los Infantes,2020-12-01,0,0,0,0.00,0.00,0
+-10907060,Cabeza Alta,2020-12-01,0,0,1,0.00,0.00,1
+-341748,Comunero de Revenga,2020-12-01,0,0,1,0.00,0.00,1
+-341746,Comunidad de Arauzo de Miel y Huerta del Rey,2020-12-01,0,0,1,0.00,0.00,1
+-10906113,Comunidad de Cubillo del Campo y Hontoria de la Cantera,2020-12-01,0,0,1,0.00,0.00,1
+-10906114,Comunidad de Los Ausines y Revilla del Campo,2020-12-01,0,0,1,0.00,0.00,1
+,"Comunidad de Merindad de Río Ubierna, Quintanilla Vivar y Sotragero",2020-12-01,0,0,1,0.00,0.00,1
+-341749,Comunidad de Quintanar de la Sierra y Vilviestre del Pinar,2020-12-01,0,0,1,0.00,0.00,1
+-10977404,Coto Mancomunado,2020-12-01,0,0,1,0.00,0.00,1
+,"Ledanía de Castrillo de la Reina, Hacinas, Monasterio de la Sierra y Castrovido",2020-12-01,0,0,1,0.00,0.00,1
+,"Ledanía de Castrillo de la Reina, Hacinas y Salas de los Infantes",2020-12-01,0,0,1,0.00,0.00,1
+-345992,Ledanía de Hacinas y Salas de los Infantes,2020-12-01,0,0,1,0.00,0.00,1

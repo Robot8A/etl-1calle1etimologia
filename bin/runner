@@ -37,10 +37,8 @@ do
 
   # prepend the region to the output file
   if [ "${type}" == "feature" ]; then
-    echo -ne "Creando GeoJSON para ${region}... \t\t\t"
     output="$(dirname "${file}")/${region}.$(basename "${file}")"
   elif [ "${type}" == "report" ]; then
-    echo -ne "Creando informe para ${region}... \t\t\t"
     output="$(dirname "${file}")/${region}.$(basename "${file}")"
   fi
 
@@ -48,12 +46,12 @@ do
 
   # run psql with the corresponding variables
   if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" --output="${output}" "${opts[@]}" 2>> "${err}"; then
-    echo -ne "[\033[0;32mOK\033[0m]\t\t\t"
+    echo -ne "[  \033[0;32mOK\033[0m  ]\t"
   else
-    echo -ne "[\033[0;31merror\033[0m]\t\t\t"
+    echo -ne "[ \033[0;31merror\033[0m ]\t"
   fi
 
-  echo -ne "$(basename "${output}")$(printf '\t')$(wc -c "${output}" | cut -d ' ' -f 1 | numfmt --to=si)\n"
+  echo -ne "${output}$(printf '\t')$(wc -c "${output}" | cut -d ' ' -f 1 | numfmt --to=si | xargs printf '%6s')\n"
 done
 
 # display the errors, if any

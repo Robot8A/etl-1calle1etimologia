@@ -65,21 +65,12 @@ FROM
           )
       ) AS ccaa
       , municipios.name
-      , sum(CASE WHEN (pol.name IS NULL AND pol.noname IS NULL) THEN 1 ELSE 0 END) AS incomplete
-      , sum(1) AS total
-      , sum(CASE WHEN (pol.name IS NULL AND pol.noname IS NULL) THEN st_length(pol.way, TRUE) ELSE 0 END) AS length_incomplete
-      , sum(st_length(pol.way, TRUE)) AS length_total
+      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian') AND pol.name IS NULL AND pol.noname IS NULL) THEN 1 ELSE 0 END) AS incomplete
+      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian')) THEN 1 ELSE 0 END) AS total
+      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian') AND pol.name IS NULL AND pol.noname IS NULL) THEN st_length(pol.way, true) ELSE 0 END) AS length_incomplete
+      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian')) THEN st_length(pol.way, true) ELSE 0 END) AS length_total
     FROM
-      (
-        SELECT
-          *
-        FROM
-          planet_osm_line
-        WHERE
-          highway IN (
-            'residential', 'living_street', 'pedestrian'
-          )
-      ) AS pol
+      planet_osm_line pol
       , (
         SELECT
           name

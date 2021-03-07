@@ -37,6 +37,6 @@ done
 output="${__root}/features/${admin_level}/feature.geojson"
 
 # execute the runner with a preset of parameters
-"$(dirname "$0")"/runner feature "--variable=${admin}|--variable=${tolerance}|--tuples-only|--file=${file}" "${output}" "$@"
+"$(dirname "$0")"/runner "--variable=${admin}|--variable=${tolerance}|--tuples-only|--file=${file}" "${output}" "$@"
 
 exit $?;

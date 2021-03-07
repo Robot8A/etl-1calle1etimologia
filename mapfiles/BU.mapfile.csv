@@ -1,0 +1,396 @@
+id,prov,ccaa,name
+09001,ES-BU,ES-CL,Abajas
+09003,ES-BU,ES-CL,Adrada de Haza
+09006,ES-BU,ES-CL,Aguas Cándidas
+09007,ES-BU,ES-CL,Aguilar de Bureba
+09009,ES-BU,ES-CL,Albillos
+09010,ES-BU,ES-CL,Alcocero de Mola
+09011,ES-BU,ES-CL,Alfoz de Bricia
+09012,ES-BU,ES-CL,Alfoz de Santa Gadea
+09013,ES-BU,ES-CL,Altable
+09014,ES-BU,ES-CL,Los Altos
+09016,ES-BU,ES-CL,Ameyugo
+09017,ES-BU,ES-CL,Anguix
+09018,ES-BU,ES-CL,Aranda de Duero
+09019,ES-BU,ES-CL,Arandilla
+09020,ES-BU,ES-CL,Arauzo de Miel
+09021,ES-BU,ES-CL,Arauzo de Salce
+09022,ES-BU,ES-CL,Arauzo de Torre
+09023,ES-BU,ES-CL,Arcos
+09024,ES-BU,ES-CL,Arenillas de Riopisuerga
+09025,ES-BU,ES-CL,Arija
+09026,ES-BU,ES-CL,Arlanzón
+09027,ES-BU,ES-CL,Arraya de Oca
+09029,ES-BU,ES-CL,Atapuerca
+09030,ES-BU,ES-CL,Los Ausines
+09032,ES-BU,ES-CL,Avellanosa de Muñó
+09033,ES-BU,ES-CL,Bahabón de Esgueva
+09034,ES-BU,ES-CL,Los Balbases
+09035,ES-BU,ES-CL,Baños de Valdearados
+09036,ES-BU,ES-CL,Bañuelos de Bureba
+09037,ES-BU,ES-CL,Barbadillo de Herreros
+09038,ES-BU,ES-CL,Barbadillo del Mercado
+09039,ES-BU,ES-CL,Barbadillo del Pez
+09041,ES-BU,ES-CL,Barrio de Muñó
+09043,ES-BU,ES-CL,Los Barrios de Bureba
+09044,ES-BU,ES-CL,Barrios de Colina
+09045,ES-BU,ES-CL,Basconcillos del Tozo
+09046,ES-BU,ES-CL,Bascuñana
+09047,ES-BU,ES-CL,Belbimbre
+09048,ES-BU,ES-CL,Belorado
+09050,ES-BU,ES-CL,Berberana
+09051,ES-BU,ES-CL,Berlangas de Roa
+09052,ES-BU,ES-CL,Berzosa de Bureba
+09054,ES-BU,ES-CL,Bozoó
+09055,ES-BU,ES-CL,Brazacorta
+09056,ES-BU,ES-CL,Briviesca
+09057,ES-BU,ES-CL,Bugedo
+09058,ES-BU,ES-CL,Buniel
+09059,ES-BU,ES-CL,Burgos
+09060,ES-BU,ES-CL,Busto de Bureba
+09061,ES-BU,ES-CL,Cabañes de Esgueva
+09062,ES-BU,ES-CL,Cabezón de la Sierra
+09063,ES-BU,ES-CL,Cavia
+09064,ES-BU,ES-CL,Caleruega
+09065,ES-BU,ES-CL,Campillo de Aranda
+09066,ES-BU,ES-CL,Campolara
+09067,ES-BU,ES-CL,Canicosa de la Sierra
+09068,ES-BU,ES-CL,Cantabrana
+09070,ES-BU,ES-CL,Carazo
+09071,ES-BU,ES-CL,Carcedo de Bureba
+09072,ES-BU,ES-CL,Carcedo de Burgos
+09073,ES-BU,ES-CL,Cardeñadijo
+09074,ES-BU,ES-CL,Cardeñajimeno
+09075,ES-BU,ES-CL,Cardeñuela Riopico
+09076,ES-BU,ES-CL,Carrias
+09077,ES-BU,ES-CL,Cascajares de Bureba
+09078,ES-BU,ES-CL,Cascajares de la Sierra
+09079,ES-BU,ES-CL,Castellanos de Castro
+09082,ES-BU,ES-CL,Castildelgado
+09083,ES-BU,ES-CL,Castil de Peones
+09084,ES-BU,ES-CL,Castrillo de la Reina
+09085,ES-BU,ES-CL,Castrillo de la Vega
+09086,ES-BU,ES-CL,Castrillo del Val
+09088,ES-BU,ES-CL,Castrillo de Riopisuerga
+09090,ES-BU,ES-CL,Castrillo Mota de Judíos
+09091,ES-BU,ES-CL,Castrojeriz
+09093,ES-BU,ES-CL,Cayuela
+09094,ES-BU,ES-CL,Cebrecos
+09095,ES-BU,ES-CL,Celada del Camino
+09098,ES-BU,ES-CL,Cerezo de Río Tirón
+09100,ES-BU,ES-CL,Cerratón de Juarros
+09101,ES-BU,ES-CL,Ciadoncha
+09102,ES-BU,ES-CL,Cillaperlata
+09103,ES-BU,ES-CL,Cilleruelo de Abajo
+09104,ES-BU,ES-CL,Cilleruelo de Arriba
+09105,ES-BU,ES-CL,Ciruelos de Cervera
+09108,ES-BU,ES-CL,Cogollos
+09109,ES-BU,ES-CL,Condado de Treviño
+09110,ES-BU,ES-CL,Contreras
+09112,ES-BU,ES-CL,Coruña del Conde
+09113,ES-BU,ES-CL,Covarrubias
+09114,ES-BU,ES-CL,Cubillo del Campo
+09115,ES-BU,ES-CL,Cubo de Bureba
+09117,ES-BU,ES-CL,La Cueva de Roa
+09119,ES-BU,ES-CL,Cuevas de San Clemente
+09120,ES-BU,ES-CL,Encío
+09122,ES-BU,ES-CL,Espinosa de Cervera
+09123,ES-BU,ES-CL,Espinosa del Camino
+09124,ES-BU,ES-CL,Espinosa de los Monteros
+09125,ES-BU,ES-CL,Estépar
+09127,ES-BU,ES-CL,Fontioso
+09128,ES-BU,ES-CL,Frandovínez
+09129,ES-BU,ES-CL,Fresneda de la Sierra Tirón
+09130,ES-BU,ES-CL,Fresneña
+09131,ES-BU,ES-CL,Fresnillo de las Dueñas
+09132,ES-BU,ES-CL,Fresno de Río Tirón
+09133,ES-BU,ES-CL,Fresno de Rodilla
+09134,ES-BU,ES-CL,Frías
+09135,ES-BU,ES-CL,Fuentebureba
+09136,ES-BU,ES-CL,Fuentecén
+09137,ES-BU,ES-CL,Fuentelcésped
+09138,ES-BU,ES-CL,Fuentelisendo
+09139,ES-BU,ES-CL,Fuentemolinos
+09140,ES-BU,ES-CL,Fuentenebro
+09141,ES-BU,ES-CL,Fuentespina
+09143,ES-BU,ES-CL,Galbarros
+09144,ES-BU,ES-CL,La Gallega
+09148,ES-BU,ES-CL,Grijalba
+09149,ES-BU,ES-CL,Grisaleña
+09151,ES-BU,ES-CL,Gumiel de Izán
+09152,ES-BU,ES-CL,Gumiel de Mercado
+09154,ES-BU,ES-CL,Hacinas
+09155,ES-BU,ES-CL,Haza
+09159,ES-BU,ES-CL,Hontanas
+09160,ES-BU,ES-CL,Hontangas
+09162,ES-BU,ES-CL,Hontoria de la Cantera
+09163,ES-BU,ES-CL,Hontoria del Pinar
+09164,ES-BU,ES-CL,Hontoria de Valdearados
+09166,ES-BU,ES-CL,Las Hormazas
+09167,ES-BU,ES-CL,Hornillos del Camino
+09168,ES-BU,ES-CL,La Horra
+09169,ES-BU,ES-CL,Hortigüela
+09170,ES-BU,ES-CL,Hoyales de Roa
+09172,ES-BU,ES-CL,Huérmeces
+09173,ES-BU,ES-CL,Huerta de Arriba
+09174,ES-BU,ES-CL,Huerta de Rey
+09175,ES-BU,ES-CL,Humada
+09176,ES-BU,ES-CL,Hurones
+09177,ES-BU,ES-CL,Ibeas de Juarros
+09178,ES-BU,ES-CL,Ibrillos
+09179,ES-BU,ES-CL,Iglesiarrubia
+09180,ES-BU,ES-CL,Iglesias
+09181,ES-BU,ES-CL,Isar
+09182,ES-BU,ES-CL,Itero del Castillo
+09183,ES-BU,ES-CL,Jaramillo de la Fuente
+09184,ES-BU,ES-CL,Jaramillo Quemado
+09189,ES-BU,ES-CL,Junta de Traslaloma
+09190,ES-BU,ES-CL,Junta de Villalba de Losa
+09191,ES-BU,ES-CL,Jurisdicción de Lara
+09192,ES-BU,ES-CL,Jurisdicción de San Zadornil
+09194,ES-BU,ES-CL,Lerma
+09195,ES-BU,ES-CL,Llano de Bureba
+09196,ES-BU,ES-CL,Madrigal del Monte
+09197,ES-BU,ES-CL,Madrigalejo del Monte
+09198,ES-BU,ES-CL,Mahamud
+09199,ES-BU,ES-CL,Mambrilla de Castrejón
+09200,ES-BU,ES-CL,Mambrillas de Lara
+09201,ES-BU,ES-CL,Mamolar
+09202,ES-BU,ES-CL,Manciles
+09206,ES-BU,ES-CL,Mazuela
+09208,ES-BU,ES-CL,Mecerreyes
+09209,ES-BU,ES-CL,Medina de Pomar
+09211,ES-BU,ES-CL,Melgar de Fernamental
+09213,ES-BU,ES-CL,Merindad de Cuesta-Urria
+09214,ES-BU,ES-CL,Merindad de Montija
+09215,ES-BU,ES-CL,Merindad de Sotoscueva
+09216,ES-BU,ES-CL,Merindad de Valdeporres
+09217,ES-BU,ES-CL,Merindad de Valdivielso
+09218,ES-BU,ES-CL,Milagros
+09219,ES-BU,ES-CL,Miranda de Ebro
+09220,ES-BU,ES-CL,Miraveche
+09221,ES-BU,ES-CL,Modúbar de la Emparedada
+09223,ES-BU,ES-CL,Monasterio de la Sierra
+09224,ES-BU,ES-CL,Monasterio de Rodilla
+09225,ES-BU,ES-CL,Moncalvillo
+09226,ES-BU,ES-CL,Monterrubio de la Demanda
+09227,ES-BU,ES-CL,Montorio
+09228,ES-BU,ES-CL,Moradillo de Roa
+09229,ES-BU,ES-CL,Nava de Roa
+09230,ES-BU,ES-CL,Navas de Bureba
+09231,ES-BU,ES-CL,Nebreda
+09232,ES-BU,ES-CL,Neila
+09235,ES-BU,ES-CL,Olmedillo de Roa
+09236,ES-BU,ES-CL,Olmillos de Muñó
+09238,ES-BU,ES-CL,Oña
+09239,ES-BU,ES-CL,Oquillas
+09241,ES-BU,ES-CL,Orbaneja Riopico
+09242,ES-BU,ES-CL,Padilla de Abajo
+09243,ES-BU,ES-CL,Padilla de Arriba
+09244,ES-BU,ES-CL,Padrones de Bureba
+09246,ES-BU,ES-CL,Palacios de la Sierra
+09247,ES-BU,ES-CL,Palacios de Riopisuerga
+09248,ES-BU,ES-CL,Palazuelos de la Sierra
+09249,ES-BU,ES-CL,Palazuelos de Muñó
+09250,ES-BU,ES-CL,Pampliega
+09251,ES-BU,ES-CL,Pancorbo
+09253,ES-BU,ES-CL,Pardilla
+09255,ES-BU,ES-CL,Partido de la Sierra en Tobalina
+09256,ES-BU,ES-CL,Pedrosa de Duero
+09257,ES-BU,ES-CL,Pedrosa del Páramo
+09258,ES-BU,ES-CL,Pedrosa del Príncipe
+09259,ES-BU,ES-CL,Pedrosa de Río Úrbel
+09261,ES-BU,ES-CL,Peñaranda de Duero
+09262,ES-BU,ES-CL,Peral de Arlanza
+09265,ES-BU,ES-CL,Piérnigas
+09266,ES-BU,ES-CL,Pineda de la Sierra
+09267,ES-BU,ES-CL,Pineda Trasmonte
+09268,ES-BU,ES-CL,Pinilla de los Barruecos
+09269,ES-BU,ES-CL,Pinilla de los Moros
+09270,ES-BU,ES-CL,Pinilla Trasmonte
+09272,ES-BU,ES-CL,Poza de la Sal
+09273,ES-BU,ES-CL,Prádanos de Bureba
+09274,ES-BU,ES-CL,Pradoluengo
+09275,ES-BU,ES-CL,Presencio
+09276,ES-BU,ES-CL,La Puebla de Arganzón
+09277,ES-BU,ES-CL,Puentedura
+09279,ES-BU,ES-CL,Quemada
+09280,ES-BU,ES-CL,Quintanabureba
+09281,ES-BU,ES-CL,Quintana del Pidio
+09283,ES-BU,ES-CL,Quintanaélez
+09287,ES-BU,ES-CL,Quintanaortuño
+09288,ES-BU,ES-CL,Quintanapalla
+09289,ES-BU,ES-CL,Quintanar de la Sierra
+09292,ES-BU,ES-CL,Quintanavides
+09294,ES-BU,ES-CL,Quintanilla de la Mata
+09295,ES-BU,ES-CL,Quintanilla del Coco
+09297,ES-BU,ES-CL,Las Quintanillas
+09298,ES-BU,ES-CL,Quintanilla San García
+09301,ES-BU,ES-CL,Quintanilla Vivar
+09302,ES-BU,ES-CL,Rabanera del Pinar
+09303,ES-BU,ES-CL,Rábanos
+09304,ES-BU,ES-CL,Rabé de las Calzadas
+09306,ES-BU,ES-CL,Rebolledo de la Torre
+09307,ES-BU,ES-CL,Redecilla del Camino
+09308,ES-BU,ES-CL,Redecilla del Campo
+09309,ES-BU,ES-CL,Regumiel de la Sierra
+09310,ES-BU,ES-CL,Reinoso
+09311,ES-BU,ES-CL,Retuerta
+09312,ES-BU,ES-CL,La Revilla y Ahedo
+09314,ES-BU,ES-CL,Revilla del Campo
+09315,ES-BU,ES-CL,Revillarruz
+09316,ES-BU,ES-CL,Revilla Vallejera
+09317,ES-BU,ES-CL,Rezmondo
+09318,ES-BU,ES-CL,Riocavado de la Sierra
+09321,ES-BU,ES-CL,Roa
+09323,ES-BU,ES-CL,Rojas
+09325,ES-BU,ES-CL,Royuela de Río Franco
+09326,ES-BU,ES-CL,Rubena
+09327,ES-BU,ES-CL,Rublacedo de Abajo
+09328,ES-BU,ES-CL,Rucandio
+09329,ES-BU,ES-CL,Salas de Bureba
+09330,ES-BU,ES-CL,Salas de los Infantes
+09332,ES-BU,ES-CL,Saldaña de Burgos
+09334,ES-BU,ES-CL,Salinillas de Bureba
+09335,ES-BU,ES-CL,San Adrián de Juarros
+09337,ES-BU,ES-CL,San Juan del Monte
+09338,ES-BU,ES-CL,San Mamés de Burgos
+09339,ES-BU,ES-CL,San Martín de Rubiales
+09340,ES-BU,ES-CL,San Millán de Lara
+09343,ES-BU,ES-CL,Santa Cecilia
+09345,ES-BU,ES-CL,Santa Cruz de la Salceda
+09346,ES-BU,ES-CL,Santa Cruz del Valle Urbión
+09347,ES-BU,ES-CL,Santa Gadea del Cid
+09348,ES-BU,ES-CL,Santa Inés
+09350,ES-BU,ES-CL,Santa María del Campo
+09351,ES-BU,ES-CL,Santa María del Invierno
+09352,ES-BU,ES-CL,Santa María del Mercadillo
+09353,ES-BU,ES-CL,Santa María Ribarredonda
+09354,ES-BU,ES-CL,Santa Olalla de Bureba
+09355,ES-BU,ES-CL,Santibáñez de Esgueva
+09356,ES-BU,ES-CL,Santibáñez del Val
+09358,ES-BU,ES-CL,Santo Domingo de Silos
+09360,ES-BU,ES-CL,San Vicente del Valle
+09361,ES-BU,ES-CL,Sargentes de la Lora
+09362,ES-BU,ES-CL,Sarracín
+09363,ES-BU,ES-CL,Sasamón
+09365,ES-BU,ES-CL,La Sequera de Haza
+09366,ES-BU,ES-CL,Solarana
+09368,ES-BU,ES-CL,Sordillos
+09369,ES-BU,ES-CL,Sotillo de la Ribera
+09372,ES-BU,ES-CL,Sotragero
+09373,ES-BU,ES-CL,Sotresgudo
+09374,ES-BU,ES-CL,Susinos del Páramo
+09375,ES-BU,ES-CL,Tamarón
+09377,ES-BU,ES-CL,Tardajos
+09378,ES-BU,ES-CL,Tejada
+09380,ES-BU,ES-CL,Terradillos de Esgueva
+09381,ES-BU,ES-CL,Tinieblas de la Sierra
+09382,ES-BU,ES-CL,Tobar
+09384,ES-BU,ES-CL,Tordómar
+09386,ES-BU,ES-CL,Torrecilla del Monte
+09387,ES-BU,ES-CL,Torregalindo
+09388,ES-BU,ES-CL,Torrelara
+09389,ES-BU,ES-CL,Torrepadre
+09390,ES-BU,ES-CL,Torresandino
+09391,ES-BU,ES-CL,Tórtoles de Esgueva
+09392,ES-BU,ES-CL,Tosantos
+09394,ES-BU,ES-CL,Trespaderne
+09395,ES-BU,ES-CL,Tubilla del Agua
+09396,ES-BU,ES-CL,Tubilla del Lago
+09398,ES-BU,ES-CL,Úrbel del Castillo
+09400,ES-BU,ES-CL,Vadocondes
+09403,ES-BU,ES-CL,Valdeande
+09405,ES-BU,ES-CL,Valdezate
+09406,ES-BU,ES-CL,Valdorros
+09407,ES-BU,ES-CL,Valmala
+09408,ES-BU,ES-CL,Vallarta de Bureba
+09409,ES-BU,ES-CL,Valle de Manzanedo
+09410,ES-BU,ES-CL,Valle de Mena
+09411,ES-BU,ES-CL,Valle de Oca
+09412,ES-BU,ES-CL,Valle de Tobalina
+09413,ES-BU,ES-CL,Valle de Valdebezana
+09414,ES-BU,ES-CL,Valle de Valdelaguna
+09415,ES-BU,ES-CL,Valle de Valdelucio
+09416,ES-BU,ES-CL,Valle de Zamanzas
+09417,ES-BU,ES-CL,Vallejera
+09418,ES-BU,ES-CL,Valles de Palenzuela
+09419,ES-BU,ES-CL,Valluércanes
+09421,ES-BU,ES-CL,La Vid y Barrios
+09422,ES-BU,ES-CL,La Vid de Bureba
+09423,ES-BU,ES-CL,Vileña
+09424,ES-BU,ES-CL,Viloria de Rioja
+09425,ES-BU,ES-CL,Vilviestre del Pinar
+09427,ES-BU,ES-CL,Villadiego
+09428,ES-BU,ES-CL,Villaescusa de Roa
+09429,ES-BU,ES-CL,Villaescusa la Sombría
+09430,ES-BU,ES-CL,Villaespasa
+09431,ES-BU,ES-CL,Villafranca Montes de Oca
+09432,ES-BU,ES-CL,Villafruela
+09433,ES-BU,ES-CL,Villagalijo
+09434,ES-BU,ES-CL,Villagonzalo Pedernales
+09437,ES-BU,ES-CL,Villahoz
+09438,ES-BU,ES-CL,Villalba de Duero
+09439,ES-BU,ES-CL,Villalbilla de Burgos
+09440,ES-BU,ES-CL,Villalbilla de Gumiel
+09441,ES-BU,ES-CL,Villaldemiro
+09442,ES-BU,ES-CL,Villalmanzo
+09443,ES-BU,ES-CL,Villamayor de los Montes
+09444,ES-BU,ES-CL,Villamayor de Treviño
+09445,ES-BU,ES-CL,Villambistia
+09446,ES-BU,ES-CL,Villamedianilla
+09447,ES-BU,ES-CL,Villamiel de la Sierra
+09448,ES-BU,ES-CL,Villangómez
+09449,ES-BU,ES-CL,Villanueva de Argaño
+09450,ES-BU,ES-CL,Villanueva de Carazo
+09451,ES-BU,ES-CL,Villanueva de Gumiel
+09454,ES-BU,ES-CL,Villanueva de Teba
+09455,ES-BU,ES-CL,Villaquirán de la Puebla
+09456,ES-BU,ES-CL,Villaquirán de los Infantes
+09458,ES-BU,ES-CL,Villariezo
+09460,ES-BU,ES-CL,Villasandino
+09463,ES-BU,ES-CL,Villasur de Herreros
+09464,ES-BU,ES-CL,Villatuelda
+09466,ES-BU,ES-CL,Villaverde del Monte
+09467,ES-BU,ES-CL,Villaverde-Mogina
+09471,ES-BU,ES-CL,Villayerno Morquillas
+09472,ES-BU,ES-CL,Villazopeque
+09473,ES-BU,ES-CL,Villegas
+09476,ES-BU,ES-CL,Villoruebo
+09478,ES-BU,ES-CL,Vizcaínos
+09480,ES-BU,ES-CL,Zael
+09482,ES-BU,ES-CL,Zarzosa de Río Pisuerga
+09483,ES-BU,ES-CL,Zazuar
+09485,ES-BU,ES-CL,Zuñeda
+09813,ES-BU,ES-CL,Comunidad de Vizcaínos y Jaramillo de la Fuente
+09901,ES-BU,ES-CL,Quintanilla del Agua y Tordueles
+09902,ES-BU,ES-CL,Valle de Santibáñez
+09903,ES-BU,ES-CL,Villarcayo de Merindad de Castilla la Vieja
+09904,ES-BU,ES-CL,Valle de las Navas
+09905,ES-BU,ES-CL,Valle de Sedano
+09906,ES-BU,ES-CL,Merindad de Río Ubierna
+09907,ES-BU,ES-CL,Alfoz de Quintanadueñas
+09908,ES-BU,ES-CL,Valle de Losa
+-10906097,ES-BU,ES-CL,Comunidad de Canicosa de la Sierra y Vilviestre del Pinar
+-10906113,ES-BU,ES-CL,Comunidad de Cubillo del Campo y Hontoria de la Cantera
+-10906114,ES-BU,ES-CL,Comunidad de Los Ausines y Revilla del Campo
+-10907058,ES-BU,ES-CL,Soncarazo
+-10907059,ES-BU,ES-CL,Comunidad de Fuente Carazo
+-10907060,ES-BU,ES-CL,Cabeza Alta
+-10907072,ES-BU,ES-CL,Comunidad de Quintanaortuño y Merindad de Río Ubierna
+-10968387,ES-BU,ES-CL,Comunidad de Bascuñana y Viloria de Rioja
+-341746,ES-BU,ES-CL,Comunidad de Arauzo de Miel y Huerta del Rey
+-341748,ES-BU,ES-CL,Comunero de Revenga
+-341749,ES-BU,ES-CL,Comunidad de Quintanar de la Sierra y Vilviestre del Pinar
+-341750,ES-BU,ES-CL,Comunidad de Canicosa de la Sierra y Casarejos
+-342041,ES-BU,ES-CL,Comunidad de Cilleruelo de Arriba y Pineda Trasmonte
+-342042,ES-BU,ES-CL,"Ledanía de Hacinas, Salas de los Infantes y Villanueva de Carazo"
+-342375,ES-BU,ES-CL,Comunidad de Villoruebo y Torrelara
+-342376,ES-BU,ES-CL,Dehesa de San Felices
+-342381,ES-BU,ES-CL,"Ledanía de Castrillo de la Reina, Hacinas y Salas de los Infantes"
+-342383,ES-BU,ES-CL,Comunidad de Revilla del Campo y Torrelara
+-345991,ES-BU,ES-CL,Comunidad de Tinieblas de la Sierra y San Millán de Lara
+-345992,ES-BU,ES-CL,Ledanía de Hacinas y Salas de los Infantes
+-346277,ES-BU,ES-CL,"Ledanía de Castrillo de la Reina, Hacinas, Monasterio de la Sierra y Castrovido"
+-346279,ES-BU,ES-CL,"Comunidad de Merindad de Río Ubierna, Quintanilla Vivar y Sotragero"
+-346582,ES-BU,ES-CL,Comunidad de Gete y Hacinas

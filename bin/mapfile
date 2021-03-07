@@ -4,8 +4,8 @@
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
 # defaults
-file="${__root}/config/1calle1nombre.sql"
-output="${__root}/reports/$(date +%Y%m)/report.csv"
+file="${__root}/config/mapfile.sql"
+output="${__root}/mapfiles/mapfile.csv"
 
 # execute the runner with a preset of parameters
 "$(dirname "$0")"/runner "--csv|--file=${file}" "${output}" "$@"

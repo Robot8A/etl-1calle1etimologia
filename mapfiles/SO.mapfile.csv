@@ -1,0 +1,184 @@
+id,prov,ccaa,name
+42001,ES-SO,ES-CL,Abejar
+42003,ES-SO,ES-CL,Adradas
+42004,ES-SO,ES-CL,Ágreda
+42006,ES-SO,ES-CL,Alconaba
+42007,ES-SO,ES-CL,Alcubilla de Avellaneda
+42008,ES-SO,ES-CL,Alcubilla de las Peñas
+42009,ES-SO,ES-CL,Aldealafuente
+42010,ES-SO,ES-CL,Aldealices
+42011,ES-SO,ES-CL,Aldealpozo
+42012,ES-SO,ES-CL,Aldealseñor
+42013,ES-SO,ES-CL,Aldehuela de Periáñez
+42014,ES-SO,ES-CL,Las Aldehuelas
+42015,ES-SO,ES-CL,Alentisque
+42016,ES-SO,ES-CL,Aliud
+42017,ES-SO,ES-CL,Almajano
+42018,ES-SO,ES-CL,Almaluez
+42019,ES-SO,ES-CL,Almarza
+42020,ES-SO,ES-CL,Almazán
+42021,ES-SO,ES-CL,Almazul
+42022,ES-SO,ES-CL,Almenar de Soria
+42023,ES-SO,ES-CL,Alpanseque
+42024,ES-SO,ES-CL,Arancón
+42025,ES-SO,ES-CL,Arcos de Jalón
+42026,ES-SO,ES-CL,Arenillas
+42027,ES-SO,ES-CL,Arévalo de la Sierra
+42028,ES-SO,ES-CL,Ausejo de la Sierra
+42029,ES-SO,ES-CL,Baraona
+42030,ES-SO,ES-CL,Barca
+42031,ES-SO,ES-CL,Barcones
+42032,ES-SO,ES-CL,Bayubas de Abajo
+42033,ES-SO,ES-CL,Bayubas de Arriba
+42034,ES-SO,ES-CL,Beratón
+42035,ES-SO,ES-CL,Berlanga de Duero
+42036,ES-SO,ES-CL,Blacos
+42037,ES-SO,ES-CL,Bliecos
+42038,ES-SO,ES-CL,Borjabad
+42039,ES-SO,ES-CL,Borobia
+42041,ES-SO,ES-CL,Buberos
+42042,ES-SO,ES-CL,Buitrago
+42043,ES-SO,ES-CL,Burgo de Osma-Ciudad de Osma
+42044,ES-SO,ES-CL,Cabrejas del Campo
+42045,ES-SO,ES-CL,Cabrejas del Pinar
+42046,ES-SO,ES-CL,Calatañazor
+42048,ES-SO,ES-CL,Caltojar
+42049,ES-SO,ES-CL,Candilichera
+42050,ES-SO,ES-CL,Cañamaque
+42051,ES-SO,ES-CL,Carabantes
+42052,ES-SO,ES-CL,Caracena
+42053,ES-SO,ES-CL,Carrascosa de Abajo
+42054,ES-SO,ES-CL,Carrascosa de la Sierra
+42055,ES-SO,ES-CL,Casarejos
+42056,ES-SO,ES-CL,Castilfrío de la Sierra
+42057,ES-SO,ES-CL,Castilruiz
+42058,ES-SO,ES-CL,Castillejo de Robledo
+42059,ES-SO,ES-CL,Centenera de Andaluz
+42060,ES-SO,ES-CL,Cerbón
+42061,ES-SO,ES-CL,Cidones
+42062,ES-SO,ES-CL,Cigudosa
+42063,ES-SO,ES-CL,Cihuela
+42064,ES-SO,ES-CL,Ciria
+42065,ES-SO,ES-CL,Cirujales del Río
+42068,ES-SO,ES-CL,Coscurita
+42069,ES-SO,ES-CL,Covaleda
+42070,ES-SO,ES-CL,Cubilla
+42071,ES-SO,ES-CL,Cubo de la Solana
+42073,ES-SO,ES-CL,Cueva de Ágreda
+42075,ES-SO,ES-CL,Dévanos
+42076,ES-SO,ES-CL,Deza
+42078,ES-SO,ES-CL,Duruelo de la Sierra
+42079,ES-SO,ES-CL,Escobosa de Almazán
+42080,ES-SO,ES-CL,Espeja de San Marcelino
+42081,ES-SO,ES-CL,Espejón
+42082,ES-SO,ES-CL,Estepa de San Juan
+42083,ES-SO,ES-CL,Frechilla de Almazán
+42084,ES-SO,ES-CL,Fresno de Caracena
+42085,ES-SO,ES-CL,Fuentearmegil
+42086,ES-SO,ES-CL,Fuentecambrón
+42087,ES-SO,ES-CL,Fuentecantos
+42088,ES-SO,ES-CL,Fuentelmonge
+42089,ES-SO,ES-CL,Fuentelsaz de Soria
+42090,ES-SO,ES-CL,Fuentepinilla
+42092,ES-SO,ES-CL,Fuentes de Magaña
+42093,ES-SO,ES-CL,Fuentestrún
+42094,ES-SO,ES-CL,Garray
+42095,ES-SO,ES-CL,Golmayo
+42096,ES-SO,ES-CL,Gómara
+42097,ES-SO,ES-CL,Gormaz
+42098,ES-SO,ES-CL,Herrera de Soria
+42100,ES-SO,ES-CL,Hinojosa del Campo
+42103,ES-SO,ES-CL,Langa de Duero
+42105,ES-SO,ES-CL,Liceras
+42106,ES-SO,ES-CL,La Losilla
+42107,ES-SO,ES-CL,Magaña
+42108,ES-SO,ES-CL,Maján
+42110,ES-SO,ES-CL,Matalebreras
+42111,ES-SO,ES-CL,Matamala de Almazán
+42113,ES-SO,ES-CL,Medinaceli
+42115,ES-SO,ES-CL,Miño de Medinaceli
+42116,ES-SO,ES-CL,Miño de San Esteban
+42117,ES-SO,ES-CL,Molinos de Duero
+42118,ES-SO,ES-CL,Momblona
+42119,ES-SO,ES-CL,Monteagudo de las Vicarías
+42120,ES-SO,ES-CL,Montejo de Tiermes
+42121,ES-SO,ES-CL,Montenegro de Cameros
+42123,ES-SO,ES-CL,Morón de Almazán
+42124,ES-SO,ES-CL,Muriel de la Fuente
+42125,ES-SO,ES-CL,Muriel Viejo
+42127,ES-SO,ES-CL,Nafría de Ucero
+42128,ES-SO,ES-CL,Narros
+42129,ES-SO,ES-CL,Navaleno
+42130,ES-SO,ES-CL,Nepas
+42131,ES-SO,ES-CL,Nolay
+42132,ES-SO,ES-CL,Noviercas
+42134,ES-SO,ES-CL,Ólvega
+42135,ES-SO,ES-CL,Oncala
+42139,ES-SO,ES-CL,Pinilla del Campo
+42140,ES-SO,ES-CL,Portillo de Soria
+42141,ES-SO,ES-CL,La Póveda de Soria
+42142,ES-SO,ES-CL,Pozalmuro
+42144,ES-SO,ES-CL,Quintana Redonda
+42145,ES-SO,ES-CL,Quintanas de Gormáz
+42148,ES-SO,ES-CL,Quiñonería
+42149,ES-SO,ES-CL,Los Rábanos
+42151,ES-SO,ES-CL,Rebollar
+42152,ES-SO,ES-CL,Recuerda
+42153,ES-SO,ES-CL,Rello
+42154,ES-SO,ES-CL,Renieblas
+42155,ES-SO,ES-CL,Retortillo de Soria
+42156,ES-SO,ES-CL,Reznos
+42157,ES-SO,ES-CL,La Riba de Escalote
+42158,ES-SO,ES-CL,Rioseco de Soria
+42159,ES-SO,ES-CL,Rollamienta
+42160,ES-SO,ES-CL,El Royo
+42161,ES-SO,ES-CL,Salduero
+42162,ES-SO,ES-CL,San Esteban de Gormaz
+42163,ES-SO,ES-CL,San Felices
+42164,ES-SO,ES-CL,San Leonardo de Yagüe
+42165,ES-SO,ES-CL,San Pedro Manrique
+42166,ES-SO,ES-CL,Santa Cruz de Yanguas
+42167,ES-SO,ES-CL,Santa María de Huerta
+42168,ES-SO,ES-CL,Santa María de las Hoyas
+42171,ES-SO,ES-CL,Serón de Nágima
+42172,ES-SO,ES-CL,Soliedra
+42173,ES-SO,ES-CL,Soria
+42174,ES-SO,ES-CL,Sotillo del Rincón
+42175,ES-SO,ES-CL,Suellacabras
+42176,ES-SO,ES-CL,Tajahuerce
+42177,ES-SO,ES-CL,Tajueco
+42178,ES-SO,ES-CL,Talveila
+42181,ES-SO,ES-CL,Tardelcuende
+42182,ES-SO,ES-CL,Taroda
+42183,ES-SO,ES-CL,Tejado
+42184,ES-SO,ES-CL,Torlengua
+42185,ES-SO,ES-CL,Torreblacos
+42187,ES-SO,ES-CL,Torrubia de Soria
+42188,ES-SO,ES-CL,Trévago
+42189,ES-SO,ES-CL,Ucero
+42190,ES-SO,ES-CL,Vadillo
+42191,ES-SO,ES-CL,Valdeavellano de Tera
+42192,ES-SO,ES-CL,Valdegeña
+42193,ES-SO,ES-CL,Valdelagua del Cerro
+42194,ES-SO,ES-CL,Valdemaluque
+42195,ES-SO,ES-CL,Valdenebro
+42196,ES-SO,ES-CL,Valdeprado
+42197,ES-SO,ES-CL,Valderrodilla
+42198,ES-SO,ES-CL,Valtajeros
+42200,ES-SO,ES-CL,Velamazán
+42201,ES-SO,ES-CL,Velilla de la Sierra
+42202,ES-SO,ES-CL,Velilla de los Ajos
+42204,ES-SO,ES-CL,Viana de Duero
+42205,ES-SO,ES-CL,Villaciervos
+42206,ES-SO,ES-CL,Villanueva de Gormaz
+42207,ES-SO,ES-CL,Villar del Ala
+42208,ES-SO,ES-CL,Villar del Campo
+42209,ES-SO,ES-CL,Villar del Río
+42211,ES-SO,ES-CL,Los Villares de Soria
+42212,ES-SO,ES-CL,Villasayas
+42213,ES-SO,ES-CL,Villaseca de Arciel
+42215,ES-SO,ES-CL,Vinuesa
+42216,ES-SO,ES-CL,Vizmanos
+42217,ES-SO,ES-CL,Vozmediano
+42218,ES-SO,ES-CL,Yanguas
+42219,ES-SO,ES-CL,Yelo

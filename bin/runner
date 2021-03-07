@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # get the preset from the wrapper scripts
-type=$1
 IFS='|'
-read -ra opts <<< "$2"
+read -ra opts <<< "$1"
 IFS=' '
-file="$3"
+file="$2"
 
-shift 3
+shift 2
 
 REGIONS=("${@:-ES}")
 
@@ -36,12 +35,7 @@ do
   fi
 
   # prepend the region to the output file
-  if [ "${type}" == "feature" ]; then
-    output="$(dirname "${file}")/${region}.$(basename "${file}")"
-  elif [ "${type}" == "report" ]; then
-    output="$(dirname "${file}")/${region}.$(basename "${file}")"
-  fi
-
+  output="$(dirname "${file}")/${region}.$(basename "${file}")"
   mkdir --parents "$(dirname "${output}")"
 
   # run psql with the corresponding variables

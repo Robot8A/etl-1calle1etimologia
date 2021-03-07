@@ -1,0 +1,364 @@
+id,prov,ccaa,name
+-10977404,ES-SA,ES-CL,Coto Mancomunado
+37001,ES-SA,ES-CL,Abusejo
+37002,ES-SA,ES-CL,Agallas
+37003,ES-SA,ES-CL,Ahigal de los Aceiteros
+37004,ES-SA,ES-CL,Ahigal de Villarino
+37005,ES-SA,ES-CL,La Alameda de Gardón
+37006,ES-SA,ES-CL,La Alamedilla
+37007,ES-SA,ES-CL,Alaraz
+37008,ES-SA,ES-CL,Alba de Tormes
+37009,ES-SA,ES-CL,Alba de Yeltes
+37010,ES-SA,ES-CL,La Alberca
+37011,ES-SA,ES-CL,La Alberguería de Argañán
+37012,ES-SA,ES-CL,Alconada
+37013,ES-SA,ES-CL,Aldeacipreste
+37014,ES-SA,ES-CL,Aldeadávila de la Ribera
+37015,ES-SA,ES-CL,Aldea del Obispo
+37016,ES-SA,ES-CL,Aldealengua
+37017,ES-SA,ES-CL,Aldeanueva de Figueroa
+37018,ES-SA,ES-CL,Aldeanueva de la Sierra
+37019,ES-SA,ES-CL,Aldearrodrigo
+37020,ES-SA,ES-CL,Aldearrubia
+37021,ES-SA,ES-CL,Aldeaseca de Alba
+37022,ES-SA,ES-CL,Aldeaseca de la Frontera
+37023,ES-SA,ES-CL,Aldeatejada
+37024,ES-SA,ES-CL,Aldeavieja de Tormes
+37025,ES-SA,ES-CL,Aldehuela de la Bóveda
+37026,ES-SA,ES-CL,Aldehuela de Yeltes
+37027,ES-SA,ES-CL,Almenara de Tormes
+37028,ES-SA,ES-CL,Almendra
+37029,ES-SA,ES-CL,Anaya de Alba
+37030,ES-SA,ES-CL,Añover de Tormes
+37031,ES-SA,ES-CL,Arabayona de Mógica
+37032,ES-SA,ES-CL,Arapiles
+37033,ES-SA,ES-CL,Arcediano
+37034,ES-SA,ES-CL,El Arco
+37035,ES-SA,ES-CL,Armenteros
+37036,ES-SA,ES-CL,San Miguel del Robledo
+37037,ES-SA,ES-CL,La Atalaya
+37038,ES-SA,ES-CL,Babilafuente
+37039,ES-SA,ES-CL,Bañobárez
+37040,ES-SA,ES-CL,Barbadillo
+37041,ES-SA,ES-CL,Barbalos
+37042,ES-SA,ES-CL,Barceo
+37044,ES-SA,ES-CL,Barruecopardo
+37045,ES-SA,ES-CL,La Bastida
+37046,ES-SA,ES-CL,Béjar
+37047,ES-SA,ES-CL,Beleña
+37049,ES-SA,ES-CL,Bermellar
+37050,ES-SA,ES-CL,Berrocal de Huebra
+37051,ES-SA,ES-CL,Berrocal de Salvatierra
+37052,ES-SA,ES-CL,Boada
+37054,ES-SA,ES-CL,El Bodón
+37055,ES-SA,ES-CL,Bogajo
+37056,ES-SA,ES-CL,La Bouza
+37057,ES-SA,ES-CL,Bóveda del Río Almar
+37058,ES-SA,ES-CL,Brincones
+37059,ES-SA,ES-CL,Buenamadre
+37060,ES-SA,ES-CL,Buenavista
+37061,ES-SA,ES-CL,El Cabaco
+37062,ES-SA,ES-CL,Cabezabellosa de la Calzada
+37063,ES-SA,ES-CL,La Cabeza de Béjar
+37065,ES-SA,ES-CL,Cabeza del Caballo
+37067,ES-SA,ES-CL,Cabrerizos
+37068,ES-SA,ES-CL,Cabrillas
+37069,ES-SA,ES-CL,Calvarrasa de Abajo
+37070,ES-SA,ES-CL,Calvarrasa de Arriba
+37071,ES-SA,ES-CL,La Calzada de Béjar
+37072,ES-SA,ES-CL,Calzada de Don Diego
+37073,ES-SA,ES-CL,Calzada de Valdunciel
+37074,ES-SA,ES-CL,Campillo de Azaba
+37077,ES-SA,ES-CL,El Campo de Peñaranda
+37078,ES-SA,ES-CL,Candelario
+37079,ES-SA,ES-CL,Canillas de Abajo
+37080,ES-SA,ES-CL,Cantagallo
+37081,ES-SA,ES-CL,Cantalapiedra
+37082,ES-SA,ES-CL,Cantalpino
+37083,ES-SA,ES-CL,Cantaracillo
+37085,ES-SA,ES-CL,Carbajosa de la Sagrada
+37086,ES-SA,ES-CL,Carpio de Azaba
+37087,ES-SA,ES-CL,Carrascal de Barregas
+37088,ES-SA,ES-CL,Carrascal del Obispo
+37089,ES-SA,ES-CL,Casafranca
+37090,ES-SA,ES-CL,Las Casas del Conde
+37091,ES-SA,ES-CL,Casillas de Flores
+37092,ES-SA,ES-CL,Castellanos de Moriscos
+37096,ES-SA,ES-CL,Castillejo de Martín Viejo
+37097,ES-SA,ES-CL,Castraz
+37098,ES-SA,ES-CL,Cepeda
+37099,ES-SA,ES-CL,Cereceda de la Sierra
+37100,ES-SA,ES-CL,Cerezal de Peñahorcada
+37101,ES-SA,ES-CL,Cerralbo
+37102,ES-SA,ES-CL,El Cerro
+37103,ES-SA,ES-CL,Cespedosa de Tormes
+37104,ES-SA,ES-CL,Cilleros de la Bastida
+37106,ES-SA,ES-CL,Cipérez
+37107,ES-SA,ES-CL,Ciudad Rodrigo
+37108,ES-SA,ES-CL,Coca de Alba
+37109,ES-SA,ES-CL,Colmenar de Montemayor
+37110,ES-SA,ES-CL,Cordovilla
+37112,ES-SA,ES-CL,Cristóbal
+37113,ES-SA,ES-CL,El Cubo de Don Sancho
+37114,ES-SA,ES-CL,Chagarcía Medianero
+37115,ES-SA,ES-CL,Dios le Guarde
+37116,ES-SA,ES-CL,Doñinos de Ledesma
+37117,ES-SA,ES-CL,Doñinos de Salamanca
+37118,ES-SA,ES-CL,Éjeme
+37119,ES-SA,ES-CL,La Encina
+37120,ES-SA,ES-CL,Encina de San Silvestre
+37121,ES-SA,ES-CL,Encinas de Abajo
+37122,ES-SA,ES-CL,Encinas de Arriba
+37123,ES-SA,ES-CL,Encinasola de los Comendadores
+37124,ES-SA,ES-CL,Endrinal
+37125,ES-SA,ES-CL,Escurial de la Sierra
+37126,ES-SA,ES-CL,Espadaña
+37127,ES-SA,ES-CL,Espeja
+37128,ES-SA,ES-CL,Espino de la Orbada
+37129,ES-SA,ES-CL,Florida de Liébana
+37130,ES-SA,ES-CL,Forfoleda
+37131,ES-SA,ES-CL,Frades de la Sierra
+37132,ES-SA,ES-CL,La Fregeneda
+37133,ES-SA,ES-CL,Fresnedoso
+37134,ES-SA,ES-CL,Fresno Alhándiga
+37135,ES-SA,ES-CL,La Fuente de San Esteban
+37136,ES-SA,ES-CL,Fuenteguinaldo
+37137,ES-SA,ES-CL,Fuenteliante
+37138,ES-SA,ES-CL,Fuenterroble de Salvatierra
+37139,ES-SA,ES-CL,Fuentes de Béjar
+37140,ES-SA,ES-CL,Fuentes de Oñoro
+37141,ES-SA,ES-CL,Gajates
+37142,ES-SA,ES-CL,Galindo y Perahuy
+37143,ES-SA,ES-CL,Galinduste
+37144,ES-SA,ES-CL,Galisancho
+37145,ES-SA,ES-CL,Gallegos de Argañán
+37146,ES-SA,ES-CL,Gallegos de Solmirón
+37147,ES-SA,ES-CL,Garcibuey
+37148,ES-SA,ES-CL,Garcihernández
+37149,ES-SA,ES-CL,Garcirrey
+37150,ES-SA,ES-CL,Gejuelo del Barro
+37151,ES-SA,ES-CL,Golpejas
+37152,ES-SA,ES-CL,Gomecello
+37154,ES-SA,ES-CL,Guadramiro
+37155,ES-SA,ES-CL,Guijo de Ávila
+37156,ES-SA,ES-CL,Guijuelo
+37157,ES-SA,ES-CL,Herguijuela de Ciudad Rodrigo
+37158,ES-SA,ES-CL,Herguijuela de la Sierra
+37159,ES-SA,ES-CL,Herguijuela del Campo
+37160,ES-SA,ES-CL,Hinojosa de Duero
+37161,ES-SA,ES-CL,Horcajo de Montemayor
+37162,ES-SA,ES-CL,Horcajo Medianero
+37163,ES-SA,ES-CL,La Hoya
+37164,ES-SA,ES-CL,Huerta
+37165,ES-SA,ES-CL,Iruelos
+37166,ES-SA,ES-CL,Ituero de Azaba
+37167,ES-SA,ES-CL,Juzbado
+37168,ES-SA,ES-CL,Lagunilla
+37169,ES-SA,ES-CL,Larrodrigo
+37170,ES-SA,ES-CL,Ledesma
+37171,ES-SA,ES-CL,Ledrada
+37172,ES-SA,ES-CL,Linares de Riofrío
+37173,ES-SA,ES-CL,Lumbrales
+37174,ES-SA,ES-CL,Macotera
+37175,ES-SA,ES-CL,Machacón
+37176,ES-SA,ES-CL,Madroñal
+37177,ES-SA,ES-CL,El Maíllo
+37178,ES-SA,ES-CL,Malpartida
+37179,ES-SA,ES-CL,Mancera de Abajo
+37180,ES-SA,ES-CL,El Manzano
+37181,ES-SA,ES-CL,Martiago
+37182,ES-SA,ES-CL,Martinamor
+37183,ES-SA,ES-CL,Martín de Yeltes
+37184,ES-SA,ES-CL,Masueco
+37185,ES-SA,ES-CL,Castellanos de Villiquera
+37186,ES-SA,ES-CL,La Mata de Ledesma
+37187,ES-SA,ES-CL,Matilla de los Caños del Río
+37188,ES-SA,ES-CL,La Maya
+37189,ES-SA,ES-CL,Membribe de la Sierra
+37190,ES-SA,ES-CL,Mieza
+37191,ES-SA,ES-CL,El Milano
+37192,ES-SA,ES-CL,Miranda de Azán
+37193,ES-SA,ES-CL,Miranda del Castañar
+37194,ES-SA,ES-CL,Mogarraz
+37195,ES-SA,ES-CL,Molinillo
+37196,ES-SA,ES-CL,Monforte de la Sierra
+37197,ES-SA,ES-CL,Monleón
+37198,ES-SA,ES-CL,Monleras
+37199,ES-SA,ES-CL,Monsagro
+37200,ES-SA,ES-CL,Montejo
+37201,ES-SA,ES-CL,Montemayor del Río
+37202,ES-SA,ES-CL,Monterrubio de Armuña
+37203,ES-SA,ES-CL,Monterrubio de la Sierra
+37204,ES-SA,ES-CL,Morasverdes
+37205,ES-SA,ES-CL,Morille
+37206,ES-SA,ES-CL,Moríñigo
+37207,ES-SA,ES-CL,Moriscos
+37208,ES-SA,ES-CL,Moronta
+37209,ES-SA,ES-CL,Mozárbez
+37211,ES-SA,ES-CL,Narros de Matalayegua
+37212,ES-SA,ES-CL,Navacarros
+37213,ES-SA,ES-CL,Nava de Béjar
+37214,ES-SA,ES-CL,Nava de Francia
+37215,ES-SA,ES-CL,Nava de Sotrobal
+37216,ES-SA,ES-CL,Navales
+37217,ES-SA,ES-CL,Navalmoral de Béjar
+37218,ES-SA,ES-CL,Navamorales
+37219,ES-SA,ES-CL,Navarredonda de la Rinconada
+37221,ES-SA,ES-CL,Navasfrías
+37222,ES-SA,ES-CL,Negrilla de Palencia
+37223,ES-SA,ES-CL,Olmedo de Camaces
+37224,ES-SA,ES-CL,La Orbada
+37225,ES-SA,ES-CL,Pajares de la Laguna
+37226,ES-SA,ES-CL,Palacios del Arzobispo
+37228,ES-SA,ES-CL,Palaciosrubios
+37229,ES-SA,ES-CL,Palencia de Negrilla
+37230,ES-SA,ES-CL,Parada de Arriba
+37231,ES-SA,ES-CL,Parada de Rubiales
+37232,ES-SA,ES-CL,Paradinas de San Juan
+37233,ES-SA,ES-CL,Pastores
+37234,ES-SA,ES-CL,El Payo
+37235,ES-SA,ES-CL,Pedraza de Alba
+37236,ES-SA,ES-CL,Pedrosillo de Alba
+37237,ES-SA,ES-CL,Pedrosillo de los Aires
+37238,ES-SA,ES-CL,Pedrosillo el Ralo
+37239,ES-SA,ES-CL,El Pedroso de la Armuña
+37240,ES-SA,ES-CL,Pelabravo
+37241,ES-SA,ES-CL,Pelarrodríguez
+37242,ES-SA,ES-CL,Pelayos
+37243,ES-SA,ES-CL,La Peña
+37244,ES-SA,ES-CL,Peñacaballera
+37245,ES-SA,ES-CL,Peñaparda
+37246,ES-SA,ES-CL,Peñaranda de Bracamonte
+37247,ES-SA,ES-CL,Peñarandilla
+37248,ES-SA,ES-CL,Peralejos de Abajo
+37249,ES-SA,ES-CL,Peralejos de Arriba
+37250,ES-SA,ES-CL,Pereña de la Ribera
+37251,ES-SA,ES-CL,Peromingo
+37252,ES-SA,ES-CL,Pinedas
+37253,ES-SA,ES-CL,El Pino de Tormes
+37254,ES-SA,ES-CL,Pitiegua
+37255,ES-SA,ES-CL,Pizarral
+37256,ES-SA,ES-CL,Poveda de las Cintas
+37257,ES-SA,ES-CL,Pozos de Hinojo
+37258,ES-SA,ES-CL,Puebla de Azaba
+37259,ES-SA,ES-CL,Puebla de San Medel
+37260,ES-SA,ES-CL,Puebla de Yeltes
+37261,ES-SA,ES-CL,Puente del Congosto
+37262,ES-SA,ES-CL,Puertas
+37263,ES-SA,ES-CL,Puerto de Béjar
+37264,ES-SA,ES-CL,Puerto Seguro
+37265,ES-SA,ES-CL,Rágama
+37266,ES-SA,ES-CL,La Redonda
+37267,ES-SA,ES-CL,Retortillo
+37268,ES-SA,ES-CL,La Rinconada de la Sierra
+37269,ES-SA,ES-CL,Robleda
+37270,ES-SA,ES-CL,Robliza de Cojos
+37271,ES-SA,ES-CL,Rollán
+37272,ES-SA,ES-CL,Saelices el Chico
+37273,ES-SA,ES-CL,La Sagrada
+37274,ES-SA,ES-CL,Salamanca
+37275,ES-SA,ES-CL,Saldeana
+37276,ES-SA,ES-CL,Salmoral
+37277,ES-SA,ES-CL,Salvatierra de Tormes
+37278,ES-SA,ES-CL,San Cristóbal de la Cuesta
+37279,ES-SA,ES-CL,Sancti-Spíritus
+37280,ES-SA,ES-CL,Sanchón de la Ribera
+37281,ES-SA,ES-CL,Sanchón de la Sagrada
+37282,ES-SA,ES-CL,Sanchotello
+37283,ES-SA,ES-CL,Sando
+37284,ES-SA,ES-CL,San Esteban de la Sierra
+37285,ES-SA,ES-CL,San Felices de los Gallegos
+37286,ES-SA,ES-CL,San Martín del Castañar
+37287,ES-SA,ES-CL,San Miguel de Valero
+37288,ES-SA,ES-CL,San Morales
+37289,ES-SA,ES-CL,San Muñoz
+37290,ES-SA,ES-CL,San Pedro del Valle
+37291,ES-SA,ES-CL,San Pedro de Rozados
+37292,ES-SA,ES-CL,San Pelayo de Guareña
+37293,ES-SA,ES-CL,Santa María de Sando
+37294,ES-SA,ES-CL,Santa Marta de Tormes
+37296,ES-SA,ES-CL,Santiago de la Puebla
+37297,ES-SA,ES-CL,Santibáñez de Béjar
+37298,ES-SA,ES-CL,Santibáñez de la Sierra
+37299,ES-SA,ES-CL,Santiz
+37300,ES-SA,ES-CL,Los Santos
+37301,ES-SA,ES-CL,Sardón de los Frailes
+37302,ES-SA,ES-CL,Saucelle
+37303,ES-SA,ES-CL,El Sahúgo
+37304,ES-SA,ES-CL,Sepulcro-Hilario
+37305,ES-SA,ES-CL,Sequeros
+37306,ES-SA,ES-CL,Serradilla del Arroyo
+37307,ES-SA,ES-CL,Serradilla del Llano
+37309,ES-SA,ES-CL,La Sierpe
+37310,ES-SA,ES-CL,Sieteiglesias de Tormes
+37311,ES-SA,ES-CL,Sobradillo
+37312,ES-SA,ES-CL,Sorihuela
+37313,ES-SA,ES-CL,Sotoserrano
+37314,ES-SA,ES-CL,Tabera de Abajo
+37315,ES-SA,ES-CL,La Tala
+37316,ES-SA,ES-CL,Tamames
+37317,ES-SA,ES-CL,Tarazona de Guareña
+37318,ES-SA,ES-CL,Tardáguila
+37319,ES-SA,ES-CL,El Tejado
+37320,ES-SA,ES-CL,Tejeda y Segoyuela
+37321,ES-SA,ES-CL,Tenebrón
+37322,ES-SA,ES-CL,Terradillos
+37323,ES-SA,ES-CL,Topas
+37324,ES-SA,ES-CL,Tordillos
+37325,ES-SA,ES-CL,El Tornadizo
+37327,ES-SA,ES-CL,Torresmenudas
+37328,ES-SA,ES-CL,Trabanca
+37329,ES-SA,ES-CL,Tremedal de Tormes
+37330,ES-SA,ES-CL,Valdecarros
+37331,ES-SA,ES-CL,Valdefuentes de Sangusín
+37332,ES-SA,ES-CL,Valdehijaderos
+37333,ES-SA,ES-CL,Valdelacasa
+37334,ES-SA,ES-CL,Valdelageve
+37335,ES-SA,ES-CL,Valdelosa
+37336,ES-SA,ES-CL,Valdemierque
+37337,ES-SA,ES-CL,Valderrodrigo
+37338,ES-SA,ES-CL,Valdunciel
+37339,ES-SA,ES-CL,Valero
+37340,ES-SA,ES-CL,Valsalabroso
+37341,ES-SA,ES-CL,Valverde de Valdelacasa
+37342,ES-SA,ES-CL,Valverdón
+37343,ES-SA,ES-CL,Vallejera de Riofrío
+37344,ES-SA,ES-CL,Vecinos
+37345,ES-SA,ES-CL,Vega de Tirados
+37346,ES-SA,ES-CL,Las Veguillas
+37347,ES-SA,ES-CL,La Vellés
+37348,ES-SA,ES-CL,Ventosa del Río Almar
+37349,ES-SA,ES-CL,La Vídola
+37350,ES-SA,ES-CL,Vilvestre
+37351,ES-SA,ES-CL,Villaflores
+37352,ES-SA,ES-CL,Villagonzalo de Tormes
+37353,ES-SA,ES-CL,Villalba de los Llanos
+37354,ES-SA,ES-CL,Villamayor
+37355,ES-SA,ES-CL,Villanueva del Conde
+37356,ES-SA,ES-CL,Villar de Argañán
+37357,ES-SA,ES-CL,Villar de Ciervo
+37358,ES-SA,ES-CL,Villar de Gallimazo
+37359,ES-SA,ES-CL,Villar de la Yegua
+37360,ES-SA,ES-CL,Villar de Peralonso
+37361,ES-SA,ES-CL,Villar de Samaniego
+37362,ES-SA,ES-CL,Villares de la Reina
+37363,ES-SA,ES-CL,Villares de Yeltes
+37364,ES-SA,ES-CL,Villarino de los Aires
+37365,ES-SA,ES-CL,Villarmayor
+37366,ES-SA,ES-CL,Villarmuerto
+37367,ES-SA,ES-CL,Villasbuenas
+37368,ES-SA,ES-CL,Villasdardo
+37369,ES-SA,ES-CL,Villaseco de los Gamitos
+37370,ES-SA,ES-CL,Villaseco de los Reyes
+37371,ES-SA,ES-CL,Villasrubias
+37372,ES-SA,ES-CL,Villaverde de Guareña
+37373,ES-SA,ES-CL,Villavieja de Yeltes
+37374,ES-SA,ES-CL,Villoria
+37375,ES-SA,ES-CL,Villoruela
+37376,ES-SA,ES-CL,Vitigudino
+37377,ES-SA,ES-CL,Yecla de Yeltes
+37378,ES-SA,ES-CL,Zamarra
+37379,ES-SA,ES-CL,Zamayón
+37380,ES-SA,ES-CL,Zarapicos
+37381,ES-SA,ES-CL,La Zarza de Pumareda
+37382,ES-SA,ES-CL,Zorita de la Frontera

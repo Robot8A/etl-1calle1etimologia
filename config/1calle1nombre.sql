@@ -1,5 +1,103 @@
+WITH municipios AS (
+  SELECT
+    name
+    , way
+    , COALESCE("ine:municipio", osm_id::TEXT) AS id
+  FROM
+    planet_osm_polygon pop
+  WHERE
+    admin_level = '8'
+    AND boundary = 'administrative'
+    AND (
+      :REGION = ''
+      OR St_within(
+        way
+        , (
+          SELECT
+            way
+          FROM
+            planet_osm_polygon pop
+          WHERE
+            boundary = 'administrative'
+            AND admin_level IN (
+              '4', '6'
+            )
+            AND (
+              (
+                length(:REGION) > 2
+                AND unaccent(name) ~* :REGION
+              )
+              OR "ISO3166-2" = 'ES-' || upper(:REGION)
+            )
+        )
+      )
+    )
+)
+, prov AS (
+  SELECT
+    "ISO3166-2" AS id
+    , way
+  FROM
+    planet_osm_polygon
+  WHERE
+    admin_level = '6'
+    AND boundary = 'administrative'
+)
+, ccaa AS (
+  SELECT
+    "ISO3166-2" AS id
+    , way
+  FROM
+    planet_osm_polygon
+  WHERE
+    admin_level = '4'
+    AND boundary = 'administrative'
+)
+, streets AS (
+  SELECT
+    *
+  FROM
+    planet_osm_line
+  WHERE
+    highway IN (
+      'residential', 'living_street', 'pedestrian'
+    )
+)
+, results AS (
+  SELECT
+    municipios.id AS id
+    , prov.id AS prov
+    , ccaa.id AS ccaa
+    , municipios.name
+    , sum(CASE WHEN (streets.way IS NOT NULL AND streets.name IS NULL AND streets.noname IS NULL) THEN 1 ELSE 0 END) AS incomplete
+    , sum(CASE WHEN (streets.way IS NOT NULL) THEN 1 ELSE 0 END) AS total
+    , sum(CASE WHEN (streets.way IS NOT NULL AND streets.name IS NULL AND streets.noname IS NULL) THEN st_length(streets.way, TRUE) ELSE 0 END) AS length_incomplete
+    , sum(CASE WHEN (streets.way IS NOT NULL) THEN st_length(streets.way, TRUE) ELSE 0 END) AS length_total
+  FROM
+    streets
+  RIGHT JOIN municipios ON
+    st_within(
+      streets.way
+      , municipios.way
+    )
+  INNER JOIN prov ON
+    st_within(
+      municipios.way
+      , prov.way
+    )
+  INNER JOIN ccaa ON
+    st_within(
+      municipios.way
+      , ccaa.way
+    )
+  GROUP BY
+    municipios.id
+    , municipios.name
+    , prov.id
+    , ccaa.id
+)
 SELECT
-  results."ine:municipio" AS id
+  results.id
   , results.prov
   , results.ccaa
   , results.name
@@ -19,100 +117,4 @@ SELECT
     ELSE round((1-( results.length_incomplete / results.length_total ))::NUMERIC, 2)
   END AS length_percentage
 FROM
-  (
-    WITH prov AS (
-      SELECT
-        "ISO3166-2" AS id
-        , way
-      FROM
-        planet_osm_polygon
-      WHERE
-        admin_level = '6'
-        AND boundary = 'administrative'
-    )
-    , ccaa AS (
-      SELECT
-        "ISO3166-2" AS id
-        , way
-      FROM
-        planet_osm_polygon
-      WHERE
-        admin_level = '4'
-        AND boundary = 'administrative'
-    )
-    SELECT
-      municipios."ine:municipio"
-      , (
-        SELECT
-          id
-        FROM
-          prov
-        WHERE
-          st_within(
-            municipios.way
-            , prov.way
-          )
-      ) AS prov
-      , (
-        SELECT
-          id
-        FROM
-          ccaa
-        WHERE
-          st_within(
-            municipios.way
-            , ccaa.way
-          )
-      ) AS ccaa
-      , municipios.name
-      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian') AND pol.name IS NULL AND pol.noname IS NULL) THEN 1 ELSE 0 END) AS incomplete
-      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian')) THEN 1 ELSE 0 END) AS total
-      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian') AND pol.name IS NULL AND pol.noname IS NULL) THEN st_length(pol.way, true) ELSE 0 END) AS length_incomplete
-      , sum(CASE WHEN (pol.highway IN ('residential', 'living_street', 'pedestrian')) THEN st_length(pol.way, true) ELSE 0 END) AS length_total
-    FROM
-      planet_osm_line pol
-      , (
-        SELECT
-          name
-          , way
-          , COALESCE("ine:municipio", osm_id::TEXT) AS "ine:municipio"
-        FROM
-          planet_osm_polygon pop
-        WHERE
-          admin_level = '8'
-          AND boundary = 'administrative'
-          AND (
-            :REGION = ''
-            OR St_within(
-              way
-              , (
-                SELECT
-                  way
-                FROM
-                  planet_osm_polygon pop
-                WHERE
-                  boundary = 'administrative'
-                  AND admin_level IN (
-                    '4', '6'
-                  )
-                  AND (
-                    (
-                      length(:REGION) > 2
-                      AND unaccent(name) ~* :REGION
-                    )
-                    OR "ISO3166-2" = 'ES-' || upper(:REGION)
-                  )
-              )
-            )
-          )
-      ) AS municipios
-    WHERE
-      ST_Within(
-        pol.way
-        , municipios.way
-      )
-    GROUP BY
-      municipios."ine:municipio"
-      , municipios.name
-      , municipios.way
-  ) AS results
+  results

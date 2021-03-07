@@ -1,2 +1,1 @@
-id,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
-52001,Melilla,2021-03-01,189,776,0.76,11103.08,90376.27,0.88
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage

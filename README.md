@@ -68,3 +68,6 @@ Actualmente se ejecuta una transformación de los datos del informe, agrupando c
   }
 }
 ```
+
+#### **bin/mapfile _location_**
+Generador de ficheros CSV en la carpeta `mapfiles/<location>.mapfile.csv`, que contienen un mapa de claves de los municipios (o entidades) dentro de la localización. Útil para editar o actualizar antiguos informes.

@@ -1,4 +1,4 @@
-id,ES-LO,ES-RI,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 26001,ES-LO,ES-RI,Ábalos,2020-01-01,32,43,0.26,2725.87,4616.23,0.41
 26002,ES-LO,ES-RI,Agoncillo,2020-01-01,29,63,0.54,3023.81,11988.69,0.75
 26003,ES-LO,ES-RI,Aguilar del Río Alhama,2020-01-01,77,78,0.01,5414.32,5502.59,0.02

@@ -1,3 +1,4 @@
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 04001,ES-AL,ES-AN,Abla,2020-12-01,26,148,0.82,875.14,10597.66,0.92
 04002,ES-AL,ES-AN,Abrucena,2020-12-01,7,95,0.93,307.15,8028.24,0.96
 04003,ES-AL,ES-AN,Adra,2020-12-01,35,648,0.95,3364.35,82878.30,0.96

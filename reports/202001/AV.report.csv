@@ -1,4 +1,4 @@
-id,ES-AV,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 05001,ES-AV,ES-CL,Adanero,2020-01-01,1,53,0.98,61.66,6643.38,0.99
 05002,ES-AV,ES-CL,La Adrada,2020-01-01,130,190,0.32,27706.10,37951.63,0.27
 05005,ES-AV,ES-CL,Albornos,2020-01-01,0,27,1.00,0.00,3350.28,1.00

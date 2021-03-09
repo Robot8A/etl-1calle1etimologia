@@ -1,4 +1,4 @@
-id,ES-O,ES-AS,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 33001,ES-O,ES-AS,Allande,2020-01-01,388,399,0.03,41085.79,42598.46,0.04
 33002,ES-O,ES-AS,Aller,2020-01-01,223,316,0.29,22741.86,34429.74,0.34
 33003,ES-O,ES-AS,Amieva,2020-01-01,69,69,0.00,8662.98,8662.98,0.00

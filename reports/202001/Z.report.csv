@@ -1,4 +1,4 @@
-id,ES-Z,ES-AR,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 50001,ES-Z,ES-AR,Abanto,2020-01-01,16,16,0.00,2209.37,2209.37,0.00
 50002,ES-Z,ES-AR,Acered,2020-01-01,10,10,0.00,2061.65,2061.65,0.00
 50003,ES-Z,ES-AR,Agón,2020-01-01,14,14,0.00,1572.34,1572.34,0.00

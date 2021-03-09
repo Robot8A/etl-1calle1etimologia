@@ -1,4 +1,4 @@
-id,ES-CA,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 11001,ES-CA,ES-AN,Alcalá de los Gazules,2021-02-13,21,127,0.83,2411.01,13683.50,0.82
 11002,ES-CA,ES-AN,Alcalá del Valle,2021-02-13,76,84,0.10,12861.42,13931.65,0.08
 11003,ES-CA,ES-AN,Algar,2021-02-13,7,67,0.90,220.73,5806.20,0.96

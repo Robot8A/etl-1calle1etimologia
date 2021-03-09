@@ -1,4 +1,4 @@
-id,ES-GI,ES-CT,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 17001,ES-GI,ES-CT,Agullana,2021-01-01,1,75,0.99,46.67,6646.14,0.99
 17002,ES-GI,ES-CT,Aiguaviva,2021-01-01,4,62,0.94,207.34,10731.66,0.98
 17003,ES-GI,ES-CT,Albanyà,2021-01-01,2,25,0.92,40.20,1650.19,0.98

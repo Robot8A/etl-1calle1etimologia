@@ -1,4 +1,4 @@
-id,ES-A,ES-VC,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 03001,ES-A,ES-VC,l'Atzúbia,2021-01-01,3,24,0.88,916.05,4992.88,0.82
 03002,ES-A,ES-VC,Agost,2021-01-01,11,112,0.90,1253.13,18020.16,0.93
 03003,ES-A,ES-VC,Agres,2021-01-01,1,20,0.95,17.36,1851.65,0.99

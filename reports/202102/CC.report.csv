@@ -1,4 +1,4 @@
-id,ES-CC,ES-EX,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 10001,ES-CC,ES-EX,Abadía,2021-02-13,3,45,0.93,309.28,3864.28,0.92
 10002,ES-CC,ES-EX,Abertura,2021-02-13,8,95,0.92,745.48,6722.58,0.89
 10003,ES-CC,ES-EX,Acebo,2021-02-13,6,87,0.93,306.54,6627.66,0.95

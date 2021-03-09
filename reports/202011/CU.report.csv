@@ -1,4 +1,4 @@
-id,ES-CU,ES-CM,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 16001,ES-CU,ES-CM,Abia de la Obispalía,2020-11-01,1,24,0.96,69.81,2472.81,0.97
 16002,ES-CU,ES-CM,El Acebrón,2020-11-01,6,46,0.87,1171.04,5529.12,0.79
 16003,ES-CU,ES-CM,Alarcón,2020-11-01,4,27,0.85,190.57,2056.29,0.91

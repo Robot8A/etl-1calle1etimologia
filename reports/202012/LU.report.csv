@@ -1,3 +1,4 @@
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 27001,ES-LU,ES-GA,Abadín,2020-12-01,32,49,0.35,6658.23,10564.18,0.37
 27002,ES-LU,ES-GA,Alfoz,2020-12-01,19,47,0.60,4211.05,9346.81,0.55
 27003,ES-LU,ES-GA,Antas de Ulla,2020-12-01,227,244,0.07,34964.16,38933.91,0.10

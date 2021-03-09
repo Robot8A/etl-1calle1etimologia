@@ -1,3 +1,4 @@
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 37001,ES-SA,ES-CL,Abusejo,2020-12-01,0,58,1.00,0.00,6367.00,1.00
 37002,ES-SA,ES-CL,Agallas,2020-12-01,0,74,1.00,0.00,4867.26,1.00
 37003,ES-SA,ES-CL,Ahigal de los Aceiteros,2020-12-01,0,33,1.00,0.00,3410.20,1.00

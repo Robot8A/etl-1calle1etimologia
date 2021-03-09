@@ -1,4 +1,4 @@
-id,ES-TO,ES-CM,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 45001,ES-TO,ES-CM,Ajofrín,2020-01-01,25,117,0.79,4050.64,19387.11,0.79
 45002,ES-TO,ES-CM,Alameda de la Sagra,2020-01-01,21,134,0.84,1749.35,21750.63,0.92
 45003,ES-TO,ES-CM,Albarreal de Tajo,2020-01-01,7,31,0.77,3176.54,6906.11,0.54

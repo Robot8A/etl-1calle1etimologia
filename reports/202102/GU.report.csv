@@ -1,4 +1,4 @@
-id,ES-GU,ES-CM,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 19001,ES-GU,ES-CM,Abánades,2021-02-13,3,13,0.77,103.11,1248.57,0.92
 19002,ES-GU,ES-CM,Ablanque,2021-02-13,5,25,0.80,133.63,1806.69,0.93
 19003,ES-GU,ES-CM,Adobes,2021-02-13,4,18,0.78,145.38,1365.82,0.89

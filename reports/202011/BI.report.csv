@@ -1,4 +1,4 @@
-id,ES-BI,ES-PV,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 48001,ES-BI,ES-PV,Abadiño,2020-11-01,110,186,0.41,11606.15,20827.41,0.44
 48002,ES-BI,ES-PV,Abanto y Ciérvana-Abanto Zierbena,2020-11-01,38,124,0.69,5318.83,22151.24,0.76
 48003,ES-BI,ES-PV,Amorebieta-Etxano,2020-11-01,163,265,0.38,25187.40,42160.75,0.40

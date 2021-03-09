@@ -1,4 +1,4 @@
-id,ES-HU,ES-AR,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 22001,ES-HU,ES-AR,Abiego,2020-11-01,3,31,0.90,218.88,2984.64,0.93
 22002,ES-HU,ES-AR,Abizanda,2020-11-01,21,29,0.28,1513.19,2080.20,0.27
 22003,ES-HU,ES-AR,Adahuesca,2020-11-01,3,16,0.81,474.86,1629.09,0.71

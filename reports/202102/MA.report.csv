@@ -1,4 +1,4 @@
-id,ES-MA,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 29001,ES-MA,ES-AN,Alameda,2021-02-13,45,135,0.67,5566.42,24345.55,0.77
 29002,ES-MA,ES-AN,Alcaucín,2021-02-13,47,118,0.60,10436.77,21512.95,0.51
 29003,ES-MA,ES-AN,Alfarnate,2021-02-13,8,71,0.89,625.69,6231.19,0.90

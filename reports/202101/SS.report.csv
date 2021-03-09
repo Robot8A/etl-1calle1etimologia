@@ -1,4 +1,4 @@
-id,ES-SS,ES-PV,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 20001,ES-SS,ES-PV,Abaltzisketa,2021-01-01,0,0,1,0.00,0.00,1
 20002,ES-SS,ES-PV,Aduna,2021-01-01,14,18,0.22,1147.72,1397.66,0.18
 20003,ES-SS,ES-PV,Aizarnazabal,2021-01-01,15,18,0.17,1715.24,2157.06,0.20

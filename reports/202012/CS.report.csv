@@ -1,3 +1,4 @@
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 12001,ES-CS,ES-VC,Atzeneta del Maestrat,2020-12-01,4,91,0.96,208.50,8918.57,0.98
 12002,ES-CS,ES-VC,Aín,2020-12-01,1,37,0.97,15.72,2022.96,0.99
 12003,ES-CS,ES-VC,Albocàsser,2020-12-01,11,52,0.79,2836.45,7566.66,0.63

@@ -1,4 +1,4 @@
-id,ES-P,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 34001,ES-P,ES-CL,Abarca de Campos,2021-02-13,0,7,1.00,0.00,977.11,1.00
 34003,ES-P,ES-CL,Abia de las Torres,2021-02-13,0,22,1.00,0.00,3396.50,1.00
 34004,ES-P,ES-CL,Aguilar de Campoo,2021-02-13,235,419,0.44,30567.73,50651.27,0.40

@@ -1,4 +1,4 @@
-id,ES-S,ES-CB,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 39001,ES-S,ES-CB,Alfoz de Lloredo,2021-02-13,39,284,0.86,4626.41,42523.23,0.89
 39002,ES-S,ES-CB,Ampuero,2021-02-13,59,82,0.28,10491.99,15244.82,0.31
 39003,ES-S,ES-CB,Anievas,2021-02-13,0,93,1.00,0.00,7591.52,1.00

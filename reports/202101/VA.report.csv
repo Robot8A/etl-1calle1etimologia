@@ -1,4 +1,4 @@
-id,ES-VA,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 47001,ES-VA,ES-CL,Adalia,2021-01-01,0,22,1.00,0.00,2748.65,1.00
 47002,ES-VA,ES-CL,Aguasal,2021-01-01,6,19,0.68,236.65,1235.41,0.81
 47003,ES-VA,ES-CL,Aguilar de Campos,2021-01-01,0,38,1.00,0.00,5539.41,1.00

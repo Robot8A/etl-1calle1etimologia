@@ -1,4 +1,4 @@
-id,ES-SO,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 42001,ES-SO,ES-CL,Abejar,2020-11-01,30,57,0.47,2786.08,6788.74,0.59
 42003,ES-SO,ES-CL,Adradas,2020-11-01,24,24,0.00,4020.47,4020.47,0.00
 42004,ES-SO,ES-CL,Ágreda,2020-11-01,19,193,0.90,1590.29,22040.92,0.93

@@ -1,4 +1,4 @@
-id,ES-OR,ES-GA,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 32001,ES-OR,ES-GA,Allariz,2021-02-13,162,378,0.57,16433.40,41420.44,0.60
 32002,ES-OR,ES-GA,Amoeiro,2021-02-13,179,179,0.00,36290.50,36290.50,0.00
 32003,ES-OR,ES-GA,A Arnoia,2021-02-13,95,95,0.00,14438.45,14438.45,0.00

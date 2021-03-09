@@ -1,3 +1,4 @@
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 40001,ES-SG,ES-CL,Abades,2020-12-01,42,42,0.00,7251.61,7251.61,0.00
 40002,ES-SG,ES-CL,Adrada de Pirón,2020-12-01,14,14,0.00,1069.47,1069.47,0.00
 40003,ES-SG,ES-CL,Adrados,2020-12-01,15,35,0.57,1647.42,5506.49,0.70

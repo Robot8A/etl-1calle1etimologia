@@ -1,4 +1,4 @@
-id,ES-GC,ES-CN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 35030,ES-GC,ES-CN,Tuineje,2020-01-01,112,369,0.70,22479.35,73746.32,0.70
 35001,ES-GC,ES-CN,Agaete,2020-01-01,34,194,0.82,2933.71,22276.59,0.87
 35019,ES-GC,ES-CN,San Bartolomé de Tirajana,2020-01-01,142,1217,0.88,14656.90,212463.06,0.93

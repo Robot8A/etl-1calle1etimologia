@@ -1,4 +1,4 @@
-id,ES-CR,ES-CM,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 13001,ES-CR,ES-CM,Abenójar,2021-01-01,4,73,0.95,364.64,12478.47,0.97
 13002,ES-CR,ES-CM,Agudo,2021-01-01,15,104,0.86,2409.93,18309.20,0.87
 13003,ES-CR,ES-CM,Alamillo,2021-01-01,7,39,0.82,1728.51,6938.75,0.75

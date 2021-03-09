@@ -1,4 +1,4 @@
-id,ES-H,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 21001,ES-H,ES-AN,Alájar,2020-11-01,30,66,0.55,2505.28,6678.23,0.62
 21002,ES-H,ES-AN,Aljaraque,2020-11-01,279,871,0.68,17664.29,143619.55,0.88
 21003,ES-H,ES-AN,El Almendro,2020-11-01,32,46,0.30,6154.33,8009.73,0.23

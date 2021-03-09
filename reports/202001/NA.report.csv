@@ -1,4 +1,4 @@
-id,ES-NA,ES-NC,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 31001,ES-NA,ES-NC,Abáigar,2020-01-01,4,21,0.81,222.43,1834.73,0.88
 31002,ES-NA,ES-NC,Abárzuza,2020-01-01,7,56,0.88,246.63,5594.22,0.96
 31003,ES-NA,ES-NC,Abaurregaina/Abaurrea Alta,2020-01-01,0,22,1.00,0.00,3198.67,1.00

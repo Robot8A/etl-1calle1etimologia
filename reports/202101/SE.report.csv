@@ -1,4 +1,4 @@
-id,ES-SE,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 41001,ES-SE,ES-AN,Aguadulce,2021-01-01,46,46,0.00,10117.96,10117.96,0.00
 41002,ES-SE,ES-AN,Alanís,2021-01-01,32,57,0.44,4773.23,7982.32,0.40
 41003,ES-SE,ES-AN,Albaida del Aljarafe,2021-01-01,13,88,0.85,583.68,10780.20,0.95

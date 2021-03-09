@@ -1,4 +1,4 @@
-id,ES-LE,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 24001,ES-LE,ES-CL,Acebedo,2021-02-13,38,57,0.33,4175.24,7201.42,0.42
 24002,ES-LE,ES-CL,Algadefe,2021-02-13,25,26,0.04,5657.44,6235.83,0.09
 24003,ES-LE,ES-CL,Alija del Infantado,2021-02-13,50,84,0.40,5805.15,12499.08,0.54

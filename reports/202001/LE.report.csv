@@ -1,4 +1,4 @@
-id,ES-LE,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 24001,ES-LE,ES-CL,Acebedo,2020-01-01,36,57,0.37,3957.97,7201.42,0.45
 24002,ES-LE,ES-CL,Algadefe,2020-01-01,25,26,0.04,5657.44,6235.83,0.09
 24003,ES-LE,ES-CL,Alija del Infantado,2020-01-01,63,71,0.11,10023.14,11432.62,0.12

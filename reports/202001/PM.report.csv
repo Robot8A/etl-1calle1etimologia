@@ -1,4 +1,4 @@
-id,ES-PM,ES-IB,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 07001,ES-PM,ES-IB,Alaró,2020-01-01,4,103,0.96,714.98,16386.50,0.96
 07002,ES-PM,ES-IB,Alaior,2020-01-01,43,396,0.89,2167.66,51051.10,0.96
 07003,ES-PM,ES-IB,Alcúdia,2020-01-01,135,687,0.80,16351.50,104986.13,0.84

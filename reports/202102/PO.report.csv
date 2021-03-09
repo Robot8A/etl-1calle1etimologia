@@ -1,4 +1,4 @@
-id,ES-PO,ES-GA,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 36001,ES-PO,ES-GA,Arbo,2021-02-13,372,406,0.08,57709.11,66395.04,0.13
 36002,ES-PO,ES-GA,Barro,2021-02-13,101,102,0.01,29670.26,29774.11,0.00
 36003,ES-PO,ES-GA,Baiona,2021-02-13,134,391,0.66,19877.60,59916.12,0.67

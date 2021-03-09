@@ -1,4 +1,4 @@
-id,ES-BA,ES-EX,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 06001,ES-BA,ES-EX,Acedera,2021-02-13,8,59,0.86,645.95,10497.87,0.94
 06002,ES-BA,ES-EX,Aceuchal,2021-02-13,29,149,0.81,6007.27,28077.42,0.79
 06003,ES-BA,ES-EX,Ahillones,2021-02-13,9,49,0.82,1006.27,7784.00,0.87

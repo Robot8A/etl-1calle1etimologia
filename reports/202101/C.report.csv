@@ -1,4 +1,4 @@
-id,ES-C,ES-GA,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 15001,ES-C,ES-GA,Abegondo,2021-01-01,146,156,0.06,30718.46,31383.40,0.02
 15002,ES-C,ES-GA,Ames,2021-01-01,335,490,0.32,46553.42,72417.96,0.36
 15003,ES-C,ES-GA,Aranga,2021-01-01,53,53,0.00,8768.42,8768.42,0.00

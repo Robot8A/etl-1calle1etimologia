@@ -1,4 +1,4 @@
-id,ES-L,ES-CT,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 25001,ES-L,ES-CT,Abella de la Conca,2021-02-13,5,16,0.69,66.32,1282.86,0.95
 25002,ES-L,ES-CT,Àger,2021-02-13,10,106,0.91,482.52,11720.38,0.96
 25003,ES-L,ES-CT,Agramunt,2021-02-13,46,255,0.82,2576.68,32942.44,0.92

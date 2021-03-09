@@ -1,4 +1,4 @@
-id,ES-AB,ES-CM,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 02001,ES-AB,ES-CM,Abengibre,2021-01-01,11,79,0.86,311.04,9092.71,0.97
 02002,ES-AB,ES-CM,Alatoz,2021-01-01,12,59,0.80,444.78,7476.44,0.94
 02003,ES-AB,ES-CM,Albacete,2021-01-01,416,2099,0.80,53620.77,345945.34,0.85

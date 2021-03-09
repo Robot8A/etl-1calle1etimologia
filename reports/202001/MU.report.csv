@@ -1,4 +1,4 @@
-id,ES-MU,ES-MC,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 30001,ES-MU,ES-MC,Abanilla,2020-01-01,137,371,0.63,22261.66,52274.67,0.57
 30002,ES-MU,ES-MC,Abarán,2020-01-01,70,247,0.72,8627.40,32376.47,0.73
 30003,ES-MU,ES-MC,Águilas,2020-01-01,437,945,0.54,65027.20,149138.87,0.56

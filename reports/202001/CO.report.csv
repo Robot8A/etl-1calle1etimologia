@@ -1,4 +1,4 @@
-id,ES-CO,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 14001,ES-CO,ES-AN,Adamuz,2020-01-01,15,134,0.89,1018.79,17592.78,0.94
 14002,ES-CO,ES-AN,Aguilar de la Frontera,2020-01-01,66,126,0.48,13371.04,28156.08,0.53
 14003,ES-CO,ES-AN,Alcaracejos,2020-01-01,9,71,0.87,1972.44,11096.93,0.82

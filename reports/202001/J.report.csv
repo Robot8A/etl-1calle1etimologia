@@ -1,4 +1,4 @@
-id,ES-J,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 23001,ES-J,ES-AN,Albanchez de Mágina,2020-01-01,20,82,0.76,3081.82,8990.24,0.66
 23002,ES-J,ES-AN,Alcalá la Real,2020-01-01,140,450,0.69,32761.42,85473.93,0.62
 23003,ES-J,ES-AN,Alcaudete,2020-01-01,67,229,0.71,8606.26,42349.46,0.80

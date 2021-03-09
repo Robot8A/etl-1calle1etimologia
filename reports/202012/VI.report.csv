@@ -1,3 +1,4 @@
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 01001,ES-VI,ES-PV,Alegría-Dulantzi,2020-12-01,5,114,0.96,325.49,13553.29,0.98
 01002,ES-VI,ES-PV,Amurrio,2020-12-01,5,224,0.98,76.68,38408.48,1.00
 01003,ES-VI,ES-PV,Aramaio,2020-12-01,3,52,0.94,77.60,5546.10,0.99

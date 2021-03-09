@@ -1,4 +1,4 @@
-id,ES-BU,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 09001,ES-BU,ES-CL,Abajas,2020-01-01,1,40,0.98,7.46,2506.00,1.00
 09003,ES-BU,ES-CL,Adrada de Haza,2020-01-01,9,21,0.57,547.80,2500.33,0.78
 09006,ES-BU,ES-CL,Aguas Cándidas,2020-01-01,20,23,0.13,1722.34,2096.34,0.18

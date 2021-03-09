@@ -1,4 +1,4 @@
-id,ES-T,ES-CT,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 43001,ES-T,ES-CT,Aiguamúrcia,2021-02-13,10,84,0.88,1332.26,17274.90,0.92
 43002,ES-T,ES-CT,Albinyana,2021-02-13,1,138,0.99,17.73,20792.55,1.00
 43003,ES-T,ES-CT,l'Albiol,2021-02-13,5,20,0.75,988.03,6189.43,0.84

@@ -1,4 +1,4 @@
-id,ES-B,ES-CT,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 08001,ES-B,ES-CT,Abrera,2021-01-01,12,303,0.96,842.62,61833.04,0.99
 08002,ES-B,ES-CT,Aguilar de Segarra,2021-01-01,0,5,1.00,0.00,570.85,1.00
 08003,ES-B,ES-CT,Alella,2021-01-01,7,293,0.98,324.53,55705.95,0.99

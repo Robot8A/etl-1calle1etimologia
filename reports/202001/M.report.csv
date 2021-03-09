@@ -1,4 +1,4 @@
-id,ES-M,ES-MD,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 28001,ES-M,ES-MD,La Acebeda,2020-01-01,6,13,0.54,240.00,896.41,0.73
 28002,ES-M,ES-MD,Ajalvir,2020-01-01,5,127,0.96,637.88,16672.31,0.96
 28003,ES-M,ES-MD,Alameda del Valle,2020-01-01,7,41,0.83,479.40,5242.64,0.91

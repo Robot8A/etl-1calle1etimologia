@@ -1,4 +1,4 @@
-id,ES-GR,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 18001,ES-GR,ES-AN,Agrón,2020-01-01,0,45,1.00,0.00,3972.85,1.00
 18002,ES-GR,ES-AN,Alamedilla,2020-01-01,0,83,1.00,0.00,7021.00,1.00
 18003,ES-GR,ES-AN,Albolote,2020-01-01,19,647,0.97,903.89,92628.41,0.99

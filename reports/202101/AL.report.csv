@@ -1,4 +1,4 @@
-id,ES-AL,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 04001,ES-AL,ES-AN,Abla,2021-01-01,26,149,0.83,875.14,10597.65,0.92
 04002,ES-AL,ES-AN,Abrucena,2021-01-01,7,96,0.93,307.15,8028.24,0.96
 04003,ES-AL,ES-AN,Adra,2021-01-01,35,648,0.95,3364.35,82878.30,0.96

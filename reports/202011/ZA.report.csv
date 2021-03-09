@@ -1,4 +1,4 @@
-id,ES-ZA,ES-CL,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 49002,ES-ZA,ES-CL,Abezames,2020-11-01,12,22,0.45,1284.49,2130.81,0.40
 49003,ES-ZA,ES-CL,Alcañices,2020-11-01,26,102,0.75,4177.30,13831.12,0.70
 49004,ES-ZA,ES-CL,Alcubilla de Nogales,2020-11-01,0,29,1.00,0.00,3168.14,1.00

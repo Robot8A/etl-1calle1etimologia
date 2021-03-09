@@ -1,4 +1,4 @@
-id,ES-V,ES-VC,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 46001,ES-V,ES-VC,Ademuz,2021-02-13,24,72,0.67,2668.79,7662.97,0.65
 46002,ES-V,ES-VC,Ador,2021-02-13,1,48,0.98,4.99,7930.50,1.00
 46003,ES-V,ES-VC,Atzeneta d'Albaida,2021-02-13,10,68,0.85,940.36,5996.97,0.84

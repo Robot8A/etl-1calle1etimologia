@@ -1,4 +1,4 @@
-id,ES-MA,ES-AN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 29001,ES-MA,ES-AN,Alameda,2020-11-01,35,124,0.72,3710.32,22229.72,0.83
 29002,ES-MA,ES-AN,Alcaucín,2020-11-01,48,118,0.59,10607.78,21514.41,0.51
 29003,ES-MA,ES-AN,Alfarnate,2020-11-01,9,71,0.87,4124.05,9737.84,0.58

@@ -1,4 +1,4 @@
-id,ES-CS,ES-VC,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 12001,ES-CS,ES-VC,Atzeneta del Maestrat,2021-02-13,4,91,0.96,208.67,8918.74,0.98
 12002,ES-CS,ES-VC,Aín,2021-02-13,1,35,0.97,15.97,1767.86,0.99
 12003,ES-CS,ES-VC,Albocàsser,2021-02-13,11,52,0.79,2836.45,7566.66,0.63

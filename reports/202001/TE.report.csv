@@ -1,4 +1,4 @@
-id,ES-TE,ES-AR,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 44001,ES-TE,ES-AR,Ababuj,2020-01-01,11,11,0.00,1412.00,1412.00,0.00
 44002,ES-TE,ES-AR,Abejuela,2020-01-01,6,17,0.65,430.73,1324.47,0.67
 44003,ES-TE,ES-AR,Aguatón,2020-01-01,7,7,0.00,889.80,889.80,0.00

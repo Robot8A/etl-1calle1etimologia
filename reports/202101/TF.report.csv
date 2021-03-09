@@ -1,4 +1,4 @@
-id,ES-TF,ES-CN,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
+id,prov,ccaa,name,date,incomplete,total,percentage,length_incomplete,length_total,length_percentage
 38049,ES-TF,ES-CN,Valle Gran Rey,2021-01-01,25,135,0.81,2695.59,18577.17,0.85
 38017,ES-TF,ES-CN,Granadilla de Abona,2021-01-01,325,1067,0.70,41077.52,159891.01,0.74
 38030,ES-TF,ES-CN,Puntallana,2021-01-01,56,85,0.34,7277.76,12995.65,0.44

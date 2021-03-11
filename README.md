@@ -27,7 +27,7 @@ $ bin/report cádiz SEVILLA M        # Informes para Cádiz, Sevilla y Madrid: c
 ```
 
 #### **bin/feature [-a|--admin _admin_level_] [-t|--tolerance _tolerance_] _location_**
-Generador de ficheros GeoJSON en la carpeta `features/<location>.<admin>.geojson`, donde `location` es el nombre del parámetro que hayamos puesto, y `admin`, el nivel administativo, que por defecto es __municipios__. Opcionalmente, se puede especificar el nivel de agrupación `--admin` y el detalle `--tolerance` de la feature generada.
+Generador de ficheros GeoJSON en la carpeta `features/<admin>/<location>.feature.geojson`, donde `location` es el nombre del parámetro que hayamos puesto, y `admin`, el nivel administativo, que por defecto es __municipios__. Opcionalmente, se puede especificar el nivel de agrupación `--admin` y el detalle `--tolerance` de la feature generada.
 
 Funciona de igual manera que `bin/report`: acepta un parámetro de entrada `location` para generar el informe específico de un sitio. Si se ejecuta sin parámetros el informe se crea para todo el país (`ES`). Este parámetro puede ser los dos digitos identificativos del código __ISO3166-2__ de la provincia/comunidad o su __nombre__, también acepta __ccaa__ y __prov__ como atajos para todas las comunidades y todas las provincias, respectivamente.
 
@@ -45,12 +45,13 @@ $ bin/feature -t 0.01 -a prov VA   # Divisiones provinciales para Valladolid con
 #### **bin/merge -r|--reports _csv_ -g|--feature _feature_ [-f|--format _format_] [-n|--name _name_]**
 Genera un fichero [TopoJSON](https://github.com/topojson/topojson-specification/blob/master/README.md) a partir de uno (o varios) CSV y el GeoJSON que se especifique. El archivo _1calle1nombre.json_ resultante se crea en la carpeta raíz del proyecto. Este comando utiliza _node_ para ejecutar la herramienta [mapshaper](https://mapshaper.org/).
 
-Los parámetros `-r`, también se puede escribir `--reports`, y `-f`, o `--feature` en su versión larga, son obligatorios; donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos para indicar más de un elemento, envolviendo el argumento entre comillas) y `feature` la ruta del GeoJSON en concreto. El parámetro `-f` o `--format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson). Por último, el parámetro opcional `-n` o `--name` para cambiar el nombre al archivo resultante, que por defecto es _1calle1nombre.json_
+Los parámetros `-r`, también se puede escribir `--reports`, y `-f`, o `--feature` en su versión larga, son obligatorios; donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos, --_globbing_-- para indicar más de un elemento, envolviendo el argumento entre comillas; o bien, pasarle una expresión) y `feature` la ruta del GeoJSON en concreto. El parámetro `-f` o `--format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson). Por último, el parámetro opcional `-n` o `--name` para cambiar el nombre al archivo resultante, que por defecto es _1calle1nombre.json_
 
 ```sh
 $ bin/merge -r reports/202001/CL.csv -g features/CL.geojson       # Output en TopoJSON
-$ bin/merge -r "reports/*/GL.csv" -g features/GL.geojson -f geojson  # Output en GeoJSON con datos de todos los csv
-$ bin/merge -r "reports/*/GL.csv" -g features/GL.geojson -n GL.json  # Fichero resultante GL.json en formato TopoJSON
+$ bin/merge -r "reports/*/GL.csv" -g features/municipios/GL.geojson -f geojson  # Output en GeoJSON con datos de todos los csv
+$ bin/merge -r "reports/*/GL.csv" -g features/municipios/GL.geojson -n GL.json  # Fichero resultante GL.json en formato TopoJSON
+$ bin/merge -r $(grep -lnrw reports -e "ES-EX") -g features/municipios/EX.geojson  # Obtiene todos los CSV que contienen el identificador ES-EX, de Extremadura
 ```
 La unión de archivos se produce a través del campo `id` presente tanto en los _reports_ como las _features_, correspondiente al código INE del municipio. Por tanto, aplicar unos csv a un geojson de una región diferente, no producirá el resultado esperado.
 

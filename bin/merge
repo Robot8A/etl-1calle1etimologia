@@ -2,7 +2,7 @@
 
 usage() {
   [[ -n $1 ]] && echo "$1"
-  
+
   cat <<-EOF | column -s"~" -t
   ~
   Modo de empleo:
@@ -73,7 +73,7 @@ rm --force "${tmpfile}"
 awk '(NR == 1) || (FNR > 1)' "${reports[@]}" > "${tmpfile}"
 
 # run mapshaper transforming the data
-npx mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format="${format}" "${name}"
+npx -q mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name calc='tmp = collect({ [date]: percentage }), values = (tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {}), delete tmp' -o format="${format}" "${name}"
 
 rm --force "${tmpfile}"
 

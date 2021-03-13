@@ -80,12 +80,12 @@ WITH municipios AS (
       streets.way
       , municipios.way
     )
-  INNER JOIN prov ON
+  LEFT JOIN prov ON
     st_within(
       municipios.way
       , prov.way
     )
-  INNER JOIN ccaa ON
+  LEFT JOIN ccaa ON
     st_within(
       municipios.way
       , ccaa.way

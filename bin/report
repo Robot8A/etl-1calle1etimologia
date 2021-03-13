@@ -1,11 +1,25 @@
 #!/bin/bash
 
+date=$(date +%Y%m)
+
+while true
+do
+  case $1 in
+    -d|--date)
+        date=($2)
+        shift 2
+        ;;
+    *)
+        break
+  esac
+done
+
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
 # defaults
 file="${__root}/config/1calle1nombre.sql"
-output="${__root}/reports/$(date +%Y%m)/report.csv"
+output="${__root}/reports/${date}/report.csv"
 
 # execute the runner with a preset of parameters
 "$(dirname "$0")"/runner "--csv|--file=${file}" "${output}" "$@"

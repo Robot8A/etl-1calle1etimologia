@@ -22,6 +22,6 @@ file="${__root}/config/1calle1nombre.sql"
 output="${__root}/reports/${date}/report.csv"
 
 # execute the runner with a preset of parameters
-"$(dirname "$0")"/runner "--csv|--file=${file}" "${output}" "$@"
+"$(dirname "$0")"/runner "--csv|--pset=csv_fieldsep=;|--file=${file}" "${output}" "$@"
 
 exit $?;

@@ -8,6 +8,6 @@ file="${__root}/config/mapfile.sql"
 output="${__root}/mapfiles/mapfile.csv"
 
 # execute the runner with a preset of parameters
-"$(dirname "$0")"/runner "--csv|--file=${file}" "${output}" "$@"
+"$(dirname "$0")"/runner "--csv|--pset=csv_fieldsep=;|--file=${file}" "${output}" "$@"
 
 exit $?;

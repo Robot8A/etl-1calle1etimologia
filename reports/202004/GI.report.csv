@@ -171,7 +171,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 17184;ES-GI;ES-CT;Santa Pau;2020-04-01;20;83;0.76;600.32;7538.16;0.92
 17185;ES-GI;ES-CT;Sant Joan les Fonts;2020-04-01;10;168;0.94;654.87;23858.03;0.97
 17186;ES-GI;ES-CT;Sarrià de Ter;2020-04-01;6;203;0.97;212.65;21563.75;0.99
-17187;ES-GI;ES-CT;Saus, Camallera i Llampaies;2020-04-01;2;89;0.98;10.16;11799.23;1.00
+17187;ES-GI;ES-CT;Saus; Camallera i Llampaies;2020-04-01;2;89;0.98;10.16;11799.23;1.00
 17188;ES-GI;ES-CT;la Selva de Mar;2020-04-01;0;37;1.00;0.00;2888.87;1.00
 17189;ES-GI;ES-CT;la Cellera de Ter;2020-04-01;0;108;1.00;0.00;12113.26;1.00
 17190;ES-GI;ES-CT;Serinyà;2020-04-01;4;93;0.96;67.79;7049.15;0.99
@@ -216,7 +216,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 17232;ES-GI;ES-CT;Vilopriu;2020-04-01;0;33;1.00;0.00;4350.94;1.00
 17233;ES-GI;ES-CT;Vilobí d'Onyar;2020-04-01;3;110;0.97;155.97;20190.94;0.99
 17234;ES-GI;ES-CT;Biure;2020-04-01;0;30;1.00;0.00;2401.69;1.00
-17901;ES-GI;ES-CT;Cruïlles, Monells i Sant Sadurní de l'Heura;2020-04-01;13;96;0.86;344.00;9807.07;0.96
+17901;ES-GI;ES-CT;Cruïlles; Monells i Sant Sadurní de l'Heura;2020-04-01;13;96;0.86;344.00;9807.07;0.96
 17902;ES-GI;ES-CT;Forallac;2020-04-01;1;98;0.99;13.95;14653.54;1.00
 17903;ES-GI;ES-CT;Sant Julià del Llor i Bonmatí;2020-04-01;0;62;1.00;0.00;8016.12;1.00
 -5245866;ES-GI;ES-CT;Medinyà;2020-04-01;0;40;1.00;0.00;6353.88;1.00

@@ -171,7 +171,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 17184;ES-GI;ES-CT;Santa Pau;2018-11-01;17;68;0.75;973.90;7381.25;0.87
 17185;ES-GI;ES-CT;Sant Joan les Fonts;2018-11-01;57;169;0.66;6575.22;23916.13;0.73
 17186;ES-GI;ES-CT;Sarrià de Ter;2018-11-01;9;199;0.95;438.05;21398.58;0.98
-17187;ES-GI;ES-CT;Saus, Camallera i Llampaies;2018-11-01;5;86;0.94;121.68;11798.30;0.99
+17187;ES-GI;ES-CT;"Saus, Camallera i Llampaies";2018-11-01;5;86;0.94;121.68;11798.30;0.99
 17188;ES-GI;ES-CT;la Selva de Mar;2018-11-01;1;33;0.97;9.03;2888.87;1.00
 17189;ES-GI;ES-CT;la Cellera de Ter;2018-11-01;0;108;1.00;0.00;12098.48;1.00
 17190;ES-GI;ES-CT;Serinyà;2018-11-01;12;69;0.83;810.86;7606.69;0.89
@@ -216,7 +216,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 17232;ES-GI;ES-CT;Vilopriu;2018-11-01;0;33;1.00;0.00;4350.94;1.00
 17233;ES-GI;ES-CT;Vilobí d'Onyar;2018-11-01;17;109;0.84;2939.80;21765.33;0.86
 17234;ES-GI;ES-CT;Biure;2018-11-01;0;30;1.00;0.00;2401.69;1.00
-17901;ES-GI;ES-CT;Cruïlles, Monells i Sant Sadurní de l'Heura;2018-11-01;57;91;0.37;4656.93;10265.54;0.55
+17901;ES-GI;ES-CT;"Cruïlles, Monells i Sant Sadurní de l'Heura";2018-11-01;57;91;0.37;4656.93;10265.54;0.55
 17902;ES-GI;ES-CT;Forallac;2018-11-01;51;87;0.41;8055.06;16941.29;0.52
 17903;ES-GI;ES-CT;Sant Julià del Llor i Bonmatí;2018-11-01;0;55;1.00;0.00;7765.12;1.00
 -5245866;ES-GI;ES-CT;Medinyà;2018-11-01;7;39;0.82;1143.56;6423.98;0.82

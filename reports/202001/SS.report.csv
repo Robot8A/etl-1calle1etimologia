@@ -34,6 +34,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 20033;ES-SS;ES-PV;Elgeta;2020-01-01;31;44;0.30;3942.38;5658.52;0.30
 20034;ES-SS;ES-PV;Eskoriatza;2020-01-01;27;67;0.60;2007.86;7497.47;0.73
 20035;ES-SS;ES-PV;Ezkio;2020-01-01;9;29;0.69;616.07;2921.82;0.79
+20035;ES-SS;ES-PV;Ezkio-Itsaso;2020-01-01;0;7;1.00;0.00;532.76;1.00
 20036;ES-SS;ES-PV;Hondarribia/Fontarrabie;2020-01-01;113;254;0.56;17673.86;36633.30;0.52
 20037;ES-SS;ES-PV;Gaintza;2020-01-01;0;1;1.00;0.00;92.63;1.00
 20038;ES-SS;ES-PV;Gabiria;2020-01-01;3;18;0.83;153.99;1417.88;0.89
@@ -90,4 +91,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 -2854004;ES-SS;ES-PV;Enirio-Aralarko Mankomunitatea;2020-01-01;0;0;1;0.00;0.00;1
 -2854005;ES-SS;ES-PV;Parzonería Menor de Guipúzcoa/Gipuzkoako Partzuergo Txikia;2020-01-01;0;0;1;0.00;0.00;1
 -340988;ES-SS;ES-PV;Gipuzkoa eta Arabako Partzuergo Orokorra;2020-01-01;0;0;1;0.00;0.00;1
-20035;ES-SS;ES-PV;Ezkio-Itsaso;2020-01-01;0;7;1.00;0.00;532.76;1.00

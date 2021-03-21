@@ -1,4 +1,5 @@
 id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
+-340042;ES-S;ES-CB;Campoo-Cabuérniga;2021-01-01;0;0;1;0.00;0.00;1
 39001;ES-S;ES-CB;Alfoz de Lloredo;2021-01-01;39;284;0.86;4626.41;42523.23;0.89
 39002;ES-S;ES-CB;Ampuero;2021-01-01;59;82;0.28;10491.99;15244.82;0.31
 39003;ES-S;ES-CB;Anievas;2021-01-01;0;93;1.00;0.00;7591.52;1.00
@@ -101,4 +102,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 39100;ES-S;ES-CB;Villafufre;2021-01-01;36;79;0.54;7558.15;15840.63;0.52
 39101;ES-S;ES-CB;Valle de Villaverde;2021-01-01;23;29;0.21;4224.95;5890.89;0.28
 39102;ES-S;ES-CB;Voto;2021-01-01;62;125;0.50;12282.44;22671.08;0.46
--340042;ES-S;ES-CB;Campoo-Cabuérniga;2021-01-01;0;0;1;0.00;0.00;1

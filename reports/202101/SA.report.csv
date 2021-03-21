@@ -1,4 +1,5 @@
 id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
+-10977404;ES-SA;ES-CL;Coto Mancomunado;2021-01-01;0;0;1;0.00;0.00;1
 37001;ES-SA;ES-CL;Abusejo;2021-01-01;0;58;1.00;0.00;6367.00;1.00
 37002;ES-SA;ES-CL;Agallas;2021-01-01;0;74;1.00;0.00;4867.26;1.00
 37003;ES-SA;ES-CL;Ahigal de los Aceiteros;2021-01-01;0;33;1.00;0.00;3410.20;1.00
@@ -361,4 +362,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 37380;ES-SA;ES-CL;Zarapicos;2021-01-01;0;19;1.00;0.00;1302.85;1.00
 37381;ES-SA;ES-CL;La Zarza de Pumareda;2021-01-01;0;47;1.00;0.00;3926.74;1.00
 37382;ES-SA;ES-CL;Zorita de la Frontera;2021-01-01;0;40;1.00;0.00;4244.41;1.00
--10977404;ES-SA;ES-CL;Coto Mancomunado;2021-01-01;0;0;1;0.00;0.00;1

@@ -59,6 +59,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 25062;ES-L;ES-CT;Camarasa;2021-02-13;18;126;0.86;592.25;9715.51;0.94
 25063;ES-L;ES-CT;Canejan;2021-02-13;2;18;0.89;47.59;951.36;0.95
 25064;ES-L;ES-CT;Castellar de la Ribera;2021-02-13;0;2;1.00;0.00;320.63;1.00
+25067;ES-L;ES-CT;Castelldans;2021-02-13;10;47;0.79;639.54;5308.94;0.88
 25068;ES-L;ES-CT;Castellnou de Seana;2021-02-13;17;43;0.60;836.79;5169.70;0.84
 25069;ES-L;ES-CT;Castelló de Farfanya;2021-02-13;0;64;1.00;0.00;5056.76;1.00
 25070;ES-L;ES-CT;Castellserà;2021-02-13;0;64;1.00;0.00;8000.80;1.00
@@ -229,4 +230,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 25911;ES-L;ES-CT;els Plans de Sió;2021-02-13;25;146;0.83;1492.73;9506.42;0.84
 25912;ES-L;ES-CT;Gimenells i el Pla de la Font;2021-02-13;1;59;0.98;35.98;11162.38;1.00
 25913;ES-L;ES-CT;Riu de Cerdanya;2021-02-13;0;21;1.00;0.00;1425.85;1.00
-25067;ES-L;ES-CT;Castelldans;2021-02-13;10;47;0.79;639.54;5308.94;0.88

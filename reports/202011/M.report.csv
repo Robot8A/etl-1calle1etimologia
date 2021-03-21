@@ -1,4 +1,6 @@
 id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
+-10973818;ES-M;ES-MD;El Redegüelo;2020-11-01;0;0;1;0.00;0.00;1
+-10973901;ES-M;ES-MD;Los Baldíos;2020-11-01;0;9;1.00;0.00;1961.27;1.00
 28001;ES-M;ES-MD;La Acebeda;2020-11-01;6;13;0.54;241.09;912.06;0.74
 28002;ES-M;ES-MD;Ajalvir;2020-11-01;4;126;0.97;242.94;16277.37;0.99
 28003;ES-M;ES-MD;Alameda del Valle;2020-11-01;8;42;0.81;698.63;5461.88;0.87
@@ -178,5 +180,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 28901;ES-M;ES-MD;Lozoyuela-Navas-Sieteiglesias;2020-11-01;47;146;0.68;3193.03;15957.15;0.80
 28902;ES-M;ES-MD;Puentes Viejas;2020-11-01;61;138;0.56;6220.31;15315.69;0.59
 28903;ES-M;ES-MD;Tres Cantos;2020-11-01;72;822;0.91;6552.43;144734.79;0.95
--10973818;ES-M;ES-MD;El Redegüelo;2020-11-01;0;0;1;0.00;0.00;1
--10973901;ES-M;ES-MD;Los Baldíos;2020-11-01;0;9;1.00;0.00;1961.27;1.00

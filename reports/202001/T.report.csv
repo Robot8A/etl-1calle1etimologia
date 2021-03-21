@@ -143,6 +143,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 43143;ES-T;ES-CT;Savallà del Comtat;2020-01-01;7;34;0.79;129.59;2118.96;0.94
 43144;ES-T;ES-CT;la Secuita;2020-01-01;6;109;0.94;178.77;14282.71;0.99
 43145;ES-T;ES-CT;la Selva del Camp;2020-01-01;13;134;0.90;1119.49;17318.39;0.94
+43146;ES-T;ES-CT;Senan;2020-01-01;5;8;0.38;186.99;600.62;0.69
 43147;ES-T;ES-CT;Solivella;2020-01-01;1;56;0.98;270.17;4711.42;0.94
 43148;ES-T;ES-CT;Tarragona;2020-01-01;185;1911;0.90;6599.72;251403.76;0.97
 43149;ES-T;ES-CT;Tivenys;2020-01-01;0;61;1.00;0.00;4582.74;1.00
@@ -158,6 +159,7 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 43159;ES-T;ES-CT;Vallfogona de Riucorb;2020-01-01;0;37;1.00;0.00;1964.86;1.00
 43160;ES-T;ES-CT;Vallmoll;2020-01-01;37;73;0.49;6498.67;12590.93;0.48
 43161;ES-T;ES-CT;Valls;2020-01-01;35;622;0.94;3383.42;85771.42;0.96
+43162;ES-T;ES-CT;Vandellòs i l'Hospitalet de l'Infant;2020-01-01;15;411;0.96;1946.34;58416.79;0.97
 43163;ES-T;ES-CT;el Vendrell;2020-01-01;24;1258;0.98;1376.06;201352.64;0.99
 43164;ES-T;ES-CT;Vespella de Gaià;2020-01-01;1;28;0.96;26.73;7804.37;1.00
 43165;ES-T;ES-CT;Vilabella;2020-01-01;0;47;1.00;0.00;5409.20;1.00
@@ -181,5 +183,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 43905;ES-T;ES-CT;Salou;2020-01-01;135;564;0.76;15937.54;95501.56;0.83
 43906;ES-T;ES-CT;l'Ampolla;2020-01-01;9;280;0.97;556.83;38392.42;0.99
 43907;ES-T;ES-CT;la Canonja;2020-01-01;12;114;0.89;671.56;13603.28;0.95
-43162;ES-T;ES-CT;Vandellòs i l'Hospitalet de l'Infant;2020-01-01;15;411;0.96;1946.34;58416.79;0.97
-43146;ES-T;ES-CT;Senan;2020-01-01;5;8;0.38;186.99;600.62;0.69

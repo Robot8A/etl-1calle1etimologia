@@ -2,21 +2,24 @@
 
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
+output="${__root}/${1:-full-spain-latest.osm.pbf}"
 
-# remove previous dumps, if any
-rm --force "${__root}"/*-latest.osm.pbf
+if [[ -z $1 ]]; then
+  # remove previous dumps, if any
+  rm --force "${__root}"/*-latest.osm.pbf
 
-# fetch the latest dumps
-echo "Descargando spain-latest.osm.pbf"
-curl --progress-bar --remote-name https://download.geofabrik.de/europe/spain-latest.osm.pbf
-echo "Descargando canary-islands-latest.osm.pbf"
-curl --progress-bar --remote-name https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf
+  # fetch the latest dumps
+  echo "Descargando spain-latest.osm.pbf"
+  curl --progress-bar --remote-name https://download.geofabrik.de/europe/spain-latest.osm.pbf
+  echo "Descargando canary-islands-latest.osm.pbf"
+  curl --progress-bar --remote-name https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf
 
-# combine both dumps into a single one
-echo "Combinando ambas descargas en full-spain-latest.osm.pbf"
-osmium merge --progress "${__root}"/*.pbf --output "${__root}/full-spain-latest.osm.pbf"
+  # combine both dumps into a single one
+  echo "Combinando ambas descargas en full-spain-latest.osm.pbf"
+  osmium merge --progress "${__root}"/*.pbf --output "${output}"
+fi
 
 # load the dumps into osm database
-osm2pgsql --create --slim --cache=4096 --multi-geometry --proj=4326 --database=osm --username="$(whoami)" --style="${__root}/config/1calle1nombre.style" "${__root}/full-spain-latest.osm.pbf"
+osm2pgsql --create --slim --cache=4096 --multi-geometry --proj=4326 --database=osm --username="$(whoami)" --style="${__root}/config/1calle1nombre.style" "${output}"
 
 exit $?;

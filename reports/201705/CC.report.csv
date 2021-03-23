@@ -1,4 +1,4 @@
-id;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
+id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
 10001;ES-CC;ES-EX;Abadía;2017-05-01;3;46;0.93;308.53;3983.74;0.92
 10002;ES-CC;ES-EX;Abertura;2017-05-01;8;97;0.92;744.64;7361.40;0.90
 10003;ES-CC;ES-EX;Acebo;2017-05-01;10;87;0.89;457.97;6719.90;0.93

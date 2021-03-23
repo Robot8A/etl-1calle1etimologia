@@ -1,4 +1,4 @@
-mkdir: se ha creado el directorio 'junk'
+id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
 10001;ES-CC;ES-EX;Abadía;2018-08-01;3;46;0.93;308.53;3983.74;0.92
 10002;ES-CC;ES-EX;Abertura;2018-08-01;7;93;0.92;606.09;6321.90;0.90
 10003;ES-CC;ES-EX;Acebo;2018-08-01;6;88;0.93;306.20;6702.37;0.95
@@ -217,4 +217,4 @@ mkdir: se ha creado el directorio 'junk'
 10903;ES-CC;ES-EX;Alagón del Río;2018-08-01;3;32;0.91;484.13;7686.22;0.94
 10904;ES-CC;ES-EX;Tiétar;2018-08-01;25;25;0;5859.34;5859.34;0
 10905;ES-CC;ES-EX;Pueblonuevo de Miramontes;2018-08-01;24;24;0;6406.02;6406.02;0
-id;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage
+id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage

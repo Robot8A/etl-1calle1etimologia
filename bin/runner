@@ -40,7 +40,11 @@ do
 
   # run psql with the corresponding variables
   if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" --output="${output}" "${opts[@]}" 2>> "${err}"; then
-    echo -ne "[  \033[0;32mOK\033[0m  ]\t"
+    if [ $(wc -l ${output} | cut -d ' ' -f 1) -gt 1 ]; then
+      echo -ne "[  \033[0;32mOK\033[0m  ]\t"
+    else
+      echo -ne "[  \033[0;33mwarn\033[0m  ]\t"
+    fi
   else
     echo -ne "[ \033[0;31merror\033[0m ]\t"
   fi

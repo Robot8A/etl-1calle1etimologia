@@ -36,16 +36,16 @@ function sum_reports() {
 if "${__root}/bin/updatedb"; then
   # create a new csv report
   if "${__root}/bin/report" prov; then
-    git add "${__root}/reports/$(date +%Y%m)"
-    git commit -a -m "reports $(date +%Y%m)"
-    git push
+    #~ git add "${__root}/reports/$(date +%Y%m)"
+    #~ git commit -a -m "reports $(date +%Y%m)"
+    #~ git push
     # create the topojson files with all the reports found
     generate_reports ${output}
-  elif
+  else
     echo "Error en report"
     exit 1;
   fi
-elif
+else
   echo "Error en updatedb"
   exit 1;
 fi

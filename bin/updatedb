@@ -2,20 +2,21 @@
 
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
-output="${__root}/${1:-full-spain-latest.osm.pbf}"
+output="${__root}/${1:-full-spain-$(date +%y%m)01.osm.pbf}"
 
+# if no arguments, download the new dumps
 if [[ -z $1 ]]; then
   # remove previous dumps, if any
-  rm --force "${__root}"/*-latest.osm.pbf
+  rm --force "${__root}"/*.osm.pbf
 
-  # fetch the latest dumps
-  echo "Descargando spain-latest.osm.pbf"
-  curl --progress-bar --remote-name https://download.geofabrik.de/europe/spain-latest.osm.pbf
-  echo "Descargando canary-islands-latest.osm.pbf"
-  curl --progress-bar --remote-name https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf
+  # fetch the dumps
+  echo "Descargando spain-$(date +%y%m)01.osm.pbf"
+  curl --progress-bar --remote-name "https://download.geofabrik.de/europe/spain-$(date +%y%m)01.osm.pbf"
+  echo "Descargando canary-islands-$(date +%y%m)01.osm.pbf"
+  curl --progress-bar --remote-name "https://download.geofabrik.de/africa/canary-islands-$(date +%y%m)01.osm.pbf"
 
   # combine both dumps into a single one
-  echo "Combinando ambas descargas en full-spain-latest.osm.pbf"
+  echo "Combinando ambas descargas en ${output}"
   osmium merge --progress "${__root}"/*.pbf --output "${output}"
 fi
 

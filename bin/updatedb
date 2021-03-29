@@ -4,7 +4,7 @@
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 output="${__root}/${1:-full-spain-$(date +%y%m)01.osm.pbf}"
 
-# if no arguments, download the new dumps
+# if no arguments, download the new dumps, otherwise, load that dump
 if [[ -z $1 ]]; then
   # remove previous dumps, if any
   rm --force "${__root}"/*.osm.pbf

@@ -11,6 +11,9 @@ La fuente original de datos es https://download.geofabrik.de/europe/spain.html y
 ## Herramientas
 Ejecutar los distintos comandos desde el directorio raíz.
 
+#### **bin/main**
+Programa de conveniencia para simplificar el proceso de generación de archivos mensuales. Primero ejecuta `bin/updatedb` para traerse los datos, luego `bin/report` para crear los CSV del mes actual para cada provincia. Y por último, genera en el directorio actual, un fichero _topojson_ por cada comunidad autónoma, usando `bin/merge`, uniendo todos los CSV que pertenezcan a ella. Asimismo, se crea otro fichero _topojson_ adicional, en el que se agrupan todos los resultados agregados por comunidad autónoma.
+
 #### **bin/updatedb**
 Encargado de descargarse los datos de Geofabrik y ejecutar _osm2pgsql_. Por defecto la base de datos es `osm` y el usuario con el que se ejecuta es el nombre de tu propio usuario.
 

@@ -10,10 +10,10 @@ function generate_reports() {
 #  for i in AN AR AS CB CE CL CM CN CT EX GA IB MC MD ML NC PV RI VC; do
 # sin ceuta y melilla
   for i in AN AR AS CB CL CM CN CT EX GA IB MC MD NC PV RI VC; do
-    ${__root}/bin/merge -r "$(grep -lnrw ${__root}/reports -e ES-$i)" -g "${__root}/features/municipios/$i.feature.geojson" -n "$1/$i.topo.json";
+    ${__root}/bin/merge --reports "$(grep -lnrw ${__root}/reports -e ES-$i)" --feature "${__root}/features/municipios/$i.feature.geojson" --name "$1/$i.topo.json";
     sum_reports $i > ${__root}/$i.agg
   done
-  ${__root}/bin/merge -r "${__root}/*.agg" -g "${__root}/features/ccaa/ES.feature.geojson" -n "$1/ES.topo.json";
+  ${__root}/bin/merge --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.topo.json";
   rm --force ${__root}/*.agg
 }
 
@@ -27,7 +27,7 @@ function sum_reports() {
   LANG=en_US.UTF-8;
 
   echo "id;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage"
-  grep -hrw ${__root} -e ${pattern} | awk -F";" -v group=${pattern} 'FNR>1{ a[$5]+=$6; b[$5]+=$7; c[$5]+=$9; d[$5]+=$10 } END {for (i in a) { print group, i, a[i], b[i], b[i] != 0 ? 1 - (a[i]/b[i]) : 1, c[i], d[i], d[i] != 0 ? 1 - (c[i]/d[i]) : 1 }}' OFS=";" OFMT="%.2f" | sort -k2 -h
+  grep --no-filename --recursive --word-regexp ${__root} --regexp ${pattern} | awk -F";" -v group=${pattern} 'FNR>1{ a[$5]+=$6; b[$5]+=$7; c[$5]+=$9; d[$5]+=$10 } END {for (i in a) { print group, i, a[i], b[i], b[i] != 0 ? 1 - (a[i]/b[i]) : 1, c[i], d[i], d[i] != 0 ? 1 - (c[i]/d[i]) : 1 }}' OFS=";" OFMT="%.2f" | sort --key 2 --human-numeric-sort
 
   LANG=$initlang;
 }

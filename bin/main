@@ -10,26 +10,26 @@ function generate_reports() {
 #  for i in AN AR AS CB CE CL CM CN CT EX GA IB MC MD ML NC PV RI VC; do
 # sin ceuta y melilla
   for i in AN AR AS CB CL CM CN CT EX GA IB MC MD NC PV RI VC; do
-    ${__root}/bin/merge --reports "$(grep -lnrw ${__root}/reports -e ES-$i)" --feature "${__root}/features/municipios/$i.feature.geojson" --name "$1/$i.topo.json";
-    sum_reports $i > ${__root}/$i.agg
+    "${__root}/bin/merge" --reports "$(grep -lnrw "${__root}/reports" -e ES-"${i}")" --feature "${__root}/features/municipios/${i}.feature.geojson" --name "$1/${i}.topo.json";
+    sum_reports "${i}" > "${__root}/${i}.agg"
   done
-  ${__root}/bin/merge --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.topo.json";
-  rm --force ${__root}/*.agg
+  "${__root}/bin/merge" --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.topo.json";
+  rm --force "${__root}/*.agg"
 }
 
 # suma todas las filas que matcheen el parámetro
 function sum_reports() {
   [[ $# -eq 0 ]] && ( echo "Falta argumento"; return 1; )
 
-  local initlang=$(echo $LANG)
+  local initlang="${LANG}"
   local pattern="ES-$1"
 
   LANG=en_US.UTF-8;
 
   echo "id;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage"
-  grep --no-filename --recursive --word-regexp ${__root} --regexp ${pattern} | awk -F";" -v group=${pattern} 'FNR>1{ a[$5]+=$6; b[$5]+=$7; c[$5]+=$9; d[$5]+=$10 } END {for (i in a) { print group, i, a[i], b[i], b[i] != 0 ? 1 - (a[i]/b[i]) : 1, c[i], d[i], d[i] != 0 ? 1 - (c[i]/d[i]) : 1 }}' OFS=";" OFMT="%.2f" | sort --key 2 --human-numeric-sort
+  grep --no-filename --recursive --word-regexp "${__root}" --regexp "${pattern}" | awk -F";" -v group="${pattern}" 'FNR>1{ a[$5]+=$6; b[$5]+=$7; c[$5]+=$9; d[$5]+=$10 } END {for (i in a) { print group, i, a[i], b[i], b[i] != 0 ? 1 - (a[i]/b[i]) : 1, c[i], d[i], d[i] != 0 ? 1 - (c[i]/d[i]) : 1 }}' OFS=";" OFMT="%.2f" | sort --key 2 --human-numeric-sort
 
-  LANG=$initlang;
+  LANG="${initlang}";
 }
 
 # update the databases
@@ -40,7 +40,7 @@ if "${__root}/bin/updatedb"; then
     #~ git commit -a -m "reports $(date +%Y%m)"
     #~ git push
     # create the topojson files with all the reports found
-    generate_reports ${output}
+    generate_reports "${output}"
   else
     echo "Error en report"
     exit 1;

@@ -33,13 +33,22 @@ function sum_reports() {
 }
 
 # update the databases
+echo
+echo "Actualizando la base de datos"
+echo
 if "${__root}/bin/updatedb"; then
   # create a new csv report
+  echo
+  echo "Generando informes CSV"
+  echo
   if "${__root}/bin/report" prov; then
     #~ git add "${__root}/reports/$(date +%Y%m)"
     #~ git commit -a -m "reports $(date +%Y%m)"
     #~ git push
     # create the topojson files with all the reports found
+    echo
+    echo "Creando ficheros topojson"
+    echo
     generate_reports "${output}"
   else
     echo "Error en report"

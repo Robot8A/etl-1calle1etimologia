@@ -14,13 +14,18 @@ if [[ -z $1 ]]; then
 
   # fetch the dumps
   echo "Descargando spain-$(date +%y%m)01.osm.pbf"
-  curl --progress-bar --remote-name "https://download.geofabrik.de/europe/spain-$(date +%y%m)01.osm.pbf"
-  echo "Descargando canary-islands-$(date +%y%m)01.osm.pbf"
-  curl --progress-bar --remote-name "https://download.geofabrik.de/africa/canary-islands-$(date +%y%m)01.osm.pbf"
-
-  # combine both dumps into a single one
-  echo "Combinando ambas descargas en ${output}"
-  osmium merge --progress "${__root}"/*.pbf --output "${output}"
+  if curl --fail --progress-bar --remote-name "https://download.geofabrik.de/europe/spain-$(date +%y%m)01.osm.pbf"; then
+    echo "Descargando canary-islands-$(date +%y%m)01.osm.pbf"
+    if curl --fail --progress-bar --remote-name "https://download.geofabrik.de/africa/canary-islands-$(date +%y%m)01.osm.pbf"; then
+      # combine both dumps into a single one
+      echo "Combinando ambas descargas en ${output}"
+      osmium merge --progress "${__root}"/*.pbf --output "${output}"
+    else
+      exit 1;
+    fi
+  else
+    exit 1;
+  fi
 fi
 
 # load the dumps into osm database

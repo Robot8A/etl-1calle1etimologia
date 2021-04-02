@@ -6,7 +6,13 @@ La fuente original de datos es https://download.geofabrik.de/europe/spain.html y
 
 - [osmium-tool](https://osmcode.org/osmium-tool/) unirá en un solo fichero _.pbf_ los datos descargados de Geofabrik (_spain_ + _canary-islands_)
 - [osm2pgsql](https://osm2pgsql.org/doc/install.html) insertará el _.pbf_ del paso anterior en la base de datos. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada, con su correspondiente extensión [PostGIS](https://postgis.net/).
-- [nodejs](https://nodejs.org/en/) (opcional, solo para _merge_) utilizará la herramienta `npx` para ejecutar [mapshaper](https://github.com/mbloch/mapshaper) que es quién unirá en un fichero geográfico (topojson) los datos CSV con los GeoJSON. 
+- [nodejs](https://nodejs.org/en/) (opcional, solo para _merge_) utilizará la herramienta `npx` para ejecutar [mapshaper](https://github.com/mbloch/mapshaper) que es quién unirá en un fichero geográfico (topojson) los datos CSV con los GeoJSON.
+
+## Docker
+Se puede levantar el entorno utilizando docker con dos pasos, primero contruye la imagen y después arranca el contenedor:
+```
+$ docker build -t ${PWD##*/} . && docker run -it ${PWD##*/}
+```
 
 ## Herramientas
 Ejecutar los distintos comandos desde el directorio raíz.

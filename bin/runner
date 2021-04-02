@@ -43,7 +43,7 @@ do
     if [ $(wc -l ${output} | cut -d ' ' -f 1) -gt 1 ]; then
       echo -ne "[  \033[0;32mOK\033[0m  ]\t"
     else
-      echo -ne "[  \033[0;33mwarn\033[0m  ]\t"
+      echo -ne "[ \033[0;33mwarn\033[0m ]\t"
     fi
   else
     echo -ne "[ \033[0;31merror\033[0m ]\t"

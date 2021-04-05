@@ -9,7 +9,7 @@ La fuente original de datos es https://download.geofabrik.de/europe/spain.html y
 - [nodejs](https://nodejs.org/en/) (opcional, solo para _merge_) utilizará la herramienta `npx` para ejecutar [mapshaper](https://github.com/mbloch/mapshaper) que es quién unirá en un fichero geográfico (topojson) los datos CSV con los GeoJSON.
 
 ## Docker
-Se puede levantar el entorno utilizando docker con dos pasos, primero contruye la imagen y después arranca el contenedor:
+Se puede levantar el entorno mediante _docker_ en dos pasos, primero construye la imagen y después arranca el contenedor:
 ```
 $ docker build -t ${PWD##*/} . && docker run -it ${PWD##*/}
 ```

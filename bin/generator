@@ -13,8 +13,9 @@ function generate_reports() {
     "${__root}/bin/merge" --reports "$(grep -lnrw "${__root}/reports" -e ES-"${i}")" --feature "${__root}/features/municipios/${i}.feature.geojson" --name "$1/${i}.topo.json";
     sum_reports "${i}" > "${__root}/${i}.agg"
   done
-  "${__root}/bin/merge" --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.topo.json";
-  rm --force "${__root}/*.agg"
+  
+  "${__root}/bin/merge" --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.provincias.topo.json";
+  rm --force "${__root}"/*.agg
 }
 
 # aggregation reports
@@ -32,23 +33,28 @@ function sum_reports() {
   LANG="${initlang}";
 }
 
+function log() {
+  echo
+  echo "$1"
+  echo
+}
+
 # update the databases
-echo
-echo "Actualizando la base de datos"
-echo
-if "${__root}/bin/updatedb"; then
+[ "${STEP}" -gt 0 ] && log "Saltándose el primer paso..." || log "Actualizando la base de datos"
+
+if [ "${STEP}" -gt 0 ] || "${__root}/bin/updatedb"; then
+
   # create a new csv report
-  echo
-  echo "Generando informes CSV"
-  echo
-  if "${__root}/bin/report" prov; then
+  [ "${STEP}" -gt 0 ] && log "Saltándose el segundo paso..." || log "Generando informes CSV"
+  
+  if [ "${STEP}" -gt 1 ] || "${__root}/bin/report" prov; then
     #~ git add "${__root}/reports/$(date +%Y%m)"
     #~ git commit -a -m "reports $(date +%Y%m)"
     #~ git push
+    
     # create the topojson files with all the reports found
-    echo
-    echo "Creando ficheros topojson"
-    echo
+    log "Creando ficheros topojson"
+
     generate_reports "${output}"
   else
     echo "Error en report"

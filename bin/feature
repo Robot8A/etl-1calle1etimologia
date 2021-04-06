@@ -27,8 +27,8 @@ do
       shift 2
       ;;
     -*)
-	echo "Error"
-	exit 1;;
+  echo "Error"
+  exit 1;;
     *)
       break
   esac

@@ -39,7 +39,7 @@ do
   mkdir --parents "$(dirname "${output}")"
 
   # run psql with the corresponding variables
-  if psql --dbname=osm --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" --output="${output}" "${opts[@]}" 2>> "${err}"; then
+  if PGDATABASE=${PGDATABASE:-osm} PGUSER=${PGUSER:-$(whoami)} psql --single-transaction --variable="ON_ERROR_STOP=1" --variable="${var}" --output="${output}" "${opts[@]}" 2>> "${err}"; then
     if [ $(wc -l ${output} | cut -d ' ' -f 1) -gt 1 ]; then
       echo -ne "[  \033[0;32mOK\033[0m  ]\t"
     else

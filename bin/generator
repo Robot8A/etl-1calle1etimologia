@@ -14,7 +14,7 @@ function generate_reports() {
     sum_reports "${i}" > "${__root}/${i}.agg"
   done
   
-  "${__root}/bin/merge" --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.provincias.topo.json";
+  "${__root}/bin/merge" --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.ccaa.topo.json";
   rm --force "${__root}"/*.agg
 }
 

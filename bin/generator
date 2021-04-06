@@ -5,10 +5,10 @@ output=${1:-$(pwd)}
 # root path project
 __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
-# mergea los CSV de cada CCAA con sus features de municipios
+# merge reports by CCAA with their features
 function generate_reports() {
 #  for i in AN AR AS CB CE CL CM CN CT EX GA IB MC MD ML NC PV RI VC; do
-# sin ceuta y melilla
+#  missing Ceuta & Melilla
   for i in AN AR AS CB CL CM CN CT EX GA IB MC MD NC PV RI VC; do
     "${__root}/bin/merge" --reports "$(grep -lnrw "${__root}/reports" -e ES-"${i}")" --feature "${__root}/features/municipios/${i}.feature.geojson" --name "$1/${i}.topo.json";
     sum_reports "${i}" > "${__root}/${i}.agg"
@@ -17,7 +17,7 @@ function generate_reports() {
   rm --force "${__root}/*.agg"
 }
 
-# suma todas las filas que matcheen el parámetro
+# aggregation reports
 function sum_reports() {
   [[ $# -eq 0 ]] && ( echo "Falta argumento"; return 1; )
 

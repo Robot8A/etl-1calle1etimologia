@@ -101,7 +101,7 @@ SELECT
   , results.prov
   , results.ccaa
   , results.name
-  , current_date AS date
+  , to_char(current_date, 'YYYY-MM-01') AS date
   , results.incomplete
   , results.total
   ,

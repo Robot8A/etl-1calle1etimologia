@@ -217,4 +217,3 @@ id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_tota
 10903;ES-CC;ES-EX;Alagón del Río;2018-05-01;3;32;0.91;484.13;7686.22;0.94
 10904;ES-CC;ES-EX;Tiétar;2018-05-01;25;25;0;5859.34;5859.34;0
 10905;ES-CC;ES-EX;Pueblonuevo de Miramontes;2018-05-01;24;24;0;6406.08;6406.08;0
-id;prov;ccaa;name;date;incomplete;total;percentage;length_incomplete;length_total;length_percentage

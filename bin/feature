@@ -15,9 +15,9 @@ do
   case $1 in
     -a|--admin)
       admin="ADMIN='"$2"'"
-      if [ "$2" == "ccaa" ]; then
+      if [ "${2,,}" == "ccaa" ]; then
         admin_level="ccaa"
-      elif [ "$2" == "prov" ]; then
+      elif [ "${2,,}" == "prov" ]; then
         admin_level="prov"
       fi
       shift 2
@@ -26,9 +26,6 @@ do
       tolerance="TOLERANCE='"$2"'"
       shift 2
       ;;
-    -*)
-  echo "Error"
-  exit 1;;
     *)
       break
   esac

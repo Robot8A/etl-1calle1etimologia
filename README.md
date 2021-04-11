@@ -20,8 +20,9 @@ Ejecutar los distintos comandos desde el directorio raíz.
 #### **bin/main**
 Programa de conveniencia para simplificar el proceso de generación de archivos mensuales. Primero ejecuta `bin/updatedb` para traerse los datos, luego `bin/report` para crear los CSV del mes actual para cada provincia. Y por último, genera en el directorio actual, un fichero _topojson_ por cada comunidad autónoma, usando `bin/merge`, uniendo todos los CSV que pertenezcan a ella. Asimismo, se crea otro fichero _topojson_ adicional, en el que se agrupan todos los resultados agregados por comunidad autónoma.
 
-#### **bin/updatedb**
+#### **bin/updatedb [_file.pbf_]**
 Encargado de descargarse los datos de Geofabrik y ejecutar _osm2pgsql_. Por defecto la base de datos es `osm` y el usuario con el que se ejecuta es el nombre de tu propio usuario.
+Opcionalmente se le puede proveer de un fichero _.pbf_ para cargar en base de datos ese fichero, en lugar de descargárselos.
 
 #### **bin/report _location_**
 Generador de informes CSV en la carpeta `reports/<YYYYMM>/<location>.csv`, donde `YYYYMM` es una carpeta con un nombre de tipo fecha en dicho formato; y `location` es el nombre del parámetro que hayamos puesto.

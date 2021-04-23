@@ -5,7 +5,7 @@ La fuente original de datos es https://download.geofabrik.de/europe/spain.html y
 ## Requisitos
 
 - [osmium-tool](https://osmcode.org/osmium-tool/) unirá en un solo fichero _.pbf_ los datos descargados de Geofabrik (_spain_ + _canary-islands_)
-- [osm2pgsql](https://osm2pgsql.org/doc/install.html) insertará el _.pbf_ del paso anterior en la base de datos. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada, con su correspondiente extensión [PostGIS](https://postgis.net/).
+- [osm2pgsql](https://osm2pgsql.org/doc/install.html) insertará el _.pbf_ del paso anterior en la base de datos. Es necesario tener una [base de datos postgres](https://osm2pgsql.org/doc/manual.html#preparing-the-database) instalada, con su correspondiente extensión [PostGIS](https://postgis.net/). También se necesita activar la extensión _unaccent_, presente por defecto en la instalación de postgres.
 - [nodejs](https://nodejs.org/en/) (opcional, solo para _merge_) utilizará la herramienta `npx` para ejecutar [mapshaper](https://github.com/mbloch/mapshaper) que es quién unirá en un fichero geográfico (topojson) los datos CSV con los GeoJSON.
 
 ## Docker
@@ -15,10 +15,17 @@ $ docker build -t ${PWD##*/} . && docker run -it ${PWD##*/}
 ```
 
 ## Herramientas
-Ejecutar los distintos comandos desde el directorio raíz.
+Ejecutar los distintos comandos desde el directorio raíz del proyecto.
 
-#### **bin/main**
-Programa de conveniencia para simplificar el proceso de generación de archivos mensuales. Primero ejecuta `bin/updatedb` para traerse los datos, luego `bin/report` para crear los CSV del mes actual para cada provincia. Y por último, genera en el directorio actual, un fichero _topojson_ por cada comunidad autónoma, usando `bin/merge`, uniendo todos los CSV que pertenezcan a ella. Asimismo, se crea otro fichero _topojson_ adicional, en el que se agrupan todos los resultados agregados por comunidad autónoma.
+#### **bin/generator [_destination_]**
+Programa de conveniencia para simplificar el proceso de generación de archivos mensuales. Primero ejecuta `bin/updatedb` para traerse los datos, luego `bin/report` para crear los CSV del mes actual para cada provincia. Y por último, genera en el directorio que se se haya pasado por parámetro, o en su defecto, el actual, un fichero _topojson_ por cada comunidad autónoma, usando `bin/merge`, uniendo todos los CSV que pertenezcan a ella. Asimismo, se crea otro fichero _topojson_ adicional, en el que se agrupan todos los resultados agregados por comunidad autónoma.
+
+Los pasos funcionan de manera secuencial, pero es posible saltarse algún paso proveyendo la variable de entorno STEP con el número desde el que se quiere comenzar. Por ejemplo:
+
+```sh
+$ STEP=1 bin/generator    # No ejecutará el primero paso, bin/updatedb
+$ STEP=2 bin/generator    # No ejecutará los dos primeros pasos, ni bin/updatedb ni bin/report
+```
 
 #### **bin/updatedb [_file.pbf_]**
 Encargado de descargarse los datos de Geofabrik y ejecutar _osm2pgsql_. Por defecto la base de datos es `osm` y el usuario con el que se ejecuta es el nombre de tu propio usuario.

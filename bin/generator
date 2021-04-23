@@ -13,7 +13,7 @@ function generate_reports() {
     "${__root}/bin/merge" --reports "$(grep -lnrw "${__root}/reports" -e ES-"${i}")" --feature "${__root}/features/municipios/${i}.feature.geojson" --name "$1/${i}.topo.json";
     sum_reports "${i}" > "${__root}/${i}.agg"
   done
-  
+
   "${__root}/bin/merge" --reports "${__root}/*.agg" --feature "${__root}/features/ccaa/ES.feature.geojson" --name "$1/ES.ccaa.topo.json";
   rm --force "${__root}"/*.agg
 }
@@ -40,13 +40,14 @@ function log() {
 }
 
 # update the databases
+STEP=${STEP:-0}
 [ "${STEP}" -gt 0 ] && log "Saltándose el primer paso..." || log "Actualizando la base de datos"
 
 if [ "${STEP}" -gt 0 ] || "${__root}/bin/updatedb"; then
 
   # create a new csv report
   [ "${STEP}" -gt 0 ] && log "Saltándose el segundo paso..." || log "Generando informes CSV"
-  
+
   if [ "${STEP}" -gt 1 ] || "${__root}/bin/report" prov; then
     #~ git add "${__root}/reports/$(date +%Y%m)"
     #~ git commit -a -m "reports $(date +%Y%m)"

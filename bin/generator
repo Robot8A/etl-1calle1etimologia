@@ -49,9 +49,9 @@ if [ "${STEP}" -gt 0 ] || "${__root}/bin/updatedb"; then
   [ "${STEP}" -gt 1 ] && log "Saltándose el segundo paso..." || log "Generando informes CSV"
 
   if [ "${STEP}" -gt 1 ] || "${__root}/bin/report" prov; then
-    #~ git add "${__root}/reports/$(date +%Y%m)"
-    #~ git commit -a -m "reports $(date +%Y%m)"
-    #~ git push
+    git add "${__root}/reports/$(date +%Y%m)"
+    git commit -m "reports $(date +%Y%m)"
+    git push
 
     # create the topojson files with all the reports found
     log "Creando ficheros topojson"

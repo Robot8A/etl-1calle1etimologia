@@ -1,0 +1,786 @@
+id;prov;ccaa;name
+04001;ES-AL;ES-AN;Abla
+04002;ES-AL;ES-AN;Abrucena
+04003;ES-AL;ES-AN;Adra
+04004;ES-AL;ES-AN;Albánchez
+04005;ES-AL;ES-AN;Alboloduy
+04006;ES-AL;ES-AN;Albox
+04007;ES-AL;ES-AN;Alcolea
+04008;ES-AL;ES-AN;Alcóntar
+04009;ES-AL;ES-AN;Alcudia de Monteagud
+04010;ES-AL;ES-AN;Alhabia
+04011;ES-AL;ES-AN;Alhama de Almería
+04012;ES-AL;ES-AN;Alicún
+04013;ES-AL;ES-AN;Almería
+04014;ES-AL;ES-AN;Almócita
+04015;ES-AL;ES-AN;Alsodux
+04016;ES-AL;ES-AN;Antas
+04017;ES-AL;ES-AN;Arboleas
+04018;ES-AL;ES-AN;Armuña de Almanzora
+04019;ES-AL;ES-AN;Bacares
+04020;ES-AL;ES-AN;Bayárcal
+04021;ES-AL;ES-AN;Bayarque
+04022;ES-AL;ES-AN;Bédar
+04023;ES-AL;ES-AN;Beires
+04024;ES-AL;ES-AN;Benahadux
+04026;ES-AL;ES-AN;Benitagla
+04027;ES-AL;ES-AN;Benizalón
+04028;ES-AL;ES-AN;Bentarique
+04029;ES-AL;ES-AN;Berja
+04030;ES-AL;ES-AN;Canjáyar
+04031;ES-AL;ES-AN;Cantoria
+04032;ES-AL;ES-AN;Carboneras
+04033;ES-AL;ES-AN;Castro de Filabres
+04034;ES-AL;ES-AN;Cóbdar
+04035;ES-AL;ES-AN;Cuevas del Almanzora
+04036;ES-AL;ES-AN;Chercos
+04037;ES-AL;ES-AN;Chirivel
+04038;ES-AL;ES-AN;Dalías
+04041;ES-AL;ES-AN;Enix
+04043;ES-AL;ES-AN;Felix
+04044;ES-AL;ES-AN;Fines
+04045;ES-AL;ES-AN;Fiñana
+04046;ES-AL;ES-AN;Fondón
+04047;ES-AL;ES-AN;Gádor
+04048;ES-AL;ES-AN;Los Gallardos
+04049;ES-AL;ES-AN;Garrucha
+04050;ES-AL;ES-AN;Gérgal
+04051;ES-AL;ES-AN;Huécija
+04052;ES-AL;ES-AN;Huércal de Almería
+04053;ES-AL;ES-AN;Huércal-Overa
+04054;ES-AL;ES-AN;Íllar
+04055;ES-AL;ES-AN;Instinción
+04056;ES-AL;ES-AN;Laroya
+04057;ES-AL;ES-AN;Láujar de Andarax
+04058;ES-AL;ES-AN;Líjar
+04059;ES-AL;ES-AN;Lubrín
+04060;ES-AL;ES-AN;Lucainena de las Torres
+04061;ES-AL;ES-AN;Lúcar
+04062;ES-AL;ES-AN;Macael
+04063;ES-AL;ES-AN;María
+04064;ES-AL;ES-AN;Mojácar
+04065;ES-AL;ES-AN;Nacimiento
+04066;ES-AL;ES-AN;Níjar
+04067;ES-AL;ES-AN;Ohanes
+04068;ES-AL;ES-AN;Olula de Castro
+04069;ES-AL;ES-AN;Olula del Río
+04070;ES-AL;ES-AN;Oria
+04071;ES-AL;ES-AN;Padules
+04072;ES-AL;ES-AN;Partaloa
+04073;ES-AL;ES-AN;Paterna del Río
+04074;ES-AL;ES-AN;Pechina
+04075;ES-AL;ES-AN;Pulpí
+04076;ES-AL;ES-AN;Purchena
+04077;ES-AL;ES-AN;Rágol
+04078;ES-AL;ES-AN;Rioja
+04079;ES-AL;ES-AN;Roquetas de Mar
+04080;ES-AL;ES-AN;Santa Cruz de Marchena
+04081;ES-AL;ES-AN;Santa Fe de Mondújar
+04082;ES-AL;ES-AN;Senés
+04083;ES-AL;ES-AN;Serón
+04084;ES-AL;ES-AN;Sierro
+04085;ES-AL;ES-AN;Somontín
+04086;ES-AL;ES-AN;Sorbas
+04087;ES-AL;ES-AN;Suflí
+04088;ES-AL;ES-AN;Tabernas
+04089;ES-AL;ES-AN;Taberno
+04090;ES-AL;ES-AN;Tahal
+04091;ES-AL;ES-AN;Terque
+04092;ES-AL;ES-AN;Tíjola
+04093;ES-AL;ES-AN;Turre
+04094;ES-AL;ES-AN;Turrillas
+04095;ES-AL;ES-AN;Uleila del Campo
+04096;ES-AL;ES-AN;Urrácal
+04097;ES-AL;ES-AN;Velefique
+04098;ES-AL;ES-AN;Vélez-Blanco
+04099;ES-AL;ES-AN;Vélez-Rubio
+04100;ES-AL;ES-AN;Vera
+04101;ES-AL;ES-AN;Viator
+04102;ES-AL;ES-AN;Vícar
+04103;ES-AL;ES-AN;Zurgena
+04901;ES-AL;ES-AN;Las Tres Villas
+04902;ES-AL;ES-AN;El Ejido
+04903;ES-AL;ES-AN;La Mojonera
+04904;ES-AL;ES-AN;Balanegra
+11001;ES-CA;ES-AN;Alcalá de los Gazules
+11002;ES-CA;ES-AN;Alcalá del Valle
+11003;ES-CA;ES-AN;Algar
+11004;ES-CA;ES-AN;Algeciras
+11005;ES-CA;ES-AN;Algodonales
+11006;ES-CA;ES-AN;Arcos de la Frontera
+11007;ES-CA;ES-AN;Barbate
+11008;ES-CA;ES-AN;Los Barrios
+11009;ES-CA;ES-AN;Benaocaz
+11010;ES-CA;ES-AN;Bornos
+11011;ES-CA;ES-AN;El Bosque
+11012;ES-CA;ES-AN;Cádiz
+11013;ES-CA;ES-AN;Castellar de la Frontera
+11014;ES-CA;ES-AN;Conil de la Frontera
+11015;ES-CA;ES-AN;Chiclana de la Frontera
+11016;ES-CA;ES-AN;Chipiona
+11017;ES-CA;ES-AN;Espera
+11018;ES-CA;ES-AN;El Gastor
+11019;ES-CA;ES-AN;Grazalema
+11020;ES-CA;ES-AN;Jerez de la Frontera
+11021;ES-CA;ES-AN;Jimena de la Frontera
+11022;ES-CA;ES-AN;La Línea de la Concepción
+11023;ES-CA;ES-AN;Medina Sidonia
+11024;ES-CA;ES-AN;Olvera
+11025;ES-CA;ES-AN;Paterna de Rivera
+11026;ES-CA;ES-AN;Prado del Rey
+11027;ES-CA;ES-AN;El Puerto de Santa María
+11028;ES-CA;ES-AN;Puerto Real
+11029;ES-CA;ES-AN;Puerto Serrano
+11030;ES-CA;ES-AN;Rota
+11031;ES-CA;ES-AN;San Fernando
+11032;ES-CA;ES-AN;Sanlúcar de Barrameda
+11033;ES-CA;ES-AN;San Roque
+11034;ES-CA;ES-AN;Setenil de las Bodegas
+11035;ES-CA;ES-AN;Tarifa
+11036;ES-CA;ES-AN;Torre Alháquime
+11037;ES-CA;ES-AN;Trebujena
+11038;ES-CA;ES-AN;Ubrique
+11039;ES-CA;ES-AN;Vejer de la Frontera
+11040;ES-CA;ES-AN;Villaluenga del Rosario
+11041;ES-CA;ES-AN;Villamartín
+11042;ES-CA;ES-AN;Zahara
+11901;ES-CA;ES-AN;Benalup-Casas Viejas
+11902;ES-CA;ES-AN;San José del Valle
+11903;ES-CA;ES-AN;San Martín del Tesorillo
+14001;ES-CO;ES-AN;Adamuz
+14002;ES-CO;ES-AN;Aguilar de la Frontera
+14003;ES-CO;ES-AN;Alcaracejos
+14004;ES-CO;ES-AN;Almedinilla
+14005;ES-CO;ES-AN;Almodóvar del Río
+14006;ES-CO;ES-AN;Añora
+14007;ES-CO;ES-AN;Baena
+14008;ES-CO;ES-AN;Belalcázar
+14009;ES-CO;ES-AN;Belmez
+14010;ES-CO;ES-AN;Benamejí
+14011;ES-CO;ES-AN;Los Blázquez
+14012;ES-CO;ES-AN;Bujalance
+14013;ES-CO;ES-AN;Cabra
+14014;ES-CO;ES-AN;Cañete de las Torres
+14015;ES-CO;ES-AN;Carcabuey
+14016;ES-CO;ES-AN;Cardeña
+14017;ES-CO;ES-AN;La Carlota
+14018;ES-CO;ES-AN;El Carpio
+14019;ES-CO;ES-AN;Castro del Río
+14020;ES-CO;ES-AN;Conquista
+14021;ES-CO;ES-AN;Córdoba
+14022;ES-CO;ES-AN;Doña Mencía
+14023;ES-CO;ES-AN;Dos Torres
+14024;ES-CO;ES-AN;Encinas Reales
+14025;ES-CO;ES-AN;Espejo
+14026;ES-CO;ES-AN;Espiel
+14027;ES-CO;ES-AN;Fernán-Núñez
+14028;ES-CO;ES-AN;Fuente la Lancha
+14029;ES-CO;ES-AN;Fuente Obejuna
+14030;ES-CO;ES-AN;Fuente Palmera
+14031;ES-CO;ES-AN;Fuente-Tójar
+14032;ES-CO;ES-AN;La Granjuela
+14033;ES-CO;ES-AN;Guadalcázar
+14034;ES-CO;ES-AN;El Guijo
+14035;ES-CO;ES-AN;Hinojosa del Duque
+14036;ES-CO;ES-AN;Hornachuelos
+14037;ES-CO;ES-AN;Iznájar
+14038;ES-CO;ES-AN;Lucena
+14039;ES-CO;ES-AN;Luque
+14040;ES-CO;ES-AN;Montalbán de Córdoba
+14041;ES-CO;ES-AN;Montemayor
+14042;ES-CO;ES-AN;Montilla
+14043;ES-CO;ES-AN;Montoro
+14044;ES-CO;ES-AN;Monturque
+14045;ES-CO;ES-AN;Moriles
+14046;ES-CO;ES-AN;Nueva Carteya
+14047;ES-CO;ES-AN;Obejo
+14048;ES-CO;ES-AN;Palenciana
+14049;ES-CO;ES-AN;Palma del Río
+14050;ES-CO;ES-AN;Pedro Abad
+14051;ES-CO;ES-AN;Pedroche
+14052;ES-CO;ES-AN;Peñarroya-Pueblonuevo
+14053;ES-CO;ES-AN;Posadas
+14054;ES-CO;ES-AN;Pozoblanco
+14055;ES-CO;ES-AN;Priego de Córdoba
+14056;ES-CO;ES-AN;Puente Genil
+14057;ES-CO;ES-AN;La Rambla
+14058;ES-CO;ES-AN;Rute
+14059;ES-CO;ES-AN;San Sebastián de los Ballesteros
+14060;ES-CO;ES-AN;Santaella
+14061;ES-CO;ES-AN;Santa Eufemia
+14062;ES-CO;ES-AN;Torrecampo
+14063;ES-CO;ES-AN;Valenzuela
+14064;ES-CO;ES-AN;Valsequillo
+14065;ES-CO;ES-AN;La Victoria
+14066;ES-CO;ES-AN;Villa del Río
+14067;ES-CO;ES-AN;Villafranca de Córdoba
+14068;ES-CO;ES-AN;Villaharta
+14069;ES-CO;ES-AN;Villanueva de Córdoba
+14070;ES-CO;ES-AN;Villanueva del Duque
+14071;ES-CO;ES-AN;Villanueva del Rey
+14072;ES-CO;ES-AN;Villaralto
+14073;ES-CO;ES-AN;Villaviciosa de Córdoba
+14074;ES-CO;ES-AN;El Viso
+14075;ES-CO;ES-AN;Zuheros
+14901;ES-CO;ES-AN;Fuente Carreteros
+14902;ES-CO;ES-AN;La Guijarrosa
+18001;ES-GR;ES-AN;Agrón
+18002;ES-GR;ES-AN;Alamedilla
+18003;ES-GR;ES-AN;Albolote
+18004;ES-GR;ES-AN;Albondón
+18005;ES-GR;ES-AN;Albuñán
+18006;ES-GR;ES-AN;Albuñol
+18007;ES-GR;ES-AN;Albuñuelas
+18010;ES-GR;ES-AN;Aldeire
+18011;ES-GR;ES-AN;Alfacar
+18012;ES-GR;ES-AN;Algarinejo
+18013;ES-GR;ES-AN;Alhama de Granada
+18014;ES-GR;ES-AN;Alhendín
+18015;ES-GR;ES-AN;Alicún de Ortega
+18016;ES-GR;ES-AN;Almegíjar
+18017;ES-GR;ES-AN;Almuñécar
+18018;ES-GR;ES-AN;Alquife
+18020;ES-GR;ES-AN;Arenas del Rey
+18021;ES-GR;ES-AN;Armilla
+18022;ES-GR;ES-AN;Atarfe
+18023;ES-GR;ES-AN;Baza
+18024;ES-GR;ES-AN;Beas de Granada
+18025;ES-GR;ES-AN;Beas de Guadix
+18027;ES-GR;ES-AN;Benalúa
+18028;ES-GR;ES-AN;Benalúa de las Villas
+18029;ES-GR;ES-AN;Benamaurel
+18030;ES-GR;ES-AN;Bérchules
+18032;ES-GR;ES-AN;Bubión
+18033;ES-GR;ES-AN;Busquístar
+18034;ES-GR;ES-AN;Cacín
+18035;ES-GR;ES-AN;Cádiar
+18036;ES-GR;ES-AN;Cájar
+18037;ES-GR;ES-AN;Calicasas
+18038;ES-GR;ES-AN;Campotéjar
+18039;ES-GR;ES-AN;Caniles
+18040;ES-GR;ES-AN;Cáñar
+18042;ES-GR;ES-AN;Capileira
+18043;ES-GR;ES-AN;Carataunas
+18044;ES-GR;ES-AN;Cástaras
+18045;ES-GR;ES-AN;Castilléjar
+18046;ES-GR;ES-AN;Castril
+18047;ES-GR;ES-AN;Cenes de la Vega
+18048;ES-GR;ES-AN;Cijuela
+18049;ES-GR;ES-AN;Cogollos de Guadix
+18050;ES-GR;ES-AN;Cogollos de la Vega
+18051;ES-GR;ES-AN;Colomera
+18053;ES-GR;ES-AN;Cortes de Baza
+18054;ES-GR;ES-AN;Cortes y Graena
+18056;ES-GR;ES-AN;Cúllar
+18057;ES-GR;ES-AN;Cúllar Vega
+18059;ES-GR;ES-AN;Chauchina
+18061;ES-GR;ES-AN;Chimeneas
+18062;ES-GR;ES-AN;Churriana de la Vega
+18063;ES-GR;ES-AN;Darro
+18064;ES-GR;ES-AN;Dehesas de Guadix
+18065;ES-GR;ES-AN;Dehesas Viejas
+18066;ES-GR;ES-AN;Deifontes
+18067;ES-GR;ES-AN;Diezma
+18068;ES-GR;ES-AN;Dílar
+18069;ES-GR;ES-AN;Dólar
+18070;ES-GR;ES-AN;Dúdar
+18071;ES-GR;ES-AN;Dúrcal
+18072;ES-GR;ES-AN;Escúzar
+18074;ES-GR;ES-AN;Ferreira
+18076;ES-GR;ES-AN;Fonelas
+18077;ES-GR;ES-AN;Fornes
+18078;ES-GR;ES-AN;Freila
+18079;ES-GR;ES-AN;Fuente Vaqueros
+18082;ES-GR;ES-AN;Galera
+18083;ES-GR;ES-AN;Gobernador
+18084;ES-GR;ES-AN;Gójar
+18085;ES-GR;ES-AN;Gor
+18086;ES-GR;ES-AN;Gorafe
+18087;ES-GR;ES-AN;Granada
+18088;ES-GR;ES-AN;Guadahortuna
+18089;ES-GR;ES-AN;Guadix
+18093;ES-GR;ES-AN;Gualchos
+18094;ES-GR;ES-AN;Güéjar Sierra
+18095;ES-GR;ES-AN;Güevéjar
+18096;ES-GR;ES-AN;Huélago
+18097;ES-GR;ES-AN;Huéneja
+18098;ES-GR;ES-AN;Huéscar
+18099;ES-GR;ES-AN;Huétor de Santillán
+18100;ES-GR;ES-AN;Huétor Tájar
+18101;ES-GR;ES-AN;Huétor Vega
+18102;ES-GR;ES-AN;Íllora
+18103;ES-GR;ES-AN;Ítrabo
+18105;ES-GR;ES-AN;Iznalloz
+18106;ES-GR;ES-AN;Játar
+18107;ES-GR;ES-AN;Jayena
+18108;ES-GR;ES-AN;Jérez del Marquesado
+18109;ES-GR;ES-AN;Jete
+18111;ES-GR;ES-AN;Jun
+18112;ES-GR;ES-AN;Juviles
+18114;ES-GR;ES-AN;La Calahorra
+18115;ES-GR;ES-AN;Láchar
+18116;ES-GR;ES-AN;Lanjarón
+18117;ES-GR;ES-AN;Lanteira
+18119;ES-GR;ES-AN;Lecrín
+18120;ES-GR;ES-AN;Lentegí
+18121;ES-GR;ES-AN;Lobras
+18122;ES-GR;ES-AN;Loja
+18123;ES-GR;ES-AN;Lugros
+18124;ES-GR;ES-AN;Lújar
+18126;ES-GR;ES-AN;La Malahá
+18127;ES-GR;ES-AN;Maracena
+18128;ES-GR;ES-AN;Marchal
+18132;ES-GR;ES-AN;Moclín
+18133;ES-GR;ES-AN;Molvízar
+18134;ES-GR;ES-AN;Monachil
+18135;ES-GR;ES-AN;Montefrío
+18136;ES-GR;ES-AN;Montejícar
+18137;ES-GR;ES-AN;Montillana
+18138;ES-GR;ES-AN;Moraleda de Zafayona
+18140;ES-GR;ES-AN;Motril
+18141;ES-GR;ES-AN;Murtas
+18143;ES-GR;ES-AN;Nigüelas
+18144;ES-GR;ES-AN;Nívar
+18145;ES-GR;ES-AN;Ogíjares
+18146;ES-GR;ES-AN;Orce
+18147;ES-GR;ES-AN;Órgiva
+18148;ES-GR;ES-AN;Otívar
+18149;ES-GR;ES-AN;Villa de Otura
+18150;ES-GR;ES-AN;Padul
+18151;ES-GR;ES-AN;Pampaneira
+18152;ES-GR;ES-AN;Pedro Martínez
+18153;ES-GR;ES-AN;Peligros
+18154;ES-GR;ES-AN;La Peza
+18157;ES-GR;ES-AN;Pinos Genil
+18158;ES-GR;ES-AN;Pinos Puente
+18159;ES-GR;ES-AN;Píñar
+18161;ES-GR;ES-AN;Polícar
+18162;ES-GR;ES-AN;Polopos
+18163;ES-GR;ES-AN;Pórtugos
+18164;ES-GR;ES-AN;Puebla de Don Fadrique
+18165;ES-GR;ES-AN;Pulianas
+18167;ES-GR;ES-AN;Purullena
+18168;ES-GR;ES-AN;Quéntar
+18170;ES-GR;ES-AN;Rubite
+18171;ES-GR;ES-AN;Salar
+18173;ES-GR;ES-AN;Salobreña
+18174;ES-GR;ES-AN;Santa Cruz del Comercio
+18175;ES-GR;ES-AN;Santa Fe
+18176;ES-GR;ES-AN;Soportújar
+18177;ES-GR;ES-AN;Sorvilán
+18178;ES-GR;ES-AN;Torre-Cardela
+18179;ES-GR;ES-AN;Torvizcón
+18180;ES-GR;ES-AN;Trevélez
+18181;ES-GR;ES-AN;Turón
+18182;ES-GR;ES-AN;Ugíjar
+18183;ES-GR;ES-AN;Válor
+18184;ES-GR;ES-AN;Vélez de Benaudalla
+18185;ES-GR;ES-AN;Ventas de Huelma
+18187;ES-GR;ES-AN;Villanueva de las Torres
+18188;ES-GR;ES-AN;Villanueva Mesía
+18189;ES-GR;ES-AN;Víznar
+18192;ES-GR;ES-AN;Zafarraya
+18193;ES-GR;ES-AN;La Zubia
+18194;ES-GR;ES-AN;Zújar
+18901;ES-GR;ES-AN;La Taha
+18902;ES-GR;ES-AN;El Valle
+18903;ES-GR;ES-AN;Nevada
+18904;ES-GR;ES-AN;Alpujarra de la Sierra
+18905;ES-GR;ES-AN;Las Gabias
+18906;ES-GR;ES-AN;Los Guájares
+18907;ES-GR;ES-AN;Valle del Zalabí
+18908;ES-GR;ES-AN;Villamena
+18909;ES-GR;ES-AN;Morelábor
+18910;ES-GR;ES-AN;El Pinar
+18911;ES-GR;ES-AN;Vegas del Genil
+18912;ES-GR;ES-AN;Cuevas del Campo
+18913;ES-GR;ES-AN;Zagra
+18914;ES-GR;ES-AN;Valderrubio
+18915;ES-GR;ES-AN;Domingo Pérez de Granada
+18916;ES-GR;ES-AN;Torrenueva Costa
+21001;ES-H;ES-AN;Alájar
+21002;ES-H;ES-AN;Aljaraque
+21003;ES-H;ES-AN;El Almendro
+21004;ES-H;ES-AN;Almonaster la Real
+21005;ES-H;ES-AN;Almonte
+21006;ES-H;ES-AN;Alosno
+21007;ES-H;ES-AN;Aracena
+21008;ES-H;ES-AN;Aroche
+21009;ES-H;ES-AN;Arroyomolinos de León
+21010;ES-H;ES-AN;Ayamonte
+21011;ES-H;ES-AN;Beas
+21012;ES-H;ES-AN;Berrocal
+21013;ES-H;ES-AN;Bollullos Par del Condado
+21014;ES-H;ES-AN;Bonares
+21015;ES-H;ES-AN;Cabezas Rubias
+21016;ES-H;ES-AN;Cala
+21017;ES-H;ES-AN;Calañas
+21018;ES-H;ES-AN;El Campillo
+21019;ES-H;ES-AN;Campofrío
+21020;ES-H;ES-AN;Cañaveral de León
+21021;ES-H;ES-AN;Cartaya
+21022;ES-H;ES-AN;Castaño del Robledo
+21023;ES-H;ES-AN;El Cerro de Andévalo
+21024;ES-H;ES-AN;Corteconcepción
+21025;ES-H;ES-AN;Cortegana
+21026;ES-H;ES-AN;Cortelazor
+21027;ES-H;ES-AN;Cumbres de Enmedio
+21028;ES-H;ES-AN;Cumbres de San Bartolomé
+21029;ES-H;ES-AN;Cumbres Mayores
+21030;ES-H;ES-AN;Chucena
+21031;ES-H;ES-AN;Encinasola
+21032;ES-H;ES-AN;Escacena del Campo
+21033;ES-H;ES-AN;Fuenteheridos
+21034;ES-H;ES-AN;Galaroza
+21035;ES-H;ES-AN;Gibraleón
+21036;ES-H;ES-AN;La Granada de Río-Tinto
+21037;ES-H;ES-AN;El Granado
+21038;ES-H;ES-AN;Higuera de la Sierra
+21039;ES-H;ES-AN;Hinojales
+21040;ES-H;ES-AN;Hinojos
+21041;ES-H;ES-AN;Huelva
+21042;ES-H;ES-AN;Isla Cristina
+21043;ES-H;ES-AN;Jabugo
+21044;ES-H;ES-AN;Lepe
+21045;ES-H;ES-AN;Linares de la Sierra
+21046;ES-H;ES-AN;Lucena del Puerto
+21047;ES-H;ES-AN;Manzanilla
+21048;ES-H;ES-AN;Los Marines
+21049;ES-H;ES-AN;Minas de Riotinto
+21050;ES-H;ES-AN;Moguer
+21051;ES-H;ES-AN;La Nava
+21052;ES-H;ES-AN;Nerva
+21053;ES-H;ES-AN;Niebla
+21054;ES-H;ES-AN;La Palma del Condado
+21055;ES-H;ES-AN;Palos de la Frontera
+21056;ES-H;ES-AN;Paterna del Campo
+21057;ES-H;ES-AN;Paymogo
+21058;ES-H;ES-AN;Puebla de Guzmán
+21059;ES-H;ES-AN;Puerto Moral
+21060;ES-H;ES-AN;Punta Umbría
+21061;ES-H;ES-AN;Rociana del Condado
+21062;ES-H;ES-AN;Rosal de la Frontera
+21063;ES-H;ES-AN;San Bartolomé de la Torre
+21064;ES-H;ES-AN;San Juan del Puerto
+21065;ES-H;ES-AN;Sanlúcar de Guadiana
+21066;ES-H;ES-AN;San Silvestre de Guzmán
+21067;ES-H;ES-AN;Santa Ana la Real
+21068;ES-H;ES-AN;Santa Bárbara de Casa
+21069;ES-H;ES-AN;Santa Olalla del Cala
+21070;ES-H;ES-AN;Trigueros
+21071;ES-H;ES-AN;Valdelarco
+21072;ES-H;ES-AN;Valverde del Camino
+21073;ES-H;ES-AN;Villablanca
+21074;ES-H;ES-AN;Villalba del Alcor
+21075;ES-H;ES-AN;Villanueva de las Cruces
+21076;ES-H;ES-AN;Villanueva de los Castillejos
+21077;ES-H;ES-AN;Villarrasa
+21078;ES-H;ES-AN;Zalamea la Real
+21079;ES-H;ES-AN;Zufre
+21902;ES-H;ES-AN;La Zarza-Perrunal
+23001;ES-J;ES-AN;Albanchez de Mágina
+23002;ES-J;ES-AN;Alcalá la Real
+23003;ES-J;ES-AN;Alcaudete
+23004;ES-J;ES-AN;Aldeaquemada
+23005;ES-J;ES-AN;Andújar
+23006;ES-J;ES-AN;Arjona
+23007;ES-J;ES-AN;Arjonilla
+23008;ES-J;ES-AN;Arquillos
+23009;ES-J;ES-AN;Baeza
+23010;ES-J;ES-AN;Bailén
+23011;ES-J;ES-AN;Baños de la Encina
+23012;ES-J;ES-AN;Beas de Segura
+23014;ES-J;ES-AN;Begíjar
+23015;ES-J;ES-AN;Bélmez de la Moraleda
+23016;ES-J;ES-AN;Benatae
+23017;ES-J;ES-AN;Cabra del Santo Cristo
+23018;ES-J;ES-AN;Cambil
+23019;ES-J;ES-AN;Campillo de Arenas
+23020;ES-J;ES-AN;Canena
+23021;ES-J;ES-AN;Carboneros
+23024;ES-J;ES-AN;La Carolina
+23025;ES-J;ES-AN;Castellar
+23026;ES-J;ES-AN;Castillo de Locubín
+23027;ES-J;ES-AN;Cazalilla
+23028;ES-J;ES-AN;Cazorla
+23029;ES-J;ES-AN;Chiclana de Segura
+23030;ES-J;ES-AN;Chilluévar
+23031;ES-J;ES-AN;Escañuela
+23032;ES-J;ES-AN;Espeluy
+23033;ES-J;ES-AN;Frailes
+23034;ES-J;ES-AN;Fuensanta de Martos
+23035;ES-J;ES-AN;Fuerte del Rey
+23037;ES-J;ES-AN;Génave
+23038;ES-J;ES-AN;La Guardia de Jaén
+23039;ES-J;ES-AN;Guarromán
+23040;ES-J;ES-AN;Lahiguera
+23041;ES-J;ES-AN;Higuera de Calatrava
+23042;ES-J;ES-AN;Hinojares
+23043;ES-J;ES-AN;Hornos
+23044;ES-J;ES-AN;Huelma
+23045;ES-J;ES-AN;Huesa
+23046;ES-J;ES-AN;Ibros
+23047;ES-J;ES-AN;La Iruela
+23048;ES-J;ES-AN;Iznatoraf
+23049;ES-J;ES-AN;Jabalquinto
+23050;ES-J;ES-AN;Jaén
+23051;ES-J;ES-AN;Jamilena
+23052;ES-J;ES-AN;Jimena
+23053;ES-J;ES-AN;Jódar
+23054;ES-J;ES-AN;Larva
+23055;ES-J;ES-AN;Linares
+23056;ES-J;ES-AN;Lopera
+23057;ES-J;ES-AN;Lupión
+23058;ES-J;ES-AN;Mancha Real
+23059;ES-J;ES-AN;Marmolejo
+23060;ES-J;ES-AN;Martos
+23061;ES-J;ES-AN;Mengíbar
+23062;ES-J;ES-AN;Montizón
+23063;ES-J;ES-AN;Navas de San Juan
+23064;ES-J;ES-AN;Noalejo
+23065;ES-J;ES-AN;Orcera
+23066;ES-J;ES-AN;Peal de Becerro
+23067;ES-J;ES-AN;Pegalajar
+23069;ES-J;ES-AN;Porcuna
+23070;ES-J;ES-AN;Pozo Alcón
+23071;ES-J;ES-AN;Puente de Génave
+23072;ES-J;ES-AN;La Puerta de Segura
+23073;ES-J;ES-AN;Quesada
+23074;ES-J;ES-AN;Rus
+23075;ES-J;ES-AN;Sabiote
+23076;ES-J;ES-AN;Santa Elena
+23077;ES-J;ES-AN;Santiago de Calatrava
+23079;ES-J;ES-AN;Santisteban del Puerto
+23080;ES-J;ES-AN;Santo Tomé
+23081;ES-J;ES-AN;Segura de la Sierra
+23082;ES-J;ES-AN;Siles
+23084;ES-J;ES-AN;Sorihuela del Guadalimar
+23085;ES-J;ES-AN;Torreblascopedro
+23086;ES-J;ES-AN;Torre del Campo
+23087;ES-J;ES-AN;Torredonjimeno
+23088;ES-J;ES-AN;Torreperogil
+23090;ES-J;ES-AN;Torres
+23091;ES-J;ES-AN;Torres de Albánchez
+23092;ES-J;ES-AN;Úbeda
+23093;ES-J;ES-AN;Valdepeñas de Jaén
+23094;ES-J;ES-AN;Vilches
+23095;ES-J;ES-AN;Villacarrillo
+23096;ES-J;ES-AN;Villanueva de la Reina
+23097;ES-J;ES-AN;Villanueva del Arzobispo
+23098;ES-J;ES-AN;Villardompardo
+23099;ES-J;ES-AN;Los Villares
+23101;ES-J;ES-AN;Villarrodrigo
+23901;ES-J;ES-AN;Cárcheles
+23902;ES-J;ES-AN;Bedmar y Garcíez
+23903;ES-J;ES-AN;Villatorres
+23904;ES-J;ES-AN;Santiago-Pontones
+23905;ES-J;ES-AN;Arroyo del Ojanco
+29001;ES-MA;ES-AN;Alameda
+29002;ES-MA;ES-AN;Alcaucín
+29003;ES-MA;ES-AN;Alfarnate
+29004;ES-MA;ES-AN;Alfarnatejo
+29005;ES-MA;ES-AN;Algarrobo
+29006;ES-MA;ES-AN;Algatocín
+29007;ES-MA;ES-AN;Alhaurín de la Torre
+29008;ES-MA;ES-AN;Alhaurín el Grande
+29009;ES-MA;ES-AN;Almáchar
+29010;ES-MA;ES-AN;Almargen
+29011;ES-MA;ES-AN;Almogía
+29012;ES-MA;ES-AN;Álora
+29013;ES-MA;ES-AN;Alozaina
+29014;ES-MA;ES-AN;Alpandeire
+29015;ES-MA;ES-AN;Antequera
+29016;ES-MA;ES-AN;Árchez
+29017;ES-MA;ES-AN;Archidona
+29018;ES-MA;ES-AN;Ardales
+29019;ES-MA;ES-AN;Arenas
+29020;ES-MA;ES-AN;Arriate
+29021;ES-MA;ES-AN;Atajate
+29022;ES-MA;ES-AN;Benadalid
+29023;ES-MA;ES-AN;Benahavís
+29024;ES-MA;ES-AN;Benalauría
+29025;ES-MA;ES-AN;Benalmádena
+29026;ES-MA;ES-AN;Benamargosa
+29027;ES-MA;ES-AN;Benamocarra
+29028;ES-MA;ES-AN;Benaoján
+29029;ES-MA;ES-AN;Benarrabá
+29030;ES-MA;ES-AN;El Borge
+29031;ES-MA;ES-AN;El Burgo
+29032;ES-MA;ES-AN;Campillos
+29033;ES-MA;ES-AN;Canillas de Aceituno
+29034;ES-MA;ES-AN;Canillas de Albaida
+29035;ES-MA;ES-AN;Cañete la Real
+29036;ES-MA;ES-AN;Carratraca
+29037;ES-MA;ES-AN;Cartajima
+29038;ES-MA;ES-AN;Cártama
+29039;ES-MA;ES-AN;Casabermeja
+29040;ES-MA;ES-AN;Casarabonela
+29041;ES-MA;ES-AN;Casares
+29042;ES-MA;ES-AN;Coín
+29043;ES-MA;ES-AN;Colmenar
+29044;ES-MA;ES-AN;Comares
+29045;ES-MA;ES-AN;Cómpeta
+29046;ES-MA;ES-AN;Cortes de la Frontera
+29047;ES-MA;ES-AN;Cuevas Bajas
+29048;ES-MA;ES-AN;Cuevas del Becerro
+29049;ES-MA;ES-AN;Cuevas de San Marcos
+29050;ES-MA;ES-AN;Cútar
+29051;ES-MA;ES-AN;Estepona
+29052;ES-MA;ES-AN;Faraján
+29053;ES-MA;ES-AN;Frigiliana
+29054;ES-MA;ES-AN;Fuengirola
+29055;ES-MA;ES-AN;Fuente de Piedra
+29056;ES-MA;ES-AN;Gaucín
+29057;ES-MA;ES-AN;Genalguacil
+29058;ES-MA;ES-AN;Guaro
+29059;ES-MA;ES-AN;Humilladero
+29060;ES-MA;ES-AN;Igualeja
+29061;ES-MA;ES-AN;Istán
+29062;ES-MA;ES-AN;Iznate
+29063;ES-MA;ES-AN;Jimera de Líbar
+29064;ES-MA;ES-AN;Jubrique
+29065;ES-MA;ES-AN;Júzcar
+29066;ES-MA;ES-AN;Macharaviaya
+29067;ES-MA;ES-AN;Málaga
+29068;ES-MA;ES-AN;Manilva
+29069;ES-MA;ES-AN;Marbella
+29070;ES-MA;ES-AN;Mijas
+29071;ES-MA;ES-AN;Moclinejo
+29072;ES-MA;ES-AN;Mollina
+29073;ES-MA;ES-AN;Monda
+29074;ES-MA;ES-AN;Montejaque
+29075;ES-MA;ES-AN;Nerja
+29076;ES-MA;ES-AN;Ojén
+29077;ES-MA;ES-AN;Parauta
+29079;ES-MA;ES-AN;Periana
+29080;ES-MA;ES-AN;Pizarra
+29081;ES-MA;ES-AN;Pujerra
+29082;ES-MA;ES-AN;Rincón de la Victoria
+29083;ES-MA;ES-AN;Riogordo
+29084;ES-MA;ES-AN;Ronda
+29085;ES-MA;ES-AN;Salares
+29086;ES-MA;ES-AN;Sayalonga
+29087;ES-MA;ES-AN;Sedella
+29088;ES-MA;ES-AN;Sierra de Yeguas
+29089;ES-MA;ES-AN;Teba
+29090;ES-MA;ES-AN;Tolox
+29091;ES-MA;ES-AN;Torrox
+29092;ES-MA;ES-AN;Totalán
+29093;ES-MA;ES-AN;Valle de Abdalajís
+29094;ES-MA;ES-AN;Vélez-Málaga
+29095;ES-MA;ES-AN;Villanueva de Algaidas
+29096;ES-MA;ES-AN;Villanueva del Rosario
+29097;ES-MA;ES-AN;Villanueva del Trabuco
+29098;ES-MA;ES-AN;Villanueva de Tapia
+29099;ES-MA;ES-AN;Viñuela
+29100;ES-MA;ES-AN;Yunquera
+29901;ES-MA;ES-AN;Torremolinos
+29902;ES-MA;ES-AN;Villanueva de la Concepción
+29903;ES-MA;ES-AN;Montecorto
+29904;ES-MA;ES-AN;Serrato
+41001;ES-SE;ES-AN;Aguadulce
+41002;ES-SE;ES-AN;Alanís
+41003;ES-SE;ES-AN;Albaida del Aljarafe
+41004;ES-SE;ES-AN;Alcalá de Guadaíra
+41005;ES-SE;ES-AN;Alcalá del Río
+41006;ES-SE;ES-AN;Alcolea del Río
+41007;ES-SE;ES-AN;La Algaba
+41008;ES-SE;ES-AN;Algámitas
+41009;ES-SE;ES-AN;Almadén de la Plata
+41010;ES-SE;ES-AN;Almensilla
+41011;ES-SE;ES-AN;Arahal
+41012;ES-SE;ES-AN;Aznalcázar
+41013;ES-SE;ES-AN;Aznalcóllar
+41014;ES-SE;ES-AN;Badolatosa
+41015;ES-SE;ES-AN;Benacazón
+41016;ES-SE;ES-AN;Bollullos de la Mitación
+41017;ES-SE;ES-AN;Bormujos
+41018;ES-SE;ES-AN;Brenes
+41019;ES-SE;ES-AN;Burguillos
+41020;ES-SE;ES-AN;Las Cabezas de San Juan
+41021;ES-SE;ES-AN;Camas
+41022;ES-SE;ES-AN;La Campana
+41023;ES-SE;ES-AN;Cantillana
+41024;ES-SE;ES-AN;Carmona
+41025;ES-SE;ES-AN;Carrión de los Céspedes
+41026;ES-SE;ES-AN;Casariche
+41027;ES-SE;ES-AN;Castilblanco de los Arroyos
+41028;ES-SE;ES-AN;Castilleja de Guzmán
+41029;ES-SE;ES-AN;Castilleja de la Cuesta
+41030;ES-SE;ES-AN;Castilleja del Campo
+41031;ES-SE;ES-AN;El Castillo de las Guardas
+41032;ES-SE;ES-AN;Cazalla de la Sierra
+41033;ES-SE;ES-AN;Constantina
+41034;ES-SE;ES-AN;Coria del Río
+41035;ES-SE;ES-AN;Coripe
+41036;ES-SE;ES-AN;El Coronil
+41037;ES-SE;ES-AN;Los Corrales
+41038;ES-SE;ES-AN;Dos Hermanas
+41039;ES-SE;ES-AN;Écija
+41040;ES-SE;ES-AN;Espartinas
+41041;ES-SE;ES-AN;Estepa
+41042;ES-SE;ES-AN;Fuentes de Andalucía
+41043;ES-SE;ES-AN;El Garrobo
+41044;ES-SE;ES-AN;Gelves
+41045;ES-SE;ES-AN;Gerena
+41046;ES-SE;ES-AN;Gilena
+41047;ES-SE;ES-AN;Gines
+41048;ES-SE;ES-AN;Guadalcanal
+41049;ES-SE;ES-AN;Guillena
+41050;ES-SE;ES-AN;Herrera
+41051;ES-SE;ES-AN;Huévar del Aljarafe
+41052;ES-SE;ES-AN;La Lantejuela
+41053;ES-SE;ES-AN;Lebrija
+41054;ES-SE;ES-AN;Lora de Estepa
+41055;ES-SE;ES-AN;Lora del Río
+41056;ES-SE;ES-AN;La Luisiana
+41057;ES-SE;ES-AN;El Madroño
+41058;ES-SE;ES-AN;Mairena del Alcor
+41059;ES-SE;ES-AN;Mairena del Aljarafe
+41060;ES-SE;ES-AN;Marchena
+41061;ES-SE;ES-AN;Marinaleda
+41062;ES-SE;ES-AN;Martín de la Jara
+41063;ES-SE;ES-AN;Los Molares
+41064;ES-SE;ES-AN;Montellano
+41065;ES-SE;ES-AN;Morón de la Frontera
+41066;ES-SE;ES-AN;Las Navas de la Concepción
+41067;ES-SE;ES-AN;Olivares
+41068;ES-SE;ES-AN;Osuna
+41069;ES-SE;ES-AN;Los Palacios y Villafranca
+41070;ES-SE;ES-AN;Palomares del Río
+41071;ES-SE;ES-AN;Paradas
+41072;ES-SE;ES-AN;Pedrera
+41073;ES-SE;ES-AN;El Pedroso
+41074;ES-SE;ES-AN;Peñaflor
+41075;ES-SE;ES-AN;Pilas
+41076;ES-SE;ES-AN;Pruna
+41077;ES-SE;ES-AN;La Puebla de Cazalla
+41078;ES-SE;ES-AN;La Puebla de los Infantes
+41079;ES-SE;ES-AN;La Puebla del Río
+41080;ES-SE;ES-AN;El Real de la Jara
+41081;ES-SE;ES-AN;La Rinconada
+41082;ES-SE;ES-AN;La Roda de Andalucía
+41083;ES-SE;ES-AN;El Ronquillo
+41084;ES-SE;ES-AN;El Rubio
+41085;ES-SE;ES-AN;Salteras
+41086;ES-SE;ES-AN;San Juan de Aznalfarache
+41087;ES-SE;ES-AN;Sanlúcar la Mayor
+41088;ES-SE;ES-AN;San Nicolás del Puerto
+41089;ES-SE;ES-AN;Santiponce
+41090;ES-SE;ES-AN;El Saucejo
+41091;ES-SE;ES-AN;Sevilla
+41092;ES-SE;ES-AN;Tocina
+41093;ES-SE;ES-AN;Tomares
+41094;ES-SE;ES-AN;Umbrete
+41095;ES-SE;ES-AN;Utrera
+41096;ES-SE;ES-AN;Valencina de la Concepción
+41097;ES-SE;ES-AN;Villamanrique de la Condesa
+41098;ES-SE;ES-AN;Villanueva del Ariscal
+41099;ES-SE;ES-AN;Villanueva del Río y Minas
+41100;ES-SE;ES-AN;Villanueva de San Juan
+41101;ES-SE;ES-AN;Villaverde del Río
+41102;ES-SE;ES-AN;El Viso del Alcor
+41901;ES-SE;ES-AN;Cañada Rosal
+41902;ES-SE;ES-AN;Isla Mayor
+41903;ES-SE;ES-AN;El Cuervo de Sevilla
+41904;ES-SE;ES-AN;El Palmar de Troya

@@ -1,0 +1,182 @@
+id;prov;ccaa;name
+-10973818;ES-M;ES-MD;El Redegüelo
+-10973901;ES-M;ES-MD;Los Baldíos
+28001;ES-M;ES-MD;La Acebeda
+28002;ES-M;ES-MD;Ajalvir
+28003;ES-M;ES-MD;Alameda del Valle
+28004;ES-M;ES-MD;El Álamo
+28005;ES-M;ES-MD;Alcalá de Henares
+28006;ES-M;ES-MD;Alcobendas
+28007;ES-M;ES-MD;Alcorcón
+28008;ES-M;ES-MD;Aldea del Fresno
+28009;ES-M;ES-MD;Algete
+28010;ES-M;ES-MD;Alpedrete
+28011;ES-M;ES-MD;Ambite
+28012;ES-M;ES-MD;Anchuelo
+28013;ES-M;ES-MD;Aranjuez
+28014;ES-M;ES-MD;Arganda del Rey
+28015;ES-M;ES-MD;Arroyomolinos
+28016;ES-M;ES-MD;El Atazar
+28017;ES-M;ES-MD;Batres
+28018;ES-M;ES-MD;Becerril de la Sierra
+28019;ES-M;ES-MD;Belmonte de Tajo
+28020;ES-M;ES-MD;Berzosa del Lozoya
+28021;ES-M;ES-MD;El Berrueco
+28022;ES-M;ES-MD;Boadilla del Monte
+28023;ES-M;ES-MD;El Boalo
+28024;ES-M;ES-MD;Braojos
+28025;ES-M;ES-MD;Brea de Tajo
+28026;ES-M;ES-MD;Brunete
+28027;ES-M;ES-MD;Buitrago del Lozoya
+28028;ES-M;ES-MD;Bustarviejo
+28029;ES-M;ES-MD;Cabanillas de la Sierra
+28030;ES-M;ES-MD;La Cabrera
+28031;ES-M;ES-MD;Cadalso de los Vidrios
+28032;ES-M;ES-MD;Camarma de Esteruelas
+28033;ES-M;ES-MD;Campo Real
+28034;ES-M;ES-MD;Canencia
+28035;ES-M;ES-MD;Carabaña
+28036;ES-M;ES-MD;Casarrubuelos
+28037;ES-M;ES-MD;Cenicientos
+28038;ES-M;ES-MD;Cercedilla
+28039;ES-M;ES-MD;Cervera de Buitrago
+28040;ES-M;ES-MD;Ciempozuelos
+28041;ES-M;ES-MD;Cobeña
+28042;ES-M;ES-MD;Colmenar del Arroyo
+28043;ES-M;ES-MD;Colmenar de Oreja
+28044;ES-M;ES-MD;Colmenarejo
+28045;ES-M;ES-MD;Colmenar Viejo
+28046;ES-M;ES-MD;Collado Mediano
+28047;ES-M;ES-MD;Collado Villalba
+28048;ES-M;ES-MD;Corpa
+28049;ES-M;ES-MD;Coslada
+28050;ES-M;ES-MD;Cubas de la Sagra
+28051;ES-M;ES-MD;Chapinería
+28052;ES-M;ES-MD;Chinchón
+28053;ES-M;ES-MD;Daganzo de Arriba
+28054;ES-M;ES-MD;El Escorial
+28055;ES-M;ES-MD;Estremera
+28056;ES-M;ES-MD;Fresnedillas de la Oliva
+28057;ES-M;ES-MD;Fresno de Torote
+28058;ES-M;ES-MD;Fuenlabrada
+28059;ES-M;ES-MD;Fuente el Saz de Jarama
+28060;ES-M;ES-MD;Fuentidueña de Tajo
+28061;ES-M;ES-MD;Galapagar
+28062;ES-M;ES-MD;Garganta de los Montes
+28063;ES-M;ES-MD;Gargantilla del Lozoya y Pinilla de Buitrago
+28064;ES-M;ES-MD;Gascones
+28065;ES-M;ES-MD;Getafe
+28066;ES-M;ES-MD;Griñón
+28067;ES-M;ES-MD;Guadalix de la Sierra
+28068;ES-M;ES-MD;Guadarrama
+28069;ES-M;ES-MD;La Hiruela
+28070;ES-M;ES-MD;Horcajo de la Sierra-Aoslos
+28071;ES-M;ES-MD;Horcajuelo de la Sierra
+28072;ES-M;ES-MD;Hoyo de Manzanares
+28073;ES-M;ES-MD;Humanes de Madrid
+28074;ES-M;ES-MD;Leganés
+28075;ES-M;ES-MD;Loeches
+28076;ES-M;ES-MD;Lozoya
+28078;ES-M;ES-MD;Madarcos
+28079;ES-M;ES-MD;Madrid
+28080;ES-M;ES-MD;Majadahonda
+28082;ES-M;ES-MD;Manzanares el Real
+28083;ES-M;ES-MD;Meco
+28084;ES-M;ES-MD;Mejorada del Campo
+28085;ES-M;ES-MD;Miraflores de la Sierra
+28086;ES-M;ES-MD;El Molar
+28087;ES-M;ES-MD;Los Molinos
+28088;ES-M;ES-MD;Montejo de la Sierra
+28089;ES-M;ES-MD;Moraleja de Enmedio
+28090;ES-M;ES-MD;Moralzarzal
+28091;ES-M;ES-MD;Morata de Tajuña
+28092;ES-M;ES-MD;Móstoles
+28093;ES-M;ES-MD;Navacerrada
+28094;ES-M;ES-MD;Navalafuente
+28095;ES-M;ES-MD;Navalagamella
+28096;ES-M;ES-MD;Navalcarnero
+28097;ES-M;ES-MD;Navarredonda y San Mamés
+28099;ES-M;ES-MD;Navas del Rey
+28100;ES-M;ES-MD;Nuevo Baztán
+28101;ES-M;ES-MD;Olmeda de las Fuentes
+28102;ES-M;ES-MD;Orusco de Tajuña
+28104;ES-M;ES-MD;Paracuellos de Jarama
+28106;ES-M;ES-MD;Parla
+28107;ES-M;ES-MD;Patones
+28108;ES-M;ES-MD;Pedrezuela
+28109;ES-M;ES-MD;Pelayos de la Presa
+28110;ES-M;ES-MD;Perales de Tajuña
+28111;ES-M;ES-MD;Pezuela de las Torres
+28112;ES-M;ES-MD;Pinilla del Valle
+28113;ES-M;ES-MD;Pinto
+28114;ES-M;ES-MD;Piñuécar-Gandullas
+28115;ES-M;ES-MD;Pozuelo de Alarcón
+28116;ES-M;ES-MD;Pozuelo del Rey
+28117;ES-M;ES-MD;Prádena del Rincón
+28118;ES-M;ES-MD;Puebla de la Sierra
+28119;ES-M;ES-MD;Quijorna
+28120;ES-M;ES-MD;Rascafría
+28121;ES-M;ES-MD;Redueña
+28122;ES-M;ES-MD;Ribatejada
+28123;ES-M;ES-MD;Rivas-Vaciamadrid
+28124;ES-M;ES-MD;Robledillo de la Jara
+28125;ES-M;ES-MD;Robledo de Chavela
+28126;ES-M;ES-MD;Robregordo
+28127;ES-M;ES-MD;Las Rozas de Madrid
+28128;ES-M;ES-MD;Rozas de Puerto Real
+28129;ES-M;ES-MD;San Agustín del Guadalix
+28130;ES-M;ES-MD;San Fernando de Henares
+28131;ES-M;ES-MD;San Lorenzo de El Escorial
+28132;ES-M;ES-MD;San Martín de la Vega
+28133;ES-M;ES-MD;San Martín de Valdeiglesias
+28134;ES-M;ES-MD;San Sebastián de los Reyes
+28135;ES-M;ES-MD;Santa María de la Alameda
+28136;ES-M;ES-MD;Santorcaz
+28137;ES-M;ES-MD;Los Santos de la Humosa
+28138;ES-M;ES-MD;La Serna del Monte
+28140;ES-M;ES-MD;Serranillos del Valle
+28141;ES-M;ES-MD;Sevilla la Nueva
+28143;ES-M;ES-MD;Somosierra
+28144;ES-M;ES-MD;Soto del Real
+28145;ES-M;ES-MD;Talamanca de Jarama
+28146;ES-M;ES-MD;Tielmes
+28147;ES-M;ES-MD;Titulcia
+28148;ES-M;ES-MD;Torrejón de Ardoz
+28149;ES-M;ES-MD;Torrejón de la Calzada
+28150;ES-M;ES-MD;Torrejón de Velasco
+28151;ES-M;ES-MD;Torrelaguna
+28152;ES-M;ES-MD;Torrelodones
+28153;ES-M;ES-MD;Torremocha de Jarama
+28154;ES-M;ES-MD;Torres de la Alameda
+28155;ES-M;ES-MD;Valdaracete
+28156;ES-M;ES-MD;Valdeavero
+28157;ES-M;ES-MD;Valdelaguna
+28158;ES-M;ES-MD;Valdemanco
+28159;ES-M;ES-MD;Valdemaqueda
+28160;ES-M;ES-MD;Valdemorillo
+28161;ES-M;ES-MD;Valdemoro
+28162;ES-M;ES-MD;Valdeolmos-Alalpardo
+28163;ES-M;ES-MD;Valdepiélagos
+28164;ES-M;ES-MD;Valdetorres de Jarama
+28165;ES-M;ES-MD;Valdilecha
+28166;ES-M;ES-MD;Valverde de Alcalá
+28167;ES-M;ES-MD;Velilla de San Antonio
+28168;ES-M;ES-MD;El Vellón
+28169;ES-M;ES-MD;Venturada
+28170;ES-M;ES-MD;Villaconejos
+28171;ES-M;ES-MD;Villa del Prado
+28172;ES-M;ES-MD;Villalbilla
+28173;ES-M;ES-MD;Villamanrique de Tajo
+28174;ES-M;ES-MD;Villamanta
+28175;ES-M;ES-MD;Villamantilla
+28176;ES-M;ES-MD;Villanueva de la Cañada
+28177;ES-M;ES-MD;Villanueva del Pardillo
+28178;ES-M;ES-MD;Villanueva de Perales
+28179;ES-M;ES-MD;Villar del Olmo
+28180;ES-M;ES-MD;Villarejo de Salvanés
+28181;ES-M;ES-MD;Villaviciosa de Odón
+28182;ES-M;ES-MD;Villavieja del Lozoya
+28183;ES-M;ES-MD;Zarzalejo
+28901;ES-M;ES-MD;Lozoyuela-Navas-Sieteiglesias
+28902;ES-M;ES-MD;Puentes Viejas
+28903;ES-M;ES-MD;Tres Cantos

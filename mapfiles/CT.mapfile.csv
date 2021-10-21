@@ -1,0 +1,948 @@
+id;prov;ccaa;name
+08001;ES-B;ES-CT;Abrera
+08002;ES-B;ES-CT;Aguilar de Segarra
+08003;ES-B;ES-CT;Alella
+08004;ES-B;ES-CT;Alpens
+08005;ES-B;ES-CT;l'Ametlla del Vallès
+08006;ES-B;ES-CT;Arenys de Mar
+08007;ES-B;ES-CT;Arenys de Munt
+08008;ES-B;ES-CT;Argençola
+08009;ES-B;ES-CT;Argentona
+08010;ES-B;ES-CT;Artés
+08011;ES-B;ES-CT;Avià
+08012;ES-B;ES-CT;Avinyó
+08013;ES-B;ES-CT;Avinyonet del Penedès
+08014;ES-B;ES-CT;Aiguafreda
+08015;ES-B;ES-CT;Badalona
+08016;ES-B;ES-CT;Bagà
+08017;ES-B;ES-CT;Balenyà
+08018;ES-B;ES-CT;Balsareny
+08019;ES-B;ES-CT;Barcelona
+08020;ES-B;ES-CT;Begues
+08021;ES-B;ES-CT;Bellprat
+08022;ES-B;ES-CT;Berga
+08023;ES-B;ES-CT;Bigues i Riells
+08024;ES-B;ES-CT;Borredà
+08025;ES-B;ES-CT;el Bruc
+08026;ES-B;ES-CT;el Brull
+08027;ES-B;ES-CT;les Cabanyes
+08028;ES-B;ES-CT;Cabrera d'Anoia
+08029;ES-B;ES-CT;Cabrera de Mar
+08030;ES-B;ES-CT;Cabrils
+08031;ES-B;ES-CT;Calaf
+08032;ES-B;ES-CT;Caldes d'Estrac
+08033;ES-B;ES-CT;Caldes de Montbui
+08034;ES-B;ES-CT;Calders
+08035;ES-B;ES-CT;Calella
+08036;ES-B;ES-CT;Calonge de Segarra
+08037;ES-B;ES-CT;Calldetenes
+08038;ES-B;ES-CT;Callús
+08039;ES-B;ES-CT;Campins
+08040;ES-B;ES-CT;Canet de Mar
+08041;ES-B;ES-CT;Canovelles
+08042;ES-B;ES-CT;Cànoves i Samalús
+08043;ES-B;ES-CT;Canyelles
+08044;ES-B;ES-CT;Capellades
+08045;ES-B;ES-CT;Capolat
+08046;ES-B;ES-CT;Cardedeu
+08047;ES-B;ES-CT;Cardona
+08048;ES-B;ES-CT;Carme
+08049;ES-B;ES-CT;Casserres
+08050;ES-B;ES-CT;Castellar del Riu
+08051;ES-B;ES-CT;Castellar del Vallès
+08052;ES-B;ES-CT;Castellar de n'Hug
+08053;ES-B;ES-CT;Castellbell i el Vilar
+08054;ES-B;ES-CT;Castellbisbal
+08055;ES-B;ES-CT;Castellcir
+08056;ES-B;ES-CT;Castelldefels
+08057;ES-B;ES-CT;Castell de l'Areny
+08058;ES-B;ES-CT;Castellet i la Gornal
+08059;ES-B;ES-CT;Castellfollit del Boix
+08060;ES-B;ES-CT;Castellfollit de Riubregós
+08061;ES-B;ES-CT;Castellgalí
+08062;ES-B;ES-CT;Castellnou de Bages
+08063;ES-B;ES-CT;Castellolí
+08064;ES-B;ES-CT;Castellterçol
+08065;ES-B;ES-CT;Castellví de la Marca
+08066;ES-B;ES-CT;Castellví de Rosanes
+08067;ES-B;ES-CT;Centelles
+08068;ES-B;ES-CT;Cervelló
+08069;ES-B;ES-CT;Collbató
+08070;ES-B;ES-CT;Collsuspina
+08071;ES-B;ES-CT;Copons
+08072;ES-B;ES-CT;Corbera de Llobregat
+08073;ES-B;ES-CT;Cornellà de Llobregat
+08074;ES-B;ES-CT;Cubelles
+08075;ES-B;ES-CT;Dosrius
+08076;ES-B;ES-CT;Esparreguera
+08077;ES-B;ES-CT;Esplugues de Llobregat
+08078;ES-B;ES-CT;l'Espunyola
+08079;ES-B;ES-CT;l'Estany
+08080;ES-B;ES-CT;Fígols
+08081;ES-B;ES-CT;Fogars de Montclús
+08082;ES-B;ES-CT;Fogars de la Selva
+08083;ES-B;ES-CT;Folgueroles
+08084;ES-B;ES-CT;Fonollosa
+08085;ES-B;ES-CT;Font-rubí
+08086;ES-B;ES-CT;les Franqueses del Vallès
+08087;ES-B;ES-CT;Gallifa
+08088;ES-B;ES-CT;la Garriga
+08089;ES-B;ES-CT;Gavà
+08090;ES-B;ES-CT;Gaià
+08091;ES-B;ES-CT;Gelida
+08092;ES-B;ES-CT;Gironella
+08093;ES-B;ES-CT;Gisclareny
+08094;ES-B;ES-CT;la Granada
+08095;ES-B;ES-CT;Granera
+08096;ES-B;ES-CT;Granollers
+08097;ES-B;ES-CT;Gualba
+08098;ES-B;ES-CT;Sant Salvador de Guardiola
+08099;ES-B;ES-CT;Guardiola de Berguedà
+08100;ES-B;ES-CT;Gurb
+08101;ES-B;ES-CT;l'Hospitalet de Llobregat
+08102;ES-B;ES-CT;Igualada
+08103;ES-B;ES-CT;Jorba
+08104;ES-B;ES-CT;la Llacuna
+08105;ES-B;ES-CT;la Llagosta
+08106;ES-B;ES-CT;Llinars del Vallès
+08107;ES-B;ES-CT;Lliçà d'Amunt
+08108;ES-B;ES-CT;Lliçà de Vall
+08109;ES-B;ES-CT;Lluçà
+08110;ES-B;ES-CT;Malgrat de Mar
+08111;ES-B;ES-CT;Malla
+08112;ES-B;ES-CT;Manlleu
+08113;ES-B;ES-CT;Manresa
+08114;ES-B;ES-CT;Martorell
+08115;ES-B;ES-CT;Martorelles
+08116;ES-B;ES-CT;les Masies de Roda
+08117;ES-B;ES-CT;les Masies de Voltregà
+08118;ES-B;ES-CT;el Masnou
+08119;ES-B;ES-CT;Masquefa
+08120;ES-B;ES-CT;Matadepera
+08121;ES-B;ES-CT;Mataró
+08122;ES-B;ES-CT;Mediona
+08123;ES-B;ES-CT;Molins de Rei
+08124;ES-B;ES-CT;Mollet del Vallès
+08125;ES-B;ES-CT;Montcada i Reixac
+08126;ES-B;ES-CT;Montgat
+08127;ES-B;ES-CT;Monistrol de Montserrat
+08128;ES-B;ES-CT;Monistrol de Calders
+08129;ES-B;ES-CT;Muntanyola
+08130;ES-B;ES-CT;Montclar
+08131;ES-B;ES-CT;Montesquiu
+08132;ES-B;ES-CT;Montmajor
+08133;ES-B;ES-CT;Montmaneu
+08134;ES-B;ES-CT;Figaró-Montmany
+08135;ES-B;ES-CT;Montmeló
+08136;ES-B;ES-CT;Montornès del Vallès
+08137;ES-B;ES-CT;Montseny
+08138;ES-B;ES-CT;Moià
+08139;ES-B;ES-CT;Mura
+08140;ES-B;ES-CT;Navarcles
+08141;ES-B;ES-CT;Navàs
+08142;ES-B;ES-CT;la Nou de Berguedà
+08143;ES-B;ES-CT;Òdena
+08144;ES-B;ES-CT;Olvan
+08145;ES-B;ES-CT;Olèrdola
+08146;ES-B;ES-CT;Olesa de Bonesvalls
+08147;ES-B;ES-CT;Olesa de Montserrat
+08148;ES-B;ES-CT;Olivella
+08149;ES-B;ES-CT;Olost
+08150;ES-B;ES-CT;Orís
+08151;ES-B;ES-CT;Oristà
+08152;ES-B;ES-CT;Orpí
+08153;ES-B;ES-CT;Òrrius
+08154;ES-B;ES-CT;Pacs del Penedès
+08155;ES-B;ES-CT;Palafolls
+08156;ES-B;ES-CT;Palau-solità i Plegamans
+08157;ES-B;ES-CT;Pallejà
+08158;ES-B;ES-CT;el Papiol
+08159;ES-B;ES-CT;Parets del Vallès
+08160;ES-B;ES-CT;Perafita
+08161;ES-B;ES-CT;Piera
+08162;ES-B;ES-CT;els Hostalets de Pierola
+08163;ES-B;ES-CT;Pineda de Mar
+08164;ES-B;ES-CT;el Pla del Penedès
+08165;ES-B;ES-CT;la Pobla de Claramunt
+08166;ES-B;ES-CT;la Pobla de Lillet
+08167;ES-B;ES-CT;Polinyà
+08168;ES-B;ES-CT;Pontons
+08169;ES-B;ES-CT;el Prat de Llobregat
+08170;ES-B;ES-CT;els Prats de Rei
+08171;ES-B;ES-CT;Prats de Lluçanès
+08172;ES-B;ES-CT;Premià de Mar
+08174;ES-B;ES-CT;Puigdàlber
+08175;ES-B;ES-CT;Puig-reig
+08176;ES-B;ES-CT;Pujalt
+08177;ES-B;ES-CT;la Quar
+08178;ES-B;ES-CT;Rajadell
+08179;ES-B;ES-CT;Rellinars
+08180;ES-B;ES-CT;Ripollet
+08181;ES-B;ES-CT;la Roca del Vallès
+08182;ES-B;ES-CT;el Pont de Vilomara i Rocafort
+08183;ES-B;ES-CT;Roda de Ter
+08184;ES-B;ES-CT;Rubí
+08185;ES-B;ES-CT;Rubió
+08187;ES-B;ES-CT;Sabadell
+08188;ES-B;ES-CT;Sagàs
+08189;ES-B;ES-CT;Sant Pere Sallavinera
+08190;ES-B;ES-CT;Saldes
+08191;ES-B;ES-CT;Sallent
+08192;ES-B;ES-CT;Santpedor
+08193;ES-B;ES-CT;Sant Iscle de Vallalta
+08194;ES-B;ES-CT;Sant Adrià de Besòs
+08195;ES-B;ES-CT;Sant Agustí de Lluçanès
+08196;ES-B;ES-CT;Sant Andreu de la Barca
+08197;ES-B;ES-CT;Sant Andreu de Llavaneres
+08198;ES-B;ES-CT;Sant Antoni de Vilamajor
+08199;ES-B;ES-CT;Sant Bartomeu del Grau
+08200;ES-B;ES-CT;Sant Boi de Llobregat
+08201;ES-B;ES-CT;Sant Boi de Lluçanès
+08202;ES-B;ES-CT;Sant Celoni
+08203;ES-B;ES-CT;Sant Cebrià de Vallalta
+08204;ES-B;ES-CT;Sant Climent de Llobregat
+08205;ES-B;ES-CT;Sant Cugat del Vallès
+08206;ES-B;ES-CT;Sant Cugat Sesgarrigues
+08207;ES-B;ES-CT;Sant Esteve de Palautordera
+08208;ES-B;ES-CT;Sant Esteve Sesrovires
+08209;ES-B;ES-CT;Sant Fost de Campsentelles
+08210;ES-B;ES-CT;Sant Feliu de Codines
+08211;ES-B;ES-CT;Sant Feliu de Llobregat
+08212;ES-B;ES-CT;Sant Feliu Sasserra
+08213;ES-B;ES-CT;Sant Fruitós de Bages
+08214;ES-B;ES-CT;Vilassar de Dalt
+08215;ES-B;ES-CT;Sant Hipòlit de Voltregà
+08216;ES-B;ES-CT;Sant Jaume de Frontanyà
+08217;ES-B;ES-CT;Sant Joan Despí
+08218;ES-B;ES-CT;Sant Joan de Vilatorrada
+08219;ES-B;ES-CT;Vilassar de Mar
+08220;ES-B;ES-CT;Sant Julià de Vilatorta
+08221;ES-B;ES-CT;Sant Just Desvern
+08222;ES-B;ES-CT;Sant Llorenç d'Hortons
+08223;ES-B;ES-CT;Sant Llorenç Savall
+08224;ES-B;ES-CT;Sant Martí de Centelles
+08225;ES-B;ES-CT;Sant Martí d'Albars
+08226;ES-B;ES-CT;Sant Martí de Tous
+08227;ES-B;ES-CT;Sant Martí Sarroca
+08228;ES-B;ES-CT;Sant Martí Sesgueioles
+08229;ES-B;ES-CT;Sant Mateu de Bages
+08230;ES-B;ES-CT;Premià de Dalt
+08231;ES-B;ES-CT;Sant Pere de Ribes
+08232;ES-B;ES-CT;Sant Pere de Riudebitlles
+08233;ES-B;ES-CT;Sant Pere de Torelló
+08234;ES-B;ES-CT;Sant Pere de Vilamajor
+08235;ES-B;ES-CT;Sant Pol de Mar
+08236;ES-B;ES-CT;Sant Quintí de Mediona
+08237;ES-B;ES-CT;Sant Quirze de Besora
+08238;ES-B;ES-CT;Sant Quirze del Vallès
+08239;ES-B;ES-CT;Sant Quirze Safaja
+08240;ES-B;ES-CT;Sant Sadurní d'Anoia
+08241;ES-B;ES-CT;Sant Sadurní d'Osormort
+08242;ES-B;ES-CT;Marganell
+08243;ES-B;ES-CT;Santa Cecília de Voltregà
+08244;ES-B;ES-CT;Santa Coloma de Cervelló
+08245;ES-B;ES-CT;Santa Coloma de Gramenet
+08246;ES-B;ES-CT;Santa Eugènia de Berga
+08247;ES-B;ES-CT;Santa Eulàlia de Riuprimer
+08248;ES-B;ES-CT;Santa Eulàlia de Ronçana
+08249;ES-B;ES-CT;Santa Fe del Penedès
+08250;ES-B;ES-CT;Santa Margarida de Montbui
+08251;ES-B;ES-CT;Santa Margarida i els Monjos
+08252;ES-B;ES-CT;Barberà del Vallès
+08253;ES-B;ES-CT;Santa Maria de Besora
+08254;ES-B;ES-CT;l'Esquirol
+08255;ES-B;ES-CT;Santa Maria de Merlès
+08256;ES-B;ES-CT;Santa Maria de Martorelles
+08257;ES-B;ES-CT;Santa Maria de Miralles
+08258;ES-B;ES-CT;Santa Maria d'Oló
+08259;ES-B;ES-CT;Santa Maria de Palautordera
+08260;ES-B;ES-CT;Santa Perpètua de Mogoda
+08261;ES-B;ES-CT;Santa Susanna
+08262;ES-B;ES-CT;Sant Vicenç de Castellet
+08263;ES-B;ES-CT;Sant Vicenç dels Horts
+08264;ES-B;ES-CT;Sant Vicenç de Montalt
+08265;ES-B;ES-CT;Sant Vicenç de Torelló
+08266;ES-B;ES-CT;Cerdanyola del Vallès
+08267;ES-B;ES-CT;Sentmenat
+08268;ES-B;ES-CT;Cercs
+08269;ES-B;ES-CT;Seva
+08270;ES-B;ES-CT;Sitges
+08271;ES-B;ES-CT;Sobremunt
+08272;ES-B;ES-CT;Sora
+08273;ES-B;ES-CT;Subirats
+08274;ES-B;ES-CT;Súria
+08275;ES-B;ES-CT;Tavèrnoles
+08276;ES-B;ES-CT;Tagamanent
+08277;ES-B;ES-CT;Talamanca
+08278;ES-B;ES-CT;Taradell
+08279;ES-B;ES-CT;Terrassa
+08280;ES-B;ES-CT;Tavertet
+08281;ES-B;ES-CT;Teià
+08282;ES-B;ES-CT;Tiana
+08283;ES-B;ES-CT;Tona
+08284;ES-B;ES-CT;Tordera
+08285;ES-B;ES-CT;Torelló
+08286;ES-B;ES-CT;la Torre de Claramunt
+08287;ES-B;ES-CT;Torrelavit
+08288;ES-B;ES-CT;Torrelles de Foix
+08289;ES-B;ES-CT;Torrelles de Llobregat
+08290;ES-B;ES-CT;Ullastrell
+08291;ES-B;ES-CT;Vacarisses
+08292;ES-B;ES-CT;Vallbona d'Anoia
+08293;ES-B;ES-CT;Vallcebre
+08294;ES-B;ES-CT;Vallgorguina
+08295;ES-B;ES-CT;Vallirana
+08296;ES-B;ES-CT;Vallromanes
+08297;ES-B;ES-CT;Veciana
+08298;ES-B;ES-CT;Vic
+08299;ES-B;ES-CT;Vilada
+08300;ES-B;ES-CT;Viladecavalls
+08301;ES-B;ES-CT;Viladecans
+08302;ES-B;ES-CT;Vilanova del Camí
+08303;ES-B;ES-CT;Vilanova de Sau
+08304;ES-B;ES-CT;Vilobí del Penedès
+08305;ES-B;ES-CT;Vilafranca del Penedès
+08306;ES-B;ES-CT;Vilalba Sasserra
+08307;ES-B;ES-CT;Vilanova i la Geltrú
+08308;ES-B;ES-CT;Viver i Serrateix
+08901;ES-B;ES-CT;Rupit i Pruit
+08902;ES-B;ES-CT;Vilanova del Vallès
+08903;ES-B;ES-CT;Sant Julià de Cerdanyola
+08904;ES-B;ES-CT;Badia del Vallès
+08905;ES-B;ES-CT;la Palma de Cervelló
+17001;ES-GI;ES-CT;Agullana
+17002;ES-GI;ES-CT;Aiguaviva
+17003;ES-GI;ES-CT;Albanyà
+17004;ES-GI;ES-CT;Albons
+17005;ES-GI;ES-CT;el Far d'Empordà
+17006;ES-GI;ES-CT;Alp
+17007;ES-GI;ES-CT;Amer
+17008;ES-GI;ES-CT;Anglès
+17009;ES-GI;ES-CT;Arbúcies
+17010;ES-GI;ES-CT;Argelaguer
+17011;ES-GI;ES-CT;l'Armentera
+17012;ES-GI;ES-CT;Avinyonet de Puigventós
+17013;ES-GI;ES-CT;Begur
+17014;ES-GI;ES-CT;la Vajol
+17015;ES-GI;ES-CT;Banyoles
+17016;ES-GI;ES-CT;Bàscara
+17018;ES-GI;ES-CT;Bellcaire d'Empordà
+17019;ES-GI;ES-CT;Besalú
+17020;ES-GI;ES-CT;Bescanó
+17021;ES-GI;ES-CT;Beuda
+17022;ES-GI;ES-CT;la Bisbal d'Empordà
+17023;ES-GI;ES-CT;Blanes
+17024;ES-GI;ES-CT;Bolvir
+17025;ES-GI;ES-CT;Bordils
+17026;ES-GI;ES-CT;Borrassà
+17027;ES-GI;ES-CT;Breda
+17028;ES-GI;ES-CT;Brunyola i Sant Martí Sapresa
+17029;ES-GI;ES-CT;Boadella i les Escaules
+17030;ES-GI;ES-CT;Cabanes
+17031;ES-GI;ES-CT;Cabanelles
+17032;ES-GI;ES-CT;Cadaqués
+17033;ES-GI;ES-CT;Caldes de Malavella
+17034;ES-GI;ES-CT;Calonge i Sant Antoni
+17035;ES-GI;ES-CT;Camós
+17036;ES-GI;ES-CT;Campdevànol
+17037;ES-GI;ES-CT;Campelles
+17038;ES-GI;ES-CT;Campllong
+17039;ES-GI;ES-CT;Camprodon
+17040;ES-GI;ES-CT;Canet d'Adri
+17041;ES-GI;ES-CT;Cantallops
+17042;ES-GI;ES-CT;Capmany
+17043;ES-GI;ES-CT;Queralbs
+17044;ES-GI;ES-CT;Cassà de la Selva
+17046;ES-GI;ES-CT;Castellfollit de la Roca
+17047;ES-GI;ES-CT;Castelló d'Empúries
+17048;ES-GI;ES-CT;Castell-Platja d'Aro
+17049;ES-GI;ES-CT;Celrà
+17050;ES-GI;ES-CT;Cervià de Ter
+17051;ES-GI;ES-CT;Cistella
+17052;ES-GI;ES-CT;Siurana
+17054;ES-GI;ES-CT;Colera
+17055;ES-GI;ES-CT;Colomers
+17056;ES-GI;ES-CT;Cornellà del Terri
+17057;ES-GI;ES-CT;Corçà
+17058;ES-GI;ES-CT;Crespià
+17060;ES-GI;ES-CT;Darnius
+17061;ES-GI;ES-CT;Das
+17062;ES-GI;ES-CT;l'Escala
+17063;ES-GI;ES-CT;Espinelves
+17064;ES-GI;ES-CT;Espolla
+17065;ES-GI;ES-CT;Esponellà
+17066;ES-GI;ES-CT;Figueres
+17067;ES-GI;ES-CT;Flaçà
+17068;ES-GI;ES-CT;Foixà
+17069;ES-GI;ES-CT;Fontanals de Cerdanya
+17070;ES-GI;ES-CT;Fontanilles
+17071;ES-GI;ES-CT;Fontcoberta
+17073;ES-GI;ES-CT;Fornells de la Selva
+17074;ES-GI;ES-CT;Fortià
+17075;ES-GI;ES-CT;Garrigàs
+17076;ES-GI;ES-CT;Garrigoles
+17077;ES-GI;ES-CT;Garriguella
+17078;ES-GI;ES-CT;Ger
+17079;ES-GI;ES-CT;Girona
+17080;ES-GI;ES-CT;Gombrèn
+17081;ES-GI;ES-CT;Gualta
+17082;ES-GI;ES-CT;Guils de Cerdanya
+17083;ES-GI;ES-CT;Hostalric
+17084;ES-GI;ES-CT;Isòvol
+17085;ES-GI;ES-CT;Jafre
+17086;ES-GI;ES-CT;la Jonquera
+17087;ES-GI;ES-CT;Juià
+17088;ES-GI;ES-CT;Lladó
+17089;ES-GI;ES-CT;Llagostera
+17090;ES-GI;ES-CT;Llambilles
+17091;ES-GI;ES-CT;Llanars
+17092;ES-GI;ES-CT;Llançà
+17093;ES-GI;ES-CT;Llers
+17095;ES-GI;ES-CT;Lloret de Mar
+17096;ES-GI;ES-CT;les Llosses
+17097;ES-GI;ES-CT;Madremanya
+17098;ES-GI;ES-CT;Maià de Montcal
+17099;ES-GI;ES-CT;Meranges
+17100;ES-GI;ES-CT;Masarac
+17101;ES-GI;ES-CT;Massanes
+17102;ES-GI;ES-CT;Maçanet de Cabrenys
+17103;ES-GI;ES-CT;Maçanet de la Selva
+17105;ES-GI;ES-CT;Mieres
+17106;ES-GI;ES-CT;Mollet de Peralada
+17107;ES-GI;ES-CT;Molló
+17109;ES-GI;ES-CT;Montagut i Oix
+17110;ES-GI;ES-CT;Mont-ras
+17111;ES-GI;ES-CT;Navata
+17112;ES-GI;ES-CT;Ogassa
+17114;ES-GI;ES-CT;Olot
+17115;ES-GI;ES-CT;Ordis
+17116;ES-GI;ES-CT;Osor
+17117;ES-GI;ES-CT;Palafrugell
+17118;ES-GI;ES-CT;Palamós
+17119;ES-GI;ES-CT;Palau de Santa Eulàlia
+17120;ES-GI;ES-CT;Palau-saverdera
+17121;ES-GI;ES-CT;Palau-sator
+17123;ES-GI;ES-CT;Palol de Revardit
+17124;ES-GI;ES-CT;Pals
+17125;ES-GI;ES-CT;Pardines
+17126;ES-GI;ES-CT;Parlavà
+17128;ES-GI;ES-CT;Pau
+17129;ES-GI;ES-CT;Pedret i Marzà
+17130;ES-GI;ES-CT;la Pera
+17132;ES-GI;ES-CT;Peralada
+17133;ES-GI;ES-CT;les Planes d'Hostoles
+17134;ES-GI;ES-CT;Planoles
+17135;ES-GI;ES-CT;Pont de Molins
+17136;ES-GI;ES-CT;Pontós
+17137;ES-GI;ES-CT;Porqueres
+17138;ES-GI;ES-CT;Portbou
+17139;ES-GI;ES-CT;les Preses
+17140;ES-GI;ES-CT;el Port de la Selva
+17141;ES-GI;ES-CT;Puigcerdà
+17142;ES-GI;ES-CT;Quart
+17143;ES-GI;ES-CT;Rabós
+17144;ES-GI;ES-CT;Regencós
+17145;ES-GI;ES-CT;Ribes de Freser
+17146;ES-GI;ES-CT;Riells i Viabrea
+17147;ES-GI;ES-CT;Ripoll
+17148;ES-GI;ES-CT;Riudarenes
+17149;ES-GI;ES-CT;Riudaura
+17150;ES-GI;ES-CT;Riudellots de la Selva
+17151;ES-GI;ES-CT;Riumors
+17152;ES-GI;ES-CT;Roses
+17153;ES-GI;ES-CT;Rupià
+17154;ES-GI;ES-CT;Sales de Llierca
+17155;ES-GI;ES-CT;Salt
+17157;ES-GI;ES-CT;Sant Andreu Salou
+17158;ES-GI;ES-CT;Sant Climent Sescebes
+17159;ES-GI;ES-CT;Sant Feliu de Buixalleu
+17160;ES-GI;ES-CT;Sant Feliu de Guíxols
+17161;ES-GI;ES-CT;Sant Feliu de Pallerols
+17162;ES-GI;ES-CT;Sant Ferriol
+17163;ES-GI;ES-CT;Sant Gregori
+17164;ES-GI;ES-CT;Sant Hilari Sacalm
+17165;ES-GI;ES-CT;Sant Jaume de Llierca
+17166;ES-GI;ES-CT;Sant Jordi Desvalls
+17167;ES-GI;ES-CT;Sant Joan de les Abadesses
+17168;ES-GI;ES-CT;Sant Joan de Mollet
+17169;ES-GI;ES-CT;Sant Julià de Ramis
+17170;ES-GI;ES-CT;Vallfogona de Ripollès
+17171;ES-GI;ES-CT;Sant Llorenç de la Muga
+17172;ES-GI;ES-CT;Sant Martí de Llémena
+17173;ES-GI;ES-CT;Sant Martí Vell
+17174;ES-GI;ES-CT;Sant Miquel de Campmajor
+17175;ES-GI;ES-CT;Sant Miquel de Fluvià
+17176;ES-GI;ES-CT;Sant Mori
+17177;ES-GI;ES-CT;Sant Pau de Segúries
+17178;ES-GI;ES-CT;Sant Pere Pescador
+17180;ES-GI;ES-CT;Santa Coloma de Farners
+17181;ES-GI;ES-CT;Santa Cristina d'Aro
+17182;ES-GI;ES-CT;Santa Llogaia d'Àlguema
+17183;ES-GI;ES-CT;Sant Aniol de Finestres
+17184;ES-GI;ES-CT;Santa Pau
+17185;ES-GI;ES-CT;Sant Joan les Fonts
+17186;ES-GI;ES-CT;Sarrià de Ter
+17187;ES-GI;ES-CT;Saus, Camallera i Llampaies
+17188;ES-GI;ES-CT;la Selva de Mar
+17189;ES-GI;ES-CT;la Cellera de Ter
+17190;ES-GI;ES-CT;Serinyà
+17191;ES-GI;ES-CT;Serra de Daró
+17192;ES-GI;ES-CT;Setcases
+17193;ES-GI;ES-CT;Sils
+17194;ES-GI;ES-CT;Susqueda
+17195;ES-GI;ES-CT;la Tallada d'Empordà
+17196;ES-GI;ES-CT;Terrades
+17197;ES-GI;ES-CT;Torrent
+17198;ES-GI;ES-CT;Torroella de Fluvià
+17199;ES-GI;ES-CT;Torroella de Montgrí
+17200;ES-GI;ES-CT;Tortellà
+17201;ES-GI;ES-CT;Toses
+17202;ES-GI;ES-CT;Tossa de Mar
+17203;ES-GI;ES-CT;Ultramort
+17204;ES-GI;ES-CT;Ullà
+17205;ES-GI;ES-CT;Ullastret
+17206;ES-GI;ES-CT;Urús
+17207;ES-GI;ES-CT;la Vall d'en Bas
+17208;ES-GI;ES-CT;la Vall de Bianya
+17209;ES-GI;ES-CT;Vall-llobrega
+17210;ES-GI;ES-CT;Ventalló
+17211;ES-GI;ES-CT;Verges
+17212;ES-GI;ES-CT;Vidrà
+17213;ES-GI;ES-CT;Vidreres
+17214;ES-GI;ES-CT;Vilabertran
+17215;ES-GI;ES-CT;Vilablareix
+17216;ES-GI;ES-CT;Viladasens
+17217;ES-GI;ES-CT;Viladamat
+17218;ES-GI;ES-CT;Vilademuls
+17220;ES-GI;ES-CT;Viladrau
+17221;ES-GI;ES-CT;Vilafant
+17222;ES-GI;ES-CT;Vilaür
+17223;ES-GI;ES-CT;Vilajuïga
+17224;ES-GI;ES-CT;Vilallonga de Ter
+17225;ES-GI;ES-CT;Vilamacolum
+17226;ES-GI;ES-CT;Vilamalla
+17227;ES-GI;ES-CT;Vilamaniscle
+17228;ES-GI;ES-CT;Vilanant
+17230;ES-GI;ES-CT;Vila-sacra
+17232;ES-GI;ES-CT;Vilopriu
+17233;ES-GI;ES-CT;Vilobí d'Onyar
+17234;ES-GI;ES-CT;Biure
+17901;ES-GI;ES-CT;Cruïlles, Monells i Sant Sadurní de l'Heura
+17902;ES-GI;ES-CT;Forallac
+17903;ES-GI;ES-CT;Sant Julià del Llor i Bonmatí
+25001;ES-L;ES-CT;Abella de la Conca
+25002;ES-L;ES-CT;Àger
+25003;ES-L;ES-CT;Agramunt
+25004;ES-L;ES-CT;els Alamús
+25005;ES-L;ES-CT;Alàs i Cerc
+25006;ES-L;ES-CT;l'Albagés
+25007;ES-L;ES-CT;Albatàrrec
+25008;ES-L;ES-CT;Albesa
+25009;ES-L;ES-CT;l'Albi
+25010;ES-L;ES-CT;Alcanó
+25011;ES-L;ES-CT;Alcarràs
+25012;ES-L;ES-CT;Alcoletge
+25013;ES-L;ES-CT;Alfarràs
+25014;ES-L;ES-CT;Alfés
+25015;ES-L;ES-CT;Algerri
+25016;ES-L;ES-CT;Alguaire
+25017;ES-L;ES-CT;Alins
+25019;ES-L;ES-CT;Almacelles
+25020;ES-L;ES-CT;Almatret
+25021;ES-L;ES-CT;Almenar
+25022;ES-L;ES-CT;Alòs de Balaguer
+25023;ES-L;ES-CT;Alpicat
+25024;ES-L;ES-CT;Alt Àneu
+25025;ES-L;ES-CT;Naut Aran
+25027;ES-L;ES-CT;Anglesola
+25029;ES-L;ES-CT;Arbeca
+25030;ES-L;ES-CT;el Pont de Bar
+25031;ES-L;ES-CT;Arres
+25032;ES-L;ES-CT;Arsèguel
+25033;ES-L;ES-CT;Artesa de Lleida
+25034;ES-L;ES-CT;Artesa de Segre
+25035;ES-L;ES-CT;la Sentiu de Sió
+25036;ES-L;ES-CT;Aspa
+25037;ES-L;ES-CT;les Avellanes i Santa Linya
+25038;ES-L;ES-CT;Aitona
+25039;ES-L;ES-CT;Baix Pallars
+25040;ES-L;ES-CT;Balaguer
+25041;ES-L;ES-CT;Barbens
+25042;ES-L;ES-CT;la Baronia de Rialb
+25043;ES-L;ES-CT;la Vall de Boí
+25044;ES-L;ES-CT;Bassella
+25045;ES-L;ES-CT;Bausen
+25046;ES-L;ES-CT;Belianes
+25047;ES-L;ES-CT;Bellcaire d'Urgell
+25048;ES-L;ES-CT;Bell-lloc d'Urgell
+25049;ES-L;ES-CT;Bellmunt d'Urgell
+25050;ES-L;ES-CT;Bellpuig
+25051;ES-L;ES-CT;Bellver de Cerdanya
+25052;ES-L;ES-CT;Bellvís
+25053;ES-L;ES-CT;Benavent de Segrià
+25055;ES-L;ES-CT;Biosca
+25056;ES-L;ES-CT;Bovera
+25057;ES-L;ES-CT;es Bòrdes
+25058;ES-L;ES-CT;les Borges Blanques
+25059;ES-L;ES-CT;Bossòst
+25060;ES-L;ES-CT;Cabanabona
+25061;ES-L;ES-CT;Cabó
+25062;ES-L;ES-CT;Camarasa
+25063;ES-L;ES-CT;Canejan
+25064;ES-L;ES-CT;Castellar de la Ribera
+25067;ES-L;ES-CT;Castelldans
+25068;ES-L;ES-CT;Castellnou de Seana
+25069;ES-L;ES-CT;Castelló de Farfanya
+25070;ES-L;ES-CT;Castellserà
+25071;ES-L;ES-CT;Cava
+25072;ES-L;ES-CT;Cervera
+25073;ES-L;ES-CT;Cervià de les Garrigues
+25074;ES-L;ES-CT;Ciutadilla
+25075;ES-L;ES-CT;Clariana de Cardener
+25076;ES-L;ES-CT;el Cogul
+25077;ES-L;ES-CT;Coll de Nargó
+25078;ES-L;ES-CT;Corbins
+25079;ES-L;ES-CT;Cubells
+25081;ES-L;ES-CT;l'Espluga Calba
+25082;ES-L;ES-CT;Espot
+25085;ES-L;ES-CT;Estaràs
+25086;ES-L;ES-CT;Esterri d'Àneu
+25087;ES-L;ES-CT;Esterri de Cardós
+25088;ES-L;ES-CT;Estamariu
+25089;ES-L;ES-CT;Farrera
+25092;ES-L;ES-CT;la Floresta
+25093;ES-L;ES-CT;Fondarella
+25094;ES-L;ES-CT;Foradada
+25096;ES-L;ES-CT;la Fuliola
+25097;ES-L;ES-CT;Fulleda
+25098;ES-L;ES-CT;Gavet de la Conca
+25099;ES-L;ES-CT;Golmés
+25100;ES-L;ES-CT;Gósol
+25101;ES-L;ES-CT;la Granadella
+25102;ES-L;ES-CT;la Granja d'Escarp
+25103;ES-L;ES-CT;Granyanella
+25104;ES-L;ES-CT;Granyena de Segarra
+25105;ES-L;ES-CT;Granyena de les Garrigues
+25109;ES-L;ES-CT;Guimerà
+25110;ES-L;ES-CT;Guissona
+25111;ES-L;ES-CT;Guixers
+25112;ES-L;ES-CT;Ivars de Noguera
+25113;ES-L;ES-CT;Ivars d'Urgell
+25114;ES-L;ES-CT;Ivorra
+25115;ES-L;ES-CT;Isona i Conca Dellà
+25118;ES-L;ES-CT;Juncosa
+25119;ES-L;ES-CT;Juneda
+25120;ES-L;ES-CT;Lleida
+25121;ES-L;ES-CT;Les
+25122;ES-L;ES-CT;Linyola
+25123;ES-L;ES-CT;Lladorre
+25124;ES-L;ES-CT;Lladurs
+25125;ES-L;ES-CT;Llardecans
+25126;ES-L;ES-CT;Llavorsí
+25127;ES-L;ES-CT;Lles de Cerdanya
+25128;ES-L;ES-CT;Llimiana
+25129;ES-L;ES-CT;Llobera
+25130;ES-L;ES-CT;Maldà
+25131;ES-L;ES-CT;Massalcoreig
+25132;ES-L;ES-CT;Massoteres
+25133;ES-L;ES-CT;Maials
+25134;ES-L;ES-CT;Menàrguens
+25135;ES-L;ES-CT;Miralcamp
+25136;ES-L;ES-CT;la Molsosa
+25137;ES-L;ES-CT;Mollerussa
+25138;ES-L;ES-CT;Montgai
+25139;ES-L;ES-CT;Montellà i Martinet
+25140;ES-L;ES-CT;Montferrer i Castellbò
+25141;ES-L;ES-CT;Montoliu de Segarra
+25142;ES-L;ES-CT;Montoliu de Lleida
+25143;ES-L;ES-CT;Montornès de Segarra
+25145;ES-L;ES-CT;Nalec
+25146;ES-L;ES-CT;Navès
+25148;ES-L;ES-CT;Odèn
+25149;ES-L;ES-CT;Oliana
+25150;ES-L;ES-CT;Oliola
+25151;ES-L;ES-CT;Olius
+25152;ES-L;ES-CT;les Oluges
+25153;ES-L;ES-CT;els Omellons
+25154;ES-L;ES-CT;els Omells de na Gaia
+25155;ES-L;ES-CT;Organyà
+25156;ES-L;ES-CT;Os de Balaguer
+25157;ES-L;ES-CT;Ossó de Sió
+25158;ES-L;ES-CT;el Palau d'Anglesola
+25161;ES-L;ES-CT;Conca de Dalt
+25163;ES-L;ES-CT;la Coma i la Pedra
+25164;ES-L;ES-CT;Penelles
+25165;ES-L;ES-CT;Peramola
+25166;ES-L;ES-CT;Pinell de Solsonès
+25167;ES-L;ES-CT;Pinós
+25168;ES-L;ES-CT;el Poal
+25169;ES-L;ES-CT;la Pobla de Cérvoles
+25170;ES-L;ES-CT;Bellaguarda
+25171;ES-L;ES-CT;la Pobla de Segur
+25172;ES-L;ES-CT;Ponts
+25173;ES-L;ES-CT;el Pont de Suert
+25174;ES-L;ES-CT;la Portella
+25175;ES-L;ES-CT;Prats i Sansor
+25176;ES-L;ES-CT;Preixana
+25177;ES-L;ES-CT;Preixens
+25179;ES-L;ES-CT;Prullans
+25180;ES-L;ES-CT;Puiggròs
+25181;ES-L;ES-CT;Puigverd d'Agramunt
+25182;ES-L;ES-CT;Puigverd de Lleida
+25183;ES-L;ES-CT;Rialp
+25185;ES-L;ES-CT;Ribera d'Urgellet
+25186;ES-L;ES-CT;Riner
+25189;ES-L;ES-CT;Rosselló
+25190;ES-L;ES-CT;Salàs de Pallars
+25191;ES-L;ES-CT;Sanaüja
+25192;ES-L;ES-CT;Sant Guim de Freixenet
+25193;ES-L;ES-CT;Sant Llorenç de Morunys
+25194;ES-L;ES-CT;Sant Ramon
+25196;ES-L;ES-CT;Sant Esteve de la Sarga
+25197;ES-L;ES-CT;Sant Guim de la Plana
+25200;ES-L;ES-CT;Sarroca de Lleida
+25201;ES-L;ES-CT;Sarroca de Bellera
+25202;ES-L;ES-CT;Senterada
+25203;ES-L;ES-CT;la Seu d'Urgell
+25204;ES-L;ES-CT;Seròs
+25205;ES-L;ES-CT;Sidamon
+25206;ES-L;ES-CT;el Soleràs
+25207;ES-L;ES-CT;Solsona
+25208;ES-L;ES-CT;Soriguera
+25209;ES-L;ES-CT;Sort
+25210;ES-L;ES-CT;Soses
+25211;ES-L;ES-CT;Sudanell
+25212;ES-L;ES-CT;Sunyer
+25215;ES-L;ES-CT;Talarn
+25216;ES-L;ES-CT;Talavera
+25217;ES-L;ES-CT;Tàrrega
+25218;ES-L;ES-CT;Tarrés
+25219;ES-L;ES-CT;Tarroja de Segarra
+25220;ES-L;ES-CT;Térmens
+25221;ES-L;ES-CT;Tírvia
+25222;ES-L;ES-CT;Tiurana
+25223;ES-L;ES-CT;Torà
+25224;ES-L;ES-CT;els Torms
+25225;ES-L;ES-CT;Tornabous
+25226;ES-L;ES-CT;Torrebesses
+25227;ES-L;ES-CT;la Torre de Cabdella
+25228;ES-L;ES-CT;Torrefarrera
+25230;ES-L;ES-CT;Torregrossa
+25231;ES-L;ES-CT;Torrelameu
+25232;ES-L;ES-CT;Torres de Segre
+25233;ES-L;ES-CT;Torre-serona
+25234;ES-L;ES-CT;Tremp
+25238;ES-L;ES-CT;Vallbona de les Monges
+25239;ES-L;ES-CT;les Valls de Valira
+25240;ES-L;ES-CT;Vallfogona de Balaguer
+25242;ES-L;ES-CT;Verdú
+25243;ES-L;ES-CT;Vielha e Mijaran
+25244;ES-L;ES-CT;Vilagrassa
+25245;ES-L;ES-CT;Vilaller
+25247;ES-L;ES-CT;Vilamòs
+25248;ES-L;ES-CT;Vilanova de Bellpuig
+25249;ES-L;ES-CT;Vilanova de l'Aguda
+25250;ES-L;ES-CT;Vilanova de Meià
+25251;ES-L;ES-CT;Vilanova de Segrià
+25252;ES-L;ES-CT;Vila-sana
+25253;ES-L;ES-CT;el Vilosell
+25254;ES-L;ES-CT;Vilanova de la Barca
+25255;ES-L;ES-CT;Vinaixa
+25901;ES-L;ES-CT;Vall de Cardós
+25902;ES-L;ES-CT;Sant Martí de Riucorb
+25903;ES-L;ES-CT;La Guingueta d'Àneu
+25904;ES-L;ES-CT;Castell de Mur
+25905;ES-L;ES-CT;Ribera d'Ondara
+25906;ES-L;ES-CT;les Valls d'Aguilar
+25907;ES-L;ES-CT;Torrefeta i Florejacs
+25908;ES-L;ES-CT;Fígols i Alinyà
+25909;ES-L;ES-CT;la Vansa i Fórnols
+25910;ES-L;ES-CT;Josa i Tuixén
+25911;ES-L;ES-CT;els Plans de Sió
+25912;ES-L;ES-CT;Gimenells i el Pla de la Font
+25913;ES-L;ES-CT;Riu de Cerdanya
+43001;ES-T;ES-CT;Aiguamúrcia
+43002;ES-T;ES-CT;Albinyana
+43003;ES-T;ES-CT;l'Albiol
+43004;ES-T;ES-CT;Alcanar
+43005;ES-T;ES-CT;Alcover
+43006;ES-T;ES-CT;Aldover
+43007;ES-T;ES-CT;l'Aleixar
+43008;ES-T;ES-CT;Alfara de Carles
+43009;ES-T;ES-CT;Alforja
+43010;ES-T;ES-CT;Alió
+43011;ES-T;ES-CT;Almoster
+43012;ES-T;ES-CT;Altafulla
+43013;ES-T;ES-CT;l'Ametlla de Mar
+43014;ES-T;ES-CT;Amposta
+43015;ES-T;ES-CT;Arbolí
+43016;ES-T;ES-CT;l'Arboç
+43017;ES-T;ES-CT;l'Argentera
+43018;ES-T;ES-CT;Arnes
+43019;ES-T;ES-CT;Ascó
+43020;ES-T;ES-CT;Banyeres del Penedès
+43021;ES-T;ES-CT;Barberà de la Conca
+43022;ES-T;ES-CT;Batea
+43023;ES-T;ES-CT;Bellmunt del Priorat
+43024;ES-T;ES-CT;Bellvei
+43025;ES-T;ES-CT;Benifallet
+43026;ES-T;ES-CT;Benissanet
+43027;ES-T;ES-CT;la Bisbal de Falset
+43028;ES-T;ES-CT;la Bisbal del Penedès
+43029;ES-T;ES-CT;Blancafort
+43030;ES-T;ES-CT;Bonastre
+43031;ES-T;ES-CT;les Borges del Camp
+43032;ES-T;ES-CT;Bot
+43033;ES-T;ES-CT;Botarell
+43034;ES-T;ES-CT;Bràfim
+43035;ES-T;ES-CT;Cabacés
+43036;ES-T;ES-CT;Cabra del Camp
+43037;ES-T;ES-CT;Calafell
+43038;ES-T;ES-CT;Cambrils
+43039;ES-T;ES-CT;Capafonts
+43040;ES-T;ES-CT;Capçanes
+43041;ES-T;ES-CT;Caseres
+43042;ES-T;ES-CT;Castellvell del Camp
+43043;ES-T;ES-CT;el Catllar
+43044;ES-T;ES-CT;la Sénia
+43045;ES-T;ES-CT;Colldejou
+43046;ES-T;ES-CT;Conesa
+43047;ES-T;ES-CT;Constantí
+43048;ES-T;ES-CT;Corbera d'Ebre
+43049;ES-T;ES-CT;Cornudella de Montsant
+43050;ES-T;ES-CT;Creixell
+43051;ES-T;ES-CT;Cunit
+43052;ES-T;ES-CT;Xerta
+43053;ES-T;ES-CT;Duesaigües
+43054;ES-T;ES-CT;l'Espluga de Francolí
+43055;ES-T;ES-CT;Falset
+43056;ES-T;ES-CT;la Fatarella
+43057;ES-T;ES-CT;la Febró
+43058;ES-T;ES-CT;la Figuera
+43059;ES-T;ES-CT;Figuerola del Camp
+43060;ES-T;ES-CT;Flix
+43061;ES-T;ES-CT;Forès
+43062;ES-T;ES-CT;Freginals
+43063;ES-T;ES-CT;la Galera
+43064;ES-T;ES-CT;Gandesa
+43065;ES-T;ES-CT;Garcia
+43066;ES-T;ES-CT;els Garidells
+43067;ES-T;ES-CT;Ginestar
+43068;ES-T;ES-CT;Godall
+43069;ES-T;ES-CT;Gratallops
+43070;ES-T;ES-CT;els Guiamets
+43071;ES-T;ES-CT;Horta de Sant Joan
+43072;ES-T;ES-CT;el Lloar
+43073;ES-T;ES-CT;Llorac
+43074;ES-T;ES-CT;Llorenç del Penedès
+43075;ES-T;ES-CT;Margalef
+43076;ES-T;ES-CT;Marçà
+43077;ES-T;ES-CT;Mas de Barberans
+43078;ES-T;ES-CT;Masdenverge
+43079;ES-T;ES-CT;Masllorenç
+43080;ES-T;ES-CT;la Masó
+43081;ES-T;ES-CT;Maspujols
+43082;ES-T;ES-CT;el Masroig
+43083;ES-T;ES-CT;el Milà
+43084;ES-T;ES-CT;Miravet
+43085;ES-T;ES-CT;el Molar
+43086;ES-T;ES-CT;Montblanc
+43088;ES-T;ES-CT;Montbrió del Camp
+43089;ES-T;ES-CT;Montferri
+43090;ES-T;ES-CT;el Montmell
+43091;ES-T;ES-CT;Mont-ral
+43092;ES-T;ES-CT;Mont-roig del Camp
+43093;ES-T;ES-CT;Móra d'Ebre
+43094;ES-T;ES-CT;Móra la Nova
+43095;ES-T;ES-CT;el Morell
+43096;ES-T;ES-CT;la Morera de Montsant
+43097;ES-T;ES-CT;la Nou de Gaià
+43098;ES-T;ES-CT;Nulles
+43099;ES-T;ES-CT;la Palma d'Ebre
+43100;ES-T;ES-CT;els Pallaresos
+43101;ES-T;ES-CT;Passanant i Belltall
+43102;ES-T;ES-CT;Paüls
+43103;ES-T;ES-CT;Perafort
+43104;ES-T;ES-CT;el Perelló
+43105;ES-T;ES-CT;les Piles
+43106;ES-T;ES-CT;el Pinell de Brai
+43107;ES-T;ES-CT;Pira
+43108;ES-T;ES-CT;el Pla de Santa Maria
+43109;ES-T;ES-CT;la Pobla de Mafumet
+43110;ES-T;ES-CT;la Pobla de Massaluca
+43111;ES-T;ES-CT;la Pobla de Montornès
+43112;ES-T;ES-CT;Poboleda
+43113;ES-T;ES-CT;el Pont d'Armentera
+43114;ES-T;ES-CT;Porrera
+43115;ES-T;ES-CT;Pradell de la Teixeta
+43116;ES-T;ES-CT;Prades
+43117;ES-T;ES-CT;Prat de Comte
+43118;ES-T;ES-CT;Pratdip
+43119;ES-T;ES-CT;Puigpelat
+43120;ES-T;ES-CT;Querol
+43121;ES-T;ES-CT;Rasquera
+43122;ES-T;ES-CT;Renau
+43123;ES-T;ES-CT;Reus
+43124;ES-T;ES-CT;la Riba
+43125;ES-T;ES-CT;Riba-roja d'Ebre
+43126;ES-T;ES-CT;la Riera de Gaià
+43127;ES-T;ES-CT;Riudecanyes
+43128;ES-T;ES-CT;Riudecols
+43129;ES-T;ES-CT;Riudoms
+43130;ES-T;ES-CT;Rocafort de Queralt
+43131;ES-T;ES-CT;Roda de Berà
+43132;ES-T;ES-CT;Rodonyà
+43133;ES-T;ES-CT;Roquetes
+43134;ES-T;ES-CT;el Rourell
+43135;ES-T;ES-CT;Salomó
+43136;ES-T;ES-CT;Sant Carles de la Ràpita
+43137;ES-T;ES-CT;Sant Jaume dels Domenys
+43138;ES-T;ES-CT;Santa Bàrbara
+43139;ES-T;ES-CT;Santa Coloma de Queralt
+43140;ES-T;ES-CT;Santa Oliva
+43141;ES-T;ES-CT;Pontils
+43142;ES-T;ES-CT;Sarral
+43143;ES-T;ES-CT;Savallà del Comtat
+43144;ES-T;ES-CT;la Secuita
+43145;ES-T;ES-CT;la Selva del Camp
+43146;ES-T;ES-CT;Senan
+43147;ES-T;ES-CT;Solivella
+43148;ES-T;ES-CT;Tarragona
+43149;ES-T;ES-CT;Tivenys
+43150;ES-T;ES-CT;Tivissa
+43151;ES-T;ES-CT;la Torre de Fontaubella
+43152;ES-T;ES-CT;la Torre de l'Espanyol
+43153;ES-T;ES-CT;Torredembarra
+43154;ES-T;ES-CT;Torroja del Priorat
+43155;ES-T;ES-CT;Tortosa
+43156;ES-T;ES-CT;Ulldecona
+43157;ES-T;ES-CT;Ulldemolins
+43158;ES-T;ES-CT;Vallclara
+43159;ES-T;ES-CT;Vallfogona de Riucorb
+43160;ES-T;ES-CT;Vallmoll
+43161;ES-T;ES-CT;Valls
+43162;ES-T;ES-CT;Vandellòs i l'Hospitalet de l'Infant
+43163;ES-T;ES-CT;el Vendrell
+43164;ES-T;ES-CT;Vespella de Gaià
+43165;ES-T;ES-CT;Vilabella
+43166;ES-T;ES-CT;Vilallonga del Camp
+43167;ES-T;ES-CT;Vilanova d'Escornalbou
+43168;ES-T;ES-CT;Vilanova de Prades
+43169;ES-T;ES-CT;Vilaplana
+43170;ES-T;ES-CT;Vila-rodona
+43171;ES-T;ES-CT;Vila-seca
+43172;ES-T;ES-CT;Vilaverd
+43173;ES-T;ES-CT;la Vilella Alta
+43174;ES-T;ES-CT;la Vilella Baixa
+43175;ES-T;ES-CT;Vilalba dels Arcs
+43176;ES-T;ES-CT;Vimbodí i Poblet
+43177;ES-T;ES-CT;Vinebre
+43178;ES-T;ES-CT;Vinyols i els Arcs
+43901;ES-T;ES-CT;Deltebre
+43902;ES-T;ES-CT;Sant Jaume d'Enveja
+43903;ES-T;ES-CT;Camarles
+43904;ES-T;ES-CT;l'Aldea
+43905;ES-T;ES-CT;Salou
+43906;ES-T;ES-CT;l'Ampolla
+43907;ES-T;ES-CT;la Canonja
+-5245866;ES-GI;ES-CT;Medinyà

@@ -1,0 +1,543 @@
+id;prov;ccaa;name
+03001;ES-A;ES-VC;l'Atzúbia
+03002;ES-A;ES-VC;Agost
+03003;ES-A;ES-VC;Agres
+03004;ES-A;ES-VC;Aigües
+03005;ES-A;ES-VC;Albatera
+03006;ES-A;ES-VC;Alcalalí
+03007;ES-A;ES-VC;Alcocer de Planes
+03008;ES-A;ES-VC;Alcoleja
+03009;ES-A;ES-VC;Alcoi / Alcoy
+03010;ES-A;ES-VC;Alfafara
+03011;ES-A;ES-VC;l'Alfàs del Pi
+03012;ES-A;ES-VC;Algorfa
+03013;ES-A;ES-VC;Algueña
+03014;ES-A;ES-VC;Alacant / Alicante
+03015;ES-A;ES-VC;Almoradí
+03016;ES-A;ES-VC;Almudaina
+03017;ES-A;ES-VC;l'Alqueria d'Asnar
+03018;ES-A;ES-VC;Altea
+03019;ES-A;ES-VC;Aspe
+03020;ES-A;ES-VC;Balones
+03021;ES-A;ES-VC;Banyeres de Mariola
+03022;ES-A;ES-VC;Benasau
+03023;ES-A;ES-VC;Beneixama
+03024;ES-A;ES-VC;Benejúzar
+03025;ES-A;ES-VC;Benferri
+03026;ES-A;ES-VC;Beniarbeig
+03027;ES-A;ES-VC;Beniardá
+03028;ES-A;ES-VC;Beniarrés
+03029;ES-A;ES-VC;Benigembla
+03030;ES-A;ES-VC;Benidoleig
+03031;ES-A;ES-VC;Benidorm
+03032;ES-A;ES-VC;Benifallim
+03033;ES-A;ES-VC;Benifato
+03034;ES-A;ES-VC;Benijófar
+03035;ES-A;ES-VC;Benilloba
+03036;ES-A;ES-VC;Benillup
+03037;ES-A;ES-VC;Benimantell
+03038;ES-A;ES-VC;Benimarfull
+03039;ES-A;ES-VC;Benimassot
+03040;ES-A;ES-VC;Benimeli
+03041;ES-A;ES-VC;Benissa
+03042;ES-A;ES-VC;el Poble Nou de Benitatxell / Benitachell
+03043;ES-A;ES-VC;Biar
+03044;ES-A;ES-VC;Bigastro
+03045;ES-A;ES-VC;Bolulla
+03046;ES-A;ES-VC;Busot
+03047;ES-A;ES-VC;Calp
+03048;ES-A;ES-VC;Callosa d'en Sarrià
+03049;ES-A;ES-VC;Callosa de Segura
+03050;ES-A;ES-VC;el Campello
+03051;ES-A;ES-VC;el Camp de Mirra / Campo de Mirra
+03052;ES-A;ES-VC;Cañada
+03053;ES-A;ES-VC;Castalla
+03054;ES-A;ES-VC;Castell de Castells
+03055;ES-A;ES-VC;Catral
+03056;ES-A;ES-VC;Cocentaina
+03057;ES-A;ES-VC;Confrides
+03058;ES-A;ES-VC;Cox
+03059;ES-A;ES-VC;Crevillent
+03060;ES-A;ES-VC;Quatretondeta
+03061;ES-A;ES-VC;Daya Nueva
+03062;ES-A;ES-VC;Daya Vieja
+03063;ES-A;ES-VC;Dénia
+03064;ES-A;ES-VC;Dolores
+03065;ES-A;ES-VC;Elx / Elche
+03066;ES-A;ES-VC;Elda
+03067;ES-A;ES-VC;Fageca
+03068;ES-A;ES-VC;Famorca
+03069;ES-A;ES-VC;Finestrat
+03070;ES-A;ES-VC;Formentera del Segura
+03071;ES-A;ES-VC;Gata de Gorgos
+03072;ES-A;ES-VC;Gaianes
+03073;ES-A;ES-VC;Gorga
+03074;ES-A;ES-VC;Granja de Rocamora
+03075;ES-A;ES-VC;el Castell de Guadalest
+03076;ES-A;ES-VC;Guardamar del Segura
+03077;ES-A;ES-VC;el Fondó de les Neus / Hondón de las Nieves
+03078;ES-A;ES-VC;Hondón de los Frailes
+03079;ES-A;ES-VC;Ibi
+03080;ES-A;ES-VC;Jacarilla
+03081;ES-A;ES-VC;Xaló
+03082;ES-A;ES-VC;Xàbia / Jávea
+03083;ES-A;ES-VC;Xixona / Jijona
+03084;ES-A;ES-VC;l'Orxa / Lorcha
+03085;ES-A;ES-VC;Llíber
+03086;ES-A;ES-VC;Millena
+03088;ES-A;ES-VC;Monforte del Cid
+03089;ES-A;ES-VC;Monòver / Monóvar
+03090;ES-A;ES-VC;Mutxamel
+03091;ES-A;ES-VC;Murla
+03092;ES-A;ES-VC;Muro de Alcoy
+03093;ES-A;ES-VC;Novelda
+03094;ES-A;ES-VC;la Nucia
+03095;ES-A;ES-VC;Ondara
+03096;ES-A;ES-VC;Onil
+03097;ES-A;ES-VC;Orba
+03098;ES-A;ES-VC;Orxeta
+03099;ES-A;ES-VC;Orihuela
+03100;ES-A;ES-VC;Parcent
+03101;ES-A;ES-VC;Pedreguer
+03102;ES-A;ES-VC;Pego
+03103;ES-A;ES-VC;Penàguila
+03104;ES-A;ES-VC;Petrer
+03105;ES-A;ES-VC;el Pinós / Pinoso
+03106;ES-A;ES-VC;Planes
+03107;ES-A;ES-VC;Polop
+03109;ES-A;ES-VC;Rafal
+03110;ES-A;ES-VC;el Ràfol d'Almúnia
+03111;ES-A;ES-VC;Redován
+03112;ES-A;ES-VC;Relleu
+03113;ES-A;ES-VC;Rojales
+03114;ES-A;ES-VC;la Romana
+03115;ES-A;ES-VC;Sagra
+03116;ES-A;ES-VC;Salinas
+03117;ES-A;ES-VC;Sanet y Negrals
+03118;ES-A;ES-VC;San Fulgencio
+03119;ES-A;ES-VC;Sant Joan d'Alacant
+03120;ES-A;ES-VC;San Miguel de Salinas
+03121;ES-A;ES-VC;Santa Pola
+03122;ES-A;ES-VC;Sant Vicent del Raspeig / San Vicente del Raspeig
+03123;ES-A;ES-VC;Sax
+03124;ES-A;ES-VC;Sella
+03125;ES-A;ES-VC;Senija
+03127;ES-A;ES-VC;Tàrbena
+03128;ES-A;ES-VC;Teulada
+03129;ES-A;ES-VC;Tibi
+03130;ES-A;ES-VC;Tollos
+03131;ES-A;ES-VC;Tormos
+03132;ES-A;ES-VC;la Torre de les Maçanes / Torremanzanas
+03133;ES-A;ES-VC;Torrevieja
+03134;ES-A;ES-VC;la Vall d'Alcalà
+03135;ES-A;ES-VC;la Vall d'Ebo
+03136;ES-A;ES-VC;la Vall de Gallinera
+03137;ES-A;ES-VC;la Vall de Laguar
+03138;ES-A;ES-VC;el Verger
+03139;ES-A;ES-VC;la Vila Joiosa / Villajoyosa
+03140;ES-A;ES-VC;Villena
+03901;ES-A;ES-VC;els Poblets
+03902;ES-A;ES-VC;Pilar de la Horadada
+03903;ES-A;ES-VC;Los Montesinos
+03904;ES-A;ES-VC;San Isidro
+12001;ES-CS;ES-VC;Atzeneta del Maestrat
+12002;ES-CS;ES-VC;Aín
+12003;ES-CS;ES-VC;Albocàsser
+12004;ES-CS;ES-VC;Alcalà de Xivert
+12005;ES-CS;ES-VC;l'Alcora
+12006;ES-CS;ES-VC;Alcudia de Veo
+12007;ES-CS;ES-VC;Alfondeguilla
+12008;ES-CS;ES-VC;Algimia de Almonacid
+12009;ES-CS;ES-VC;Almassora
+12010;ES-CS;ES-VC;Almedíjar
+12011;ES-CS;ES-VC;Almenara
+12012;ES-CS;ES-VC;Altura
+12013;ES-CS;ES-VC;Arañuel
+12014;ES-CS;ES-VC;Ares del Maestrat
+12015;ES-CS;ES-VC;Argelita
+12016;ES-CS;ES-VC;Artana
+12017;ES-CS;ES-VC;Ayódar
+12018;ES-CS;ES-VC;Azuébar
+12020;ES-CS;ES-VC;Barracas
+12021;ES-CS;ES-VC;Betxí
+12022;ES-CS;ES-VC;Bejís
+12024;ES-CS;ES-VC;Benafer
+12025;ES-CS;ES-VC;Benafigos
+12026;ES-CS;ES-VC;Benassal
+12027;ES-CS;ES-VC;Benicarló
+12028;ES-CS;ES-VC;Benicàssim / Benicasim
+12029;ES-CS;ES-VC;Benlloc
+12031;ES-CS;ES-VC;Borriol
+12032;ES-CS;ES-VC;Borriana / Burriana
+12033;ES-CS;ES-VC;Cabanes
+12034;ES-CS;ES-VC;Càlig
+12036;ES-CS;ES-VC;Canet lo Roig
+12037;ES-CS;ES-VC;Castell de Cabres
+12038;ES-CS;ES-VC;Castellfort
+12039;ES-CS;ES-VC;Castellnovo
+12040;ES-CS;ES-VC;Castelló de la Plana
+12041;ES-CS;ES-VC;Castillo de Villamalefa
+12042;ES-CS;ES-VC;Catí
+12043;ES-CS;ES-VC;Caudiel
+12044;ES-CS;ES-VC;Cervera del Maestre
+12045;ES-CS;ES-VC;Cinctorres
+12046;ES-CS;ES-VC;Cirat
+12048;ES-CS;ES-VC;Cortes de Arenoso
+12049;ES-CS;ES-VC;Costur
+12050;ES-CS;ES-VC;les Coves de Vinromà
+12051;ES-CS;ES-VC;Culla
+12052;ES-CS;ES-VC;Xert
+12053;ES-CS;ES-VC;Xilxes / Chilches
+12055;ES-CS;ES-VC;Xodos / Chodos
+12056;ES-CS;ES-VC;Chóvar
+12057;ES-CS;ES-VC;Eslida
+12058;ES-CS;ES-VC;Espadilla
+12059;ES-CS;ES-VC;Fanzara
+12060;ES-CS;ES-VC;Figueroles
+12061;ES-CS;ES-VC;Forcall
+12063;ES-CS;ES-VC;Fuente la Reina
+12064;ES-CS;ES-VC;Fuentes de Ayódar
+12065;ES-CS;ES-VC;Gaibiel
+12067;ES-CS;ES-VC;Geldo
+12068;ES-CS;ES-VC;Herbers
+12069;ES-CS;ES-VC;Higueras
+12070;ES-CS;ES-VC;la Jana
+12071;ES-CS;ES-VC;Jérica
+12072;ES-CS;ES-VC;Llucena / Lucena del Cid
+12073;ES-CS;ES-VC;Ludiente
+12074;ES-CS;ES-VC;la Llosa
+12075;ES-CS;ES-VC;la Mata
+12076;ES-CS;ES-VC;Matet
+12077;ES-CS;ES-VC;Moncofa
+12078;ES-CS;ES-VC;Montán
+12079;ES-CS;ES-VC;Montanejos
+12080;ES-CS;ES-VC;Morella
+12081;ES-CS;ES-VC;Navajas
+12082;ES-CS;ES-VC;Nules
+12083;ES-CS;ES-VC;Olocau del Rey
+12084;ES-CS;ES-VC;Onda
+12085;ES-CS;ES-VC;Orpesa / Oropesa del Mar
+12087;ES-CS;ES-VC;Palanques
+12088;ES-CS;ES-VC;Pavías
+12089;ES-CS;ES-VC;Peníscola / Peñíscola
+12090;ES-CS;ES-VC;Pina de Montalgrao
+12091;ES-CS;ES-VC;Portell de Morella
+12092;ES-CS;ES-VC;Puebla de Arenoso
+12093;ES-CS;ES-VC;la Pobla de Benifassà
+12094;ES-CS;ES-VC;la Pobla Tornesa
+12095;ES-CS;ES-VC;Ribesalbes
+12096;ES-CS;ES-VC;Rossell
+12097;ES-CS;ES-VC;Sacañet
+12098;ES-CS;ES-VC;la Salzadella
+12099;ES-CS;ES-VC;Sant Jordi / San Jorge
+12100;ES-CS;ES-VC;Sant Mateu
+12101;ES-CS;ES-VC;San Rafael del Río
+12102;ES-CS;ES-VC;Santa Magdalena de Pulpis
+12103;ES-CS;ES-VC;la Serratella
+12104;ES-CS;ES-VC;Segorbe
+12105;ES-CS;ES-VC;Sierra Engarcerán
+12106;ES-CS;ES-VC;Soneja
+12107;ES-CS;ES-VC;Sot de Ferrer
+12108;ES-CS;ES-VC;Suera / Sueras
+12109;ES-CS;ES-VC;Tales
+12110;ES-CS;ES-VC;Teresa
+12111;ES-CS;ES-VC;Tírig
+12112;ES-CS;ES-VC;Todolella
+12113;ES-CS;ES-VC;Toga
+12114;ES-CS;ES-VC;Torás
+12115;ES-CS;ES-VC;El Toro
+12116;ES-CS;ES-VC;Torralba del Pinar
+12117;ES-CS;ES-VC;Torreblanca
+12118;ES-CS;ES-VC;Torrechiva
+12119;ES-CS;ES-VC;la Torre d'en Besora
+12120;ES-CS;ES-VC;la Torre d'en Doménec
+12121;ES-CS;ES-VC;Traiguera
+12122;ES-CS;ES-VC;les Useres / Useras
+12123;ES-CS;ES-VC;Vallat
+12124;ES-CS;ES-VC;Vall d'Alba
+12125;ES-CS;ES-VC;Vall de Almonacid
+12126;ES-CS;ES-VC;la Vall d'Uixó
+12127;ES-CS;ES-VC;Vallibona
+12128;ES-CS;ES-VC;Vilafamés
+12129;ES-CS;ES-VC;Vilafranca / Villafranca del Cid
+12130;ES-CS;ES-VC;Villahermosa del Río
+12131;ES-CS;ES-VC;Villamalur
+12132;ES-CS;ES-VC;Vilanova d'Alcolea
+12133;ES-CS;ES-VC;Villanueva de Viver
+12134;ES-CS;ES-VC;Vilar de Canes
+12135;ES-CS;ES-VC;Vila-real
+12136;ES-CS;ES-VC;la Vilavella
+12137;ES-CS;ES-VC;Villores
+12138;ES-CS;ES-VC;Vinaròs
+12139;ES-CS;ES-VC;Vistabella del Maestrat
+12140;ES-CS;ES-VC;Viver
+12141;ES-CS;ES-VC;Zorita del Maestrazgo
+12142;ES-CS;ES-VC;Zucaina
+12901;ES-CS;ES-VC;les Alqueries / Alquerías del Niño Perdido
+12902;ES-CS;ES-VC;Sant Joan de Moró
+46001;ES-V;ES-VC;Ademuz
+46002;ES-V;ES-VC;Ador
+46003;ES-V;ES-VC;Atzeneta d'Albaida
+46004;ES-V;ES-VC;Agullent
+46005;ES-V;ES-VC;Alaquàs
+46006;ES-V;ES-VC;Albaida
+46007;ES-V;ES-VC;Albal
+46008;ES-V;ES-VC;Albalat de la Ribera
+46009;ES-V;ES-VC;Albalat dels Sorells
+46010;ES-V;ES-VC;Albalat dels Tarongers
+46011;ES-V;ES-VC;Alberic
+46012;ES-V;ES-VC;Alborache
+46013;ES-V;ES-VC;Alboraia / Alboraya
+46014;ES-V;ES-VC;Albuixech
+46015;ES-V;ES-VC;Alcàsser
+46016;ES-V;ES-VC;Alcàntera de Xúquer
+46017;ES-V;ES-VC;Alzira
+46018;ES-V;ES-VC;Alcublas
+46019;ES-V;ES-VC;l'Alcúdia
+46020;ES-V;ES-VC;l'Alcúdia de Crespins
+46021;ES-V;ES-VC;Aldaia
+46022;ES-V;ES-VC;Alfafar
+46023;ES-V;ES-VC;Alfauir
+46024;ES-V;ES-VC;Alfara de la Baronia
+46025;ES-V;ES-VC;Alfara del Patriarca
+46026;ES-V;ES-VC;Alfarp
+46027;ES-V;ES-VC;Alfarrasí
+46028;ES-V;ES-VC;Algar de Palancia
+46029;ES-V;ES-VC;Algemesí
+46030;ES-V;ES-VC;Algímia d'Alfara
+46031;ES-V;ES-VC;Alginet
+46032;ES-V;ES-VC;Almàssera
+46033;ES-V;ES-VC;Almiserà
+46034;ES-V;ES-VC;Almoines
+46035;ES-V;ES-VC;Almussafes
+46036;ES-V;ES-VC;Alpuente
+46037;ES-V;ES-VC;l'Alqueria de la Comtessa
+46038;ES-V;ES-VC;Andilla
+46039;ES-V;ES-VC;Anna
+46040;ES-V;ES-VC;Antella
+46041;ES-V;ES-VC;Aras de los Olmos
+46042;ES-V;ES-VC;Aielo de Malferit
+46043;ES-V;ES-VC;Aielo de Rugat
+46044;ES-V;ES-VC;Ayora
+46045;ES-V;ES-VC;Barxeta
+46046;ES-V;ES-VC;Barx
+46047;ES-V;ES-VC;Bèlgida
+46048;ES-V;ES-VC;Bellreguard
+46049;ES-V;ES-VC;Bellús
+46050;ES-V;ES-VC;Benagéber
+46051;ES-V;ES-VC;Benaguasil
+46052;ES-V;ES-VC;Benavites
+46053;ES-V;ES-VC;Beneixida
+46054;ES-V;ES-VC;Benetússer
+46055;ES-V;ES-VC;Beniarjó
+46056;ES-V;ES-VC;Beniatjar
+46057;ES-V;ES-VC;Benicolet
+46058;ES-V;ES-VC;Benifairó de les Valls
+46059;ES-V;ES-VC;Benifairó de la Valldigna
+46060;ES-V;ES-VC;Benifaió
+46061;ES-V;ES-VC;Beniflá
+46062;ES-V;ES-VC;Benigànim
+46063;ES-V;ES-VC;Benimodo
+46064;ES-V;ES-VC;Benimuslem
+46065;ES-V;ES-VC;Beniparrell
+46066;ES-V;ES-VC;Benirredrà
+46067;ES-V;ES-VC;Benissanó
+46068;ES-V;ES-VC;Benissoda
+46069;ES-V;ES-VC;Benissuera
+46070;ES-V;ES-VC;Bétera
+46071;ES-V;ES-VC;Bicorp
+46072;ES-V;ES-VC;Bocairent
+46073;ES-V;ES-VC;Bolbaite
+46074;ES-V;ES-VC;Bonrepòs i Mirambell
+46075;ES-V;ES-VC;Bufali
+46076;ES-V;ES-VC;Bugarra
+46077;ES-V;ES-VC;Buñol
+46078;ES-V;ES-VC;Burjassot
+46079;ES-V;ES-VC;Calles
+46080;ES-V;ES-VC;Camporrobles
+46081;ES-V;ES-VC;Canals
+46082;ES-V;ES-VC;Canet d'en Berenguer
+46083;ES-V;ES-VC;Carcaixent
+46084;ES-V;ES-VC;Càrcer
+46085;ES-V;ES-VC;Carlet
+46086;ES-V;ES-VC;Carrícola
+46087;ES-V;ES-VC;Casas Altas
+46088;ES-V;ES-VC;Casas Bajas
+46089;ES-V;ES-VC;Casinos
+46090;ES-V;ES-VC;Castelló de Rugat
+46091;ES-V;ES-VC;Castellonet de la Conquesta
+46092;ES-V;ES-VC;Castielfabib
+46093;ES-V;ES-VC;Catadau
+46094;ES-V;ES-VC;Catarroja
+46095;ES-V;ES-VC;Caudete de las Fuentes
+46096;ES-V;ES-VC;Cerdà
+46097;ES-V;ES-VC;Cofrentes
+46098;ES-V;ES-VC;Corbera
+46099;ES-V;ES-VC;Cortes de Pallás
+46100;ES-V;ES-VC;Cotes
+46101;ES-V;ES-VC;Quart de les Valls
+46102;ES-V;ES-VC;Quart de Poblet
+46103;ES-V;ES-VC;Quartell
+46104;ES-V;ES-VC;Quatretonda
+46105;ES-V;ES-VC;Cullera
+46106;ES-V;ES-VC;Chelva
+46107;ES-V;ES-VC;Chella
+46108;ES-V;ES-VC;Chera
+46109;ES-V;ES-VC;Cheste
+46110;ES-V;ES-VC;Xirivella
+46111;ES-V;ES-VC;Chiva
+46112;ES-V;ES-VC;Chulilla
+46113;ES-V;ES-VC;Daimús
+46114;ES-V;ES-VC;Domeño
+46115;ES-V;ES-VC;Dos Aguas
+46116;ES-V;ES-VC;l'Eliana
+46117;ES-V;ES-VC;Emperador
+46118;ES-V;ES-VC;Enguera
+46119;ES-V;ES-VC;l'Énova
+46120;ES-V;ES-VC;Estivella
+46121;ES-V;ES-VC;Estubeny
+46122;ES-V;ES-VC;Faura
+46123;ES-V;ES-VC;Favara
+46124;ES-V;ES-VC;Fontanars dels Alforins
+46125;ES-V;ES-VC;Fortaleny
+46126;ES-V;ES-VC;Foios
+46127;ES-V;ES-VC;la Font d'en Carròs
+46128;ES-V;ES-VC;la Font de la Figuera
+46129;ES-V;ES-VC;Fuenterrobles
+46130;ES-V;ES-VC;Gavarda
+46131;ES-V;ES-VC;Gandia
+46132;ES-V;ES-VC;el Genovés
+46133;ES-V;ES-VC;Gestalgar
+46134;ES-V;ES-VC;Gilet
+46135;ES-V;ES-VC;Godella
+46136;ES-V;ES-VC;Godelleta
+46137;ES-V;ES-VC;la Granja de la Costera
+46138;ES-V;ES-VC;Guadasséquies
+46139;ES-V;ES-VC;Guadassuar
+46140;ES-V;ES-VC;Guardamar de la Safor
+46141;ES-V;ES-VC;Higueruelas
+46142;ES-V;ES-VC;Jalance
+46143;ES-V;ES-VC;Xeraco
+46144;ES-V;ES-VC;Jarafuel
+46145;ES-V;ES-VC;Xàtiva
+46146;ES-V;ES-VC;Xeresa
+46147;ES-V;ES-VC;Llíria
+46148;ES-V;ES-VC;Loriguilla
+46149;ES-V;ES-VC;Losa del Obispo
+46150;ES-V;ES-VC;Llutxent
+46151;ES-V;ES-VC;Llocnou d'en Fenollet
+46152;ES-V;ES-VC;Llocnou de la Corona
+46153;ES-V;ES-VC;Llocnou de Sant Jeroni
+46154;ES-V;ES-VC;Llanera de Ranes
+46155;ES-V;ES-VC;Llaurí
+46156;ES-V;ES-VC;Llombai
+46157;ES-V;ES-VC;la Llosa de Ranes
+46158;ES-V;ES-VC;Macastre
+46159;ES-V;ES-VC;Manises
+46160;ES-V;ES-VC;Manuel
+46161;ES-V;ES-VC;Marines
+46162;ES-V;ES-VC;Massalavés
+46163;ES-V;ES-VC;Massalfassar
+46164;ES-V;ES-VC;Massamagrell
+46165;ES-V;ES-VC;Massanassa
+46166;ES-V;ES-VC;Meliana
+46167;ES-V;ES-VC;Millares
+46168;ES-V;ES-VC;Miramar
+46169;ES-V;ES-VC;Mislata
+46170;ES-V;ES-VC;Moixent / Mogente
+46171;ES-V;ES-VC;Moncada
+46172;ES-V;ES-VC;Montserrat
+46173;ES-V;ES-VC;Montaverner
+46174;ES-V;ES-VC;Montesa
+46175;ES-V;ES-VC;Montitxelvo / Montichelvo
+46176;ES-V;ES-VC;Montroi / Montroy
+46177;ES-V;ES-VC;Museros
+46178;ES-V;ES-VC;Nàquera / Náquera
+46179;ES-V;ES-VC;Navarrés
+46180;ES-V;ES-VC;Novetlè / Novelé
+46181;ES-V;ES-VC;Oliva
+46182;ES-V;ES-VC;Olocau
+46183;ES-V;ES-VC;l'Olleria
+46184;ES-V;ES-VC;Ontinyent
+46185;ES-V;ES-VC;Otos
+46186;ES-V;ES-VC;Paiporta
+46187;ES-V;ES-VC;Palma de Gandía
+46188;ES-V;ES-VC;Palmera
+46189;ES-V;ES-VC;el Palomar
+46190;ES-V;ES-VC;Paterna
+46191;ES-V;ES-VC;Pedralba
+46192;ES-V;ES-VC;Petrés
+46193;ES-V;ES-VC;Picanya
+46194;ES-V;ES-VC;Picassent
+46195;ES-V;ES-VC;Piles
+46196;ES-V;ES-VC;Pinet
+46197;ES-V;ES-VC;Polinyà de Xúquer
+46198;ES-V;ES-VC;Potries
+46199;ES-V;ES-VC;la Pobla de Farnals
+46200;ES-V;ES-VC;la Pobla del Duc
+46201;ES-V;ES-VC;Puebla de San Miguel
+46202;ES-V;ES-VC;la Pobla de Vallbona
+46203;ES-V;ES-VC;la Pobla Llarga
+46204;ES-V;ES-VC;el Puig de Santa Maria
+46205;ES-V;ES-VC;Puçol
+46206;ES-V;ES-VC;Quesa
+46207;ES-V;ES-VC;Rafelbunyol
+46208;ES-V;ES-VC;Rafelcofer
+46209;ES-V;ES-VC;Rafelguaraf
+46210;ES-V;ES-VC;Ráfol de Salem
+46211;ES-V;ES-VC;el Real de Gandia
+46212;ES-V;ES-VC;Real
+46213;ES-V;ES-VC;Requena
+46214;ES-V;ES-VC;Riba-roja de Túria
+46215;ES-V;ES-VC;Riola
+46216;ES-V;ES-VC;Rocafort
+46217;ES-V;ES-VC;Rotglà i Corberà
+46218;ES-V;ES-VC;Ròtova
+46219;ES-V;ES-VC;Rugat
+46220;ES-V;ES-VC;Sagunt / Sagunto
+46221;ES-V;ES-VC;Salem
+46222;ES-V;ES-VC;Sant Joanet
+46223;ES-V;ES-VC;Sedaví
+46224;ES-V;ES-VC;Segart
+46225;ES-V;ES-VC;Sellent
+46226;ES-V;ES-VC;Sempere
+46227;ES-V;ES-VC;Senyera
+46228;ES-V;ES-VC;Serra
+46229;ES-V;ES-VC;Siete Aguas
+46230;ES-V;ES-VC;Silla
+46231;ES-V;ES-VC;Simat de la Valldigna
+46232;ES-V;ES-VC;Sinarcas
+46233;ES-V;ES-VC;Sollana
+46234;ES-V;ES-VC;Sot de Chera
+46235;ES-V;ES-VC;Sueca
+46236;ES-V;ES-VC;Sumacàrcer
+46237;ES-V;ES-VC;Tavernes Blanques
+46238;ES-V;ES-VC;Tavernes de la Valldigna
+46239;ES-V;ES-VC;Teresa de Cofrentes
+46240;ES-V;ES-VC;Terrateig
+46241;ES-V;ES-VC;Titaguas
+46242;ES-V;ES-VC;Torrebaja
+46243;ES-V;ES-VC;Torrella
+46244;ES-V;ES-VC;Torrent
+46245;ES-V;ES-VC;Torres Torres
+46246;ES-V;ES-VC;Tous
+46247;ES-V;ES-VC;Tuéjar
+46248;ES-V;ES-VC;Turís
+46249;ES-V;ES-VC;Utiel
+46250;ES-V;ES-VC;València
+46251;ES-V;ES-VC;Vallada
+46252;ES-V;ES-VC;Vallanca
+46253;ES-V;ES-VC;Vallés
+46254;ES-V;ES-VC;Venta del Moro
+46255;ES-V;ES-VC;Vilallonga / Villalonga
+46256;ES-V;ES-VC;Vilamarxant
+46257;ES-V;ES-VC;Castelló
+46258;ES-V;ES-VC;Villar del Arzobispo
+46259;ES-V;ES-VC;Villargordo del Cabriel
+46260;ES-V;ES-VC;Vinalesa
+46261;ES-V;ES-VC;Yátova
+46262;ES-V;ES-VC;La Yesa
+46263;ES-V;ES-VC;Zarra
+46902;ES-V;ES-VC;Gátova
+46903;ES-V;ES-VC;San Antonio de Benagéber
+46904;ES-V;ES-VC;Benicull de Xúquer

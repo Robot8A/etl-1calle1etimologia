@@ -1,0 +1,921 @@
+id;prov;ccaa;name
+02001;ES-AB;ES-CM;Abengibre
+02002;ES-AB;ES-CM;Alatoz
+02003;ES-AB;ES-CM;Albacete
+02004;ES-AB;ES-CM;Albatana
+02005;ES-AB;ES-CM;Alborea
+02006;ES-AB;ES-CM;Alcadozo
+02007;ES-AB;ES-CM;Alcalá del Júcar
+02008;ES-AB;ES-CM;Alcaraz
+02009;ES-AB;ES-CM;Almansa
+02010;ES-AB;ES-CM;Alpera
+02011;ES-AB;ES-CM;Ayna
+02012;ES-AB;ES-CM;Balazote
+02013;ES-AB;ES-CM;Balsa de Ves
+02014;ES-AB;ES-CM;El Ballestero
+02015;ES-AB;ES-CM;Barrax
+02016;ES-AB;ES-CM;Bienservida
+02017;ES-AB;ES-CM;Bogarra
+02018;ES-AB;ES-CM;Bonete
+02019;ES-AB;ES-CM;El Bonillo
+02020;ES-AB;ES-CM;Carcelén
+02021;ES-AB;ES-CM;Casas de Juan Núñez
+02022;ES-AB;ES-CM;Casas de Lázaro
+02023;ES-AB;ES-CM;Casas de Ves
+02024;ES-AB;ES-CM;Casas-Ibáñez
+02025;ES-AB;ES-CM;Caudete
+02026;ES-AB;ES-CM;Cenizate
+02027;ES-AB;ES-CM;Corral-Rubio
+02028;ES-AB;ES-CM;Cotillas
+02029;ES-AB;ES-CM;Chinchilla de Monte-Aragón
+02030;ES-AB;ES-CM;Elche de la Sierra
+02031;ES-AB;ES-CM;Férez
+02032;ES-AB;ES-CM;Fuensanta
+02033;ES-AB;ES-CM;Fuente-Álamo
+02034;ES-AB;ES-CM;Fuentealbilla
+02035;ES-AB;ES-CM;La Gineta
+02036;ES-AB;ES-CM;Golosalvo
+02037;ES-AB;ES-CM;Hellín
+02038;ES-AB;ES-CM;La Herrera
+02039;ES-AB;ES-CM;Higueruela
+02040;ES-AB;ES-CM;Hoya-Gonzalo
+02041;ES-AB;ES-CM;Jorquera
+02042;ES-AB;ES-CM;Letur
+02043;ES-AB;ES-CM;Lezuza
+02044;ES-AB;ES-CM;Liétor
+02045;ES-AB;ES-CM;Madrigueras
+02046;ES-AB;ES-CM;Mahora
+02047;ES-AB;ES-CM;Masegoso
+02048;ES-AB;ES-CM;Minaya
+02049;ES-AB;ES-CM;Molinicos
+02050;ES-AB;ES-CM;Montalvos
+02051;ES-AB;ES-CM;Montealegre del Castillo
+02052;ES-AB;ES-CM;Motilleja
+02053;ES-AB;ES-CM;Munera
+02054;ES-AB;ES-CM;Navas de Jorquera
+02055;ES-AB;ES-CM;Nerpio
+02056;ES-AB;ES-CM;Ontur
+02057;ES-AB;ES-CM;Ossa de Montiel
+02058;ES-AB;ES-CM;Paterna del Madera
+02059;ES-AB;ES-CM;Peñascosa
+02060;ES-AB;ES-CM;Peñas de San Pedro
+02061;ES-AB;ES-CM;Pétrola
+02062;ES-AB;ES-CM;Povedilla
+02063;ES-AB;ES-CM;Pozohondo
+02064;ES-AB;ES-CM;Pozo-Lorente
+02065;ES-AB;ES-CM;Pozuelo
+02066;ES-AB;ES-CM;La Recueja
+02067;ES-AB;ES-CM;Riópar
+02068;ES-AB;ES-CM;Robledo
+02069;ES-AB;ES-CM;La Roda
+02070;ES-AB;ES-CM;Salobre
+02071;ES-AB;ES-CM;San Pedro
+02072;ES-AB;ES-CM;Socovos
+02073;ES-AB;ES-CM;Tarazona de la Mancha
+02074;ES-AB;ES-CM;Tobarra
+02075;ES-AB;ES-CM;Valdeganga
+02076;ES-AB;ES-CM;Vianos
+02077;ES-AB;ES-CM;Villa de Ves
+02078;ES-AB;ES-CM;Villalgordo del Júcar
+02079;ES-AB;ES-CM;Villamalea
+02080;ES-AB;ES-CM;Villapalacios
+02081;ES-AB;ES-CM;Villarrobledo
+02082;ES-AB;ES-CM;Villatoya
+02083;ES-AB;ES-CM;Villavaliente
+02084;ES-AB;ES-CM;Villaverde de Guadalimar
+02085;ES-AB;ES-CM;Viveros
+02086;ES-AB;ES-CM;Yeste
+02901;ES-AB;ES-CM;Pozo Cañada
+13001;ES-CR;ES-CM;Abenójar
+13002;ES-CR;ES-CM;Agudo
+13003;ES-CR;ES-CM;Alamillo
+13004;ES-CR;ES-CM;Albaladejo
+13005;ES-CR;ES-CM;Alcázar de San Juan
+13006;ES-CR;ES-CM;Alcoba
+13007;ES-CR;ES-CM;Alcolea de Calatrava
+13008;ES-CR;ES-CM;Alcubillas
+13009;ES-CR;ES-CM;Aldea del Rey
+13010;ES-CR;ES-CM;Alhambra
+13011;ES-CR;ES-CM;Almadén
+13012;ES-CR;ES-CM;Almadenejos
+13013;ES-CR;ES-CM;Almagro
+13014;ES-CR;ES-CM;Almedina
+13015;ES-CR;ES-CM;Almodóvar del Campo
+13016;ES-CR;ES-CM;Almuradiel
+13017;ES-CR;ES-CM;Anchuras
+13018;ES-CR;ES-CM;Arenas de San Juan
+13019;ES-CR;ES-CM;Argamasilla de Alba
+13020;ES-CR;ES-CM;Argamasilla de Calatrava
+13021;ES-CR;ES-CM;Arroba de los Montes
+13022;ES-CR;ES-CM;Ballesteros de Calatrava
+13023;ES-CR;ES-CM;Bolaños de Calatrava
+13024;ES-CR;ES-CM;Brazatortas
+13025;ES-CR;ES-CM;Cabezarados
+13026;ES-CR;ES-CM;Cabezarrubias del Puerto
+13027;ES-CR;ES-CM;Calzada de Calatrava
+13028;ES-CR;ES-CM;Campo de Criptana
+13029;ES-CR;ES-CM;Cañada de Calatrava
+13030;ES-CR;ES-CM;Caracuel de Calatrava
+13031;ES-CR;ES-CM;Carrión de Calatrava
+13032;ES-CR;ES-CM;Carrizosa
+13033;ES-CR;ES-CM;Castellar de Santiago
+13034;ES-CR;ES-CM;Ciudad Real
+13035;ES-CR;ES-CM;Corral de Calatrava
+13036;ES-CR;ES-CM;Los Cortijos
+13037;ES-CR;ES-CM;Cózar
+13038;ES-CR;ES-CM;Chillón
+13039;ES-CR;ES-CM;Daimiel
+13040;ES-CR;ES-CM;Fernán Caballero
+13041;ES-CR;ES-CM;Fontanarejo
+13042;ES-CR;ES-CM;Fuencaliente
+13043;ES-CR;ES-CM;Fuenllana
+13044;ES-CR;ES-CM;Fuente el Fresno
+13045;ES-CR;ES-CM;Granátula de Calatrava
+13046;ES-CR;ES-CM;Guadalmez
+13047;ES-CR;ES-CM;Herencia
+13048;ES-CR;ES-CM;Hinojosas de Calatrava
+13049;ES-CR;ES-CM;Horcajo de los Montes
+13050;ES-CR;ES-CM;Las Labores
+13051;ES-CR;ES-CM;Luciana
+13052;ES-CR;ES-CM;Malagón
+13053;ES-CR;ES-CM;Manzanares
+13054;ES-CR;ES-CM;Membrilla
+13055;ES-CR;ES-CM;Mestanza
+13056;ES-CR;ES-CM;Miguelturra
+13057;ES-CR;ES-CM;Montiel
+13058;ES-CR;ES-CM;Moral de Calatrava
+13059;ES-CR;ES-CM;Navalpino
+13060;ES-CR;ES-CM;Navas de Estena
+13061;ES-CR;ES-CM;Pedro Muñoz
+13062;ES-CR;ES-CM;Picón
+13063;ES-CR;ES-CM;Piedrabuena
+13064;ES-CR;ES-CM;Poblete
+13065;ES-CR;ES-CM;Porzuna
+13066;ES-CR;ES-CM;Pozuelo de Calatrava
+13067;ES-CR;ES-CM;Los Pozuelos de Calatrava
+13068;ES-CR;ES-CM;Puebla de Don Rodrigo
+13069;ES-CR;ES-CM;Puebla del Príncipe
+13070;ES-CR;ES-CM;Puerto Lápice
+13071;ES-CR;ES-CM;Puertollano
+13072;ES-CR;ES-CM;Retuerta del Bullaque
+13073;ES-CR;ES-CM;Saceruela
+13074;ES-CR;ES-CM;San Carlos del Valle
+13075;ES-CR;ES-CM;San Lorenzo de Calatrava
+13076;ES-CR;ES-CM;Santa Cruz de los Cáñamos
+13077;ES-CR;ES-CM;Santa Cruz de Mudela
+13078;ES-CR;ES-CM;Socuéllamos
+13079;ES-CR;ES-CM;La Solana
+13080;ES-CR;ES-CM;Solana del Pino
+13081;ES-CR;ES-CM;Terrinches
+13082;ES-CR;ES-CM;Tomelloso
+13083;ES-CR;ES-CM;Torralba de Calatrava
+13084;ES-CR;ES-CM;Torre de Juan Abad
+13085;ES-CR;ES-CM;Torrenueva
+13086;ES-CR;ES-CM;Valdemanco del Esteras
+13087;ES-CR;ES-CM;Valdepeñas
+13088;ES-CR;ES-CM;Valenzuela de Calatrava
+13089;ES-CR;ES-CM;Villahermosa
+13090;ES-CR;ES-CM;Villamanrique
+13091;ES-CR;ES-CM;Villamayor de Calatrava
+13092;ES-CR;ES-CM;Villanueva de la Fuente
+13093;ES-CR;ES-CM;Villanueva de los Infantes
+13094;ES-CR;ES-CM;Villanueva de San Carlos
+13095;ES-CR;ES-CM;Villar del Pozo
+13096;ES-CR;ES-CM;Villarrubia de los Ojos
+13097;ES-CR;ES-CM;Villarta de San Juan
+13098;ES-CR;ES-CM;Viso del Marqués
+13901;ES-CR;ES-CM;El Robledo
+13902;ES-CR;ES-CM;Ruidera
+13903;ES-CR;ES-CM;Arenales de San Gregorio
+13904;ES-CR;ES-CM;Llanos del Caudillo
+16001;ES-CU;ES-CM;Abia de la Obispalía
+16002;ES-CU;ES-CM;El Acebrón
+16003;ES-CU;ES-CM;Alarcón
+16004;ES-CU;ES-CM;Albaladejo del Cuende
+16005;ES-CU;ES-CM;Albalate de las Nogueras
+16006;ES-CU;ES-CM;Albendea
+16007;ES-CU;ES-CM;La Alberca de Záncara
+16008;ES-CU;ES-CM;Alcalá de la Vega
+16009;ES-CU;ES-CM;Alcantud
+16010;ES-CU;ES-CM;Alcázar del Rey
+16011;ES-CU;ES-CM;Alcohujate
+16012;ES-CU;ES-CM;Alconchel de la Estrella
+16013;ES-CU;ES-CM;Algarra
+16014;ES-CU;ES-CM;Aliaguilla
+16015;ES-CU;ES-CM;La Almarcha
+16016;ES-CU;ES-CM;Almendros
+16017;ES-CU;ES-CM;Almodóvar del Pinar
+16018;ES-CU;ES-CM;Almonacid del Marquesado
+16019;ES-CU;ES-CM;Altarejos
+16020;ES-CU;ES-CM;Arandilla del Arroyo
+16022;ES-CU;ES-CM;Arcos de la Sierra
+16023;ES-CU;ES-CM;Chillarón de Cuenca
+16024;ES-CU;ES-CM;Arguisuelas
+16025;ES-CU;ES-CM;Arrancacepas
+16026;ES-CU;ES-CM;Atalaya del Cañavate
+16027;ES-CU;ES-CM;Barajas de Melo
+16029;ES-CU;ES-CM;Barchín del Hoyo
+16030;ES-CU;ES-CM;Bascuñana de San Pedro
+16031;ES-CU;ES-CM;Beamud
+16032;ES-CU;ES-CM;Belinchón
+16033;ES-CU;ES-CM;Belmonte
+16034;ES-CU;ES-CM;Belmontejo
+16035;ES-CU;ES-CM;Beteta
+16036;ES-CU;ES-CM;Boniches
+16038;ES-CU;ES-CM;Buciegas
+16039;ES-CU;ES-CM;Buenache de Alarcón
+16040;ES-CU;ES-CM;Buenache de la Sierra
+16041;ES-CU;ES-CM;Buendía
+16042;ES-CU;ES-CM;Campillo de Altobuey
+16043;ES-CU;ES-CM;Campillos-Paravientos
+16044;ES-CU;ES-CM;Campillos-Sierra
+16045;ES-CU;ES-CM;Canalejas del Arroyo
+16046;ES-CU;ES-CM;Cañada del Hoyo
+16047;ES-CU;ES-CM;Cañada Juncosa
+16048;ES-CU;ES-CM;Cañamares
+16049;ES-CU;ES-CM;El Cañavate
+16050;ES-CU;ES-CM;Cañaveras
+16051;ES-CU;ES-CM;Cañaveruelas
+16052;ES-CU;ES-CM;Cañete
+16053;ES-CU;ES-CM;Cañizares
+16055;ES-CU;ES-CM;Carboneras de Guadazaón
+16056;ES-CU;ES-CM;Cardenete
+16057;ES-CU;ES-CM;Carrascosa
+16058;ES-CU;ES-CM;Carrascosa de Haro
+16060;ES-CU;ES-CM;Casas de Benítez
+16061;ES-CU;ES-CM;Casas de Fernando Alonso
+16062;ES-CU;ES-CM;Casas de Garcimolina
+16063;ES-CU;ES-CM;Casas de Guijarro
+16064;ES-CU;ES-CM;Casas de Haro
+16065;ES-CU;ES-CM;Casas de los Pinos
+16066;ES-CU;ES-CM;Casasimarro
+16067;ES-CU;ES-CM;Castejón
+16068;ES-CU;ES-CM;Castillejo de Iniesta
+16070;ES-CU;ES-CM;Castillejo-Sierra
+16071;ES-CU;ES-CM;Castillo-Albaráñez
+16072;ES-CU;ES-CM;Castillo de Garcimuñoz
+16073;ES-CU;ES-CM;Cervera del Llano
+16074;ES-CU;ES-CM;La Cierva
+16078;ES-CU;ES-CM;Cuenca
+16079;ES-CU;ES-CM;Cueva del Hierro
+16081;ES-CU;ES-CM;Chumillas
+16082;ES-CU;ES-CM;Enguídanos
+16083;ES-CU;ES-CM;Fresneda de Altarejos
+16084;ES-CU;ES-CM;Fresneda de la Sierra
+16085;ES-CU;ES-CM;La Frontera
+16086;ES-CU;ES-CM;Fuente de Pedro Naharro
+16087;ES-CU;ES-CM;Fuentelespino de Haro
+16088;ES-CU;ES-CM;Fuentelespino de Moya
+16089;ES-CU;ES-CM;Fuentes
+16091;ES-CU;ES-CM;Fuertescusa
+16092;ES-CU;ES-CM;Gabaldón
+16093;ES-CU;ES-CM;Garaballa
+16094;ES-CU;ES-CM;Gascueña
+16095;ES-CU;ES-CM;Graja de Campalbo
+16096;ES-CU;ES-CM;Graja de Iniesta
+16097;ES-CU;ES-CM;Henarejos
+16098;ES-CU;ES-CM;El Herrumblar
+16099;ES-CU;ES-CM;La Hinojosa
+16100;ES-CU;ES-CM;Los Hinojosos
+16101;ES-CU;ES-CM;El Hito
+16102;ES-CU;ES-CM;Honrubia
+16103;ES-CU;ES-CM;Hontanaya
+16104;ES-CU;ES-CM;Hontecillas
+16106;ES-CU;ES-CM;Horcajo de Santiago
+16107;ES-CU;ES-CM;Huélamo
+16108;ES-CU;ES-CM;Huelves
+16109;ES-CU;ES-CM;Huérguina
+16110;ES-CU;ES-CM;Huerta de la Obispalía
+16111;ES-CU;ES-CM;Huerta del Marquesado
+16112;ES-CU;ES-CM;Huete
+16113;ES-CU;ES-CM;Iniesta
+16115;ES-CU;ES-CM;Laguna del Marquesado
+16116;ES-CU;ES-CM;Lagunaseca
+16117;ES-CU;ES-CM;Landete
+16118;ES-CU;ES-CM;Ledaña
+16119;ES-CU;ES-CM;Leganiel
+16121;ES-CU;ES-CM;Las Majadas
+16122;ES-CU;ES-CM;Mariana
+16123;ES-CU;ES-CM;Masegosa
+16124;ES-CU;ES-CM;Las Mesas
+16125;ES-CU;ES-CM;Minglanilla
+16126;ES-CU;ES-CM;Mira
+16128;ES-CU;ES-CM;Monreal del Llano
+16129;ES-CU;ES-CM;Montalbanejo
+16130;ES-CU;ES-CM;Montalbo
+16131;ES-CU;ES-CM;Monteagudo de las Salinas
+16132;ES-CU;ES-CM;Mota de Altarejos
+16133;ES-CU;ES-CM;Mota del Cuervo
+16134;ES-CU;ES-CM;Motilla del Palancar
+16135;ES-CU;ES-CM;Moya
+16137;ES-CU;ES-CM;Narboneta
+16139;ES-CU;ES-CM;Olivares de Júcar
+16140;ES-CU;ES-CM;Olmeda de la Cuesta
+16141;ES-CU;ES-CM;Olmeda del Rey
+16142;ES-CU;ES-CM;Olmedilla de Alarcón
+16143;ES-CU;ES-CM;Olmedilla de Eliz
+16145;ES-CU;ES-CM;Osa de la Vega
+16146;ES-CU;ES-CM;Pajarón
+16147;ES-CU;ES-CM;Pajaroncillo
+16148;ES-CU;ES-CM;Palomares del Campo
+16149;ES-CU;ES-CM;Palomera
+16150;ES-CU;ES-CM;Paracuellos
+16151;ES-CU;ES-CM;Paredes
+16152;ES-CU;ES-CM;La Parra de las Vegas
+16153;ES-CU;ES-CM;El Pedernoso
+16154;ES-CU;ES-CM;Las Pedroñeras
+16155;ES-CU;ES-CM;El Peral
+16156;ES-CU;ES-CM;La Peraleja
+16157;ES-CU;ES-CM;La Pesquera
+16158;ES-CU;ES-CM;El Picazo
+16159;ES-CU;ES-CM;Pinarejo
+16160;ES-CU;ES-CM;Pineda de Gigüela
+16161;ES-CU;ES-CM;Piqueras del Castillo
+16162;ES-CU;ES-CM;Portalrubio de Guadamejud
+16163;ES-CU;ES-CM;Portilla
+16165;ES-CU;ES-CM;Poyatos
+16166;ES-CU;ES-CM;Pozoamargo
+16167;ES-CU;ES-CM;Pozorrubio
+16169;ES-CU;ES-CM;El Pozuelo
+16170;ES-CU;ES-CM;Priego
+16171;ES-CU;ES-CM;El Provencio
+16172;ES-CU;ES-CM;Puebla de Almenara
+16173;ES-CU;ES-CM;El Valle de Altomira
+16174;ES-CU;ES-CM;Puebla del Salvador
+16175;ES-CU;ES-CM;Quintanar del Rey
+16176;ES-CU;ES-CM;Rada de Haro
+16177;ES-CU;ES-CM;Reíllo
+16181;ES-CU;ES-CM;Rozalén del Monte
+16185;ES-CU;ES-CM;Saceda-Trasierra
+16186;ES-CU;ES-CM;Saelices
+16187;ES-CU;ES-CM;Salinas del Manzano
+16188;ES-CU;ES-CM;Salmeroncillos
+16189;ES-CU;ES-CM;Salvacañete
+16190;ES-CU;ES-CM;San Clemente
+16191;ES-CU;ES-CM;San Lorenzo de la Parrilla
+16192;ES-CU;ES-CM;San Martín de Boniches
+16193;ES-CU;ES-CM;San Pedro Palmiches
+16194;ES-CU;ES-CM;Santa Cruz de Moya
+16195;ES-CU;ES-CM;Santa María del Campo Rus
+16196;ES-CU;ES-CM;Santa María de los Llanos
+16197;ES-CU;ES-CM;Santa María del Val
+16198;ES-CU;ES-CM;Sisante
+16199;ES-CU;ES-CM;Solera de Gabaldón
+16202;ES-CU;ES-CM;Talayuelas
+16203;ES-CU;ES-CM;Tarancón
+16204;ES-CU;ES-CM;Tébar
+16205;ES-CU;ES-CM;Tejadillos
+16206;ES-CU;ES-CM;Tinajas
+16209;ES-CU;ES-CM;Torralba
+16211;ES-CU;ES-CM;Torrejoncillo del Rey
+16212;ES-CU;ES-CM;Torrubia del Campo
+16213;ES-CU;ES-CM;Torrubia del Castillo
+16215;ES-CU;ES-CM;Tragacete
+16216;ES-CU;ES-CM;Tresjuncos
+16217;ES-CU;ES-CM;Tribaldos
+16218;ES-CU;ES-CM;Uclés
+16219;ES-CU;ES-CM;Uña
+16224;ES-CU;ES-CM;Valdemeca
+16225;ES-CU;ES-CM;Valdemorillo de la Sierra
+16227;ES-CU;ES-CM;Valdemoro-Sierra
+16228;ES-CU;ES-CM;Valdeolivas
+16231;ES-CU;ES-CM;Valhermoso de la Fuente
+16234;ES-CU;ES-CM;Valsalobre
+16236;ES-CU;ES-CM;Valverde de Júcar
+16237;ES-CU;ES-CM;Valverdejo
+16238;ES-CU;ES-CM;Vara de Rey
+16239;ES-CU;ES-CM;Vega del Codorno
+16240;ES-CU;ES-CM;Vellisca
+16242;ES-CU;ES-CM;Villaconejos de Trabaque
+16243;ES-CU;ES-CM;Villaescusa de Haro
+16244;ES-CU;ES-CM;Villagarcía del Llano
+16245;ES-CU;ES-CM;Villalba de la Sierra
+16246;ES-CU;ES-CM;Villalba del Rey
+16247;ES-CU;ES-CM;Villalgordo del Marquesado
+16248;ES-CU;ES-CM;Villalpardo
+16249;ES-CU;ES-CM;Villamayor de Santiago
+16250;ES-CU;ES-CM;Villanueva de Guadamejud
+16251;ES-CU;ES-CM;Villanueva de la Jara
+16253;ES-CU;ES-CM;Villar de Cañas
+16254;ES-CU;ES-CM;Villar de Domingo García
+16255;ES-CU;ES-CM;Villar de la Encina
+16258;ES-CU;ES-CM;Villar del Humo
+16259;ES-CU;ES-CM;Villar del Infantado
+16263;ES-CU;ES-CM;Villar de Olalla
+16264;ES-CU;ES-CM;Villarejo de Fuentes
+16265;ES-CU;ES-CM;Villarejo de la Peñuela
+16266;ES-CU;ES-CM;Villarejo-Periesteban
+16269;ES-CU;ES-CM;Villares del Saz
+16270;ES-CU;ES-CM;Villarrubio
+16271;ES-CU;ES-CM;Villarta
+16272;ES-CU;ES-CM;Villas de la Ventosa
+16273;ES-CU;ES-CM;Villaverde y Pasaconsol
+16274;ES-CU;ES-CM;Víllora
+16275;ES-CU;ES-CM;Vindel
+16276;ES-CU;ES-CM;Yémeda
+16277;ES-CU;ES-CM;Zafra de Záncara
+16278;ES-CU;ES-CM;Zafrilla
+16279;ES-CU;ES-CM;Zarza de Tajo
+16280;ES-CU;ES-CM;Zarzuela
+16901;ES-CU;ES-CM;Campos del Paraíso
+16902;ES-CU;ES-CM;Valdetórtola
+16903;ES-CU;ES-CM;Las Valeras
+16904;ES-CU;ES-CM;Fuentenava de Jábaga
+16905;ES-CU;ES-CM;Arcas del Villar
+16906;ES-CU;ES-CM;Los Valdecolmenas
+16908;ES-CU;ES-CM;Pozorrubielos de la Mancha
+16909;ES-CU;ES-CM;Sotorribas
+16910;ES-CU;ES-CM;Villar y Velasco
+19001;ES-GU;ES-CM;Abánades
+19002;ES-GU;ES-CM;Ablanque
+19003;ES-GU;ES-CM;Adobes
+19004;ES-GU;ES-CM;Alaminos
+19005;ES-GU;ES-CM;Alarilla
+19006;ES-GU;ES-CM;Albalate de Zorita
+19007;ES-GU;ES-CM;Albares
+19008;ES-GU;ES-CM;Albendiego
+19009;ES-GU;ES-CM;Alcocer
+19010;ES-GU;ES-CM;Alcolea de las Peñas
+19011;ES-GU;ES-CM;Alcolea del Pinar
+19013;ES-GU;ES-CM;Alcoroches
+19015;ES-GU;ES-CM;Aldeanueva de Guadalajara
+19016;ES-GU;ES-CM;Algar de Mesa
+19017;ES-GU;ES-CM;Algora
+19018;ES-GU;ES-CM;Alhóndiga
+19019;ES-GU;ES-CM;Alique
+19020;ES-GU;ES-CM;Almadrones
+19021;ES-GU;ES-CM;Almoguera
+19022;ES-GU;ES-CM;Almonacid de Zorita
+19023;ES-GU;ES-CM;Alocén
+19024;ES-GU;ES-CM;Alovera
+19027;ES-GU;ES-CM;Alustante
+19031;ES-GU;ES-CM;Angón
+19032;ES-GU;ES-CM;Anguita
+19033;ES-GU;ES-CM;Anquela del Ducado
+19034;ES-GU;ES-CM;Anquela del Pedregal
+19036;ES-GU;ES-CM;Aranzueque
+19037;ES-GU;ES-CM;Arbancón
+19038;ES-GU;ES-CM;Arbeteta
+19039;ES-GU;ES-CM;Argecilla
+19040;ES-GU;ES-CM;Armallones
+19041;ES-GU;ES-CM;Armuña de Tajuña
+19042;ES-GU;ES-CM;Arroyo de las Fraguas
+19043;ES-GU;ES-CM;Atanzón
+19044;ES-GU;ES-CM;Atienza
+19045;ES-GU;ES-CM;Auñón
+19046;ES-GU;ES-CM;Azuqueca de Henares
+19047;ES-GU;ES-CM;Baides
+19048;ES-GU;ES-CM;Baños de Tajo
+19049;ES-GU;ES-CM;Bañuelos
+19050;ES-GU;ES-CM;Barriopedro
+19051;ES-GU;ES-CM;Berninches
+19052;ES-GU;ES-CM;La Bodera
+19053;ES-GU;ES-CM;Brihuega
+19054;ES-GU;ES-CM;Budia
+19055;ES-GU;ES-CM;Bujalaro
+19057;ES-GU;ES-CM;Bustares
+19058;ES-GU;ES-CM;Cabanillas del Campo
+19059;ES-GU;ES-CM;Campillo de Dueñas
+19060;ES-GU;ES-CM;Campillo de Ranas
+19061;ES-GU;ES-CM;Campisábalos
+19064;ES-GU;ES-CM;Canredondo
+19065;ES-GU;ES-CM;Cantalojas
+19066;ES-GU;ES-CM;Cañizar
+19067;ES-GU;ES-CM;El Cardoso de la Sierra
+19070;ES-GU;ES-CM;Casa de Uceda
+19071;ES-GU;ES-CM;El Casar
+19073;ES-GU;ES-CM;Casas de San Galindo
+19074;ES-GU;ES-CM;Caspueñas
+19075;ES-GU;ES-CM;Castejón de Henares
+19076;ES-GU;ES-CM;Castellar de la Muela
+19078;ES-GU;ES-CM;Castilforte
+19079;ES-GU;ES-CM;Castilnuevo
+19080;ES-GU;ES-CM;Cendejas de Enmedio
+19081;ES-GU;ES-CM;Cendejas de la Torre
+19082;ES-GU;ES-CM;Centenera
+19086;ES-GU;ES-CM;Cifuentes
+19087;ES-GU;ES-CM;Cincovillas
+19088;ES-GU;ES-CM;Ciruelas
+19089;ES-GU;ES-CM;Ciruelos del Pinar
+19090;ES-GU;ES-CM;Cobeta
+19091;ES-GU;ES-CM;Cogollor
+19092;ES-GU;ES-CM;Cogolludo
+19095;ES-GU;ES-CM;Condemios de Abajo
+19096;ES-GU;ES-CM;Condemios de Arriba
+19097;ES-GU;ES-CM;Congostrina
+19098;ES-GU;ES-CM;Copernal
+19099;ES-GU;ES-CM;Corduente
+19102;ES-GU;ES-CM;El Cubillo de Uceda
+19103;ES-GU;ES-CM;Checa
+19104;ES-GU;ES-CM;Chequilla
+19105;ES-GU;ES-CM;Chiloeches
+19106;ES-GU;ES-CM;Chillarón del Rey
+19107;ES-GU;ES-CM;Driebes
+19108;ES-GU;ES-CM;Durón
+19109;ES-GU;ES-CM;Embid
+19110;ES-GU;ES-CM;Escamilla
+19111;ES-GU;ES-CM;Escariche
+19112;ES-GU;ES-CM;Escopete
+19113;ES-GU;ES-CM;Espinosa de Henares
+19114;ES-GU;ES-CM;Esplegares
+19115;ES-GU;ES-CM;Establés
+19116;ES-GU;ES-CM;Estriégana
+19117;ES-GU;ES-CM;Fontanar
+19118;ES-GU;ES-CM;Fuembellida
+19119;ES-GU;ES-CM;Fuencemillán
+19120;ES-GU;ES-CM;Fuentelahiguera de Albatages
+19121;ES-GU;ES-CM;Fuentelencina
+19122;ES-GU;ES-CM;Fuentelsaz
+19123;ES-GU;ES-CM;Fuentelviejo
+19124;ES-GU;ES-CM;Fuentenovilla
+19125;ES-GU;ES-CM;Gajanejos
+19126;ES-GU;ES-CM;Galápagos
+19127;ES-GU;ES-CM;Galve de Sorbe
+19129;ES-GU;ES-CM;Gascueña de Bornova
+19130;ES-GU;ES-CM;Guadalajara
+19132;ES-GU;ES-CM;Henche
+19133;ES-GU;ES-CM;Heras de Ayuso
+19134;ES-GU;ES-CM;Herrería
+19135;ES-GU;ES-CM;Hiendelaencina
+19136;ES-GU;ES-CM;Hijes
+19138;ES-GU;ES-CM;Hita
+19139;ES-GU;ES-CM;Hombrados
+19142;ES-GU;ES-CM;Hontoba
+19143;ES-GU;ES-CM;Horche
+19145;ES-GU;ES-CM;Hortezuela de Océn
+19146;ES-GU;ES-CM;La Huerce
+19147;ES-GU;ES-CM;Huérmeces del Cerro
+19148;ES-GU;ES-CM;Huertahernando
+19150;ES-GU;ES-CM;Hueva
+19151;ES-GU;ES-CM;Humanes
+19152;ES-GU;ES-CM;Illana
+19153;ES-GU;ES-CM;Iniéstola
+19154;ES-GU;ES-CM;Las Inviernas
+19155;ES-GU;ES-CM;Irueste
+19156;ES-GU;ES-CM;Jadraque
+19157;ES-GU;ES-CM;Jirueque
+19159;ES-GU;ES-CM;Ledanca
+19160;ES-GU;ES-CM;Loranca de Tajuña
+19161;ES-GU;ES-CM;Lupiana
+19162;ES-GU;ES-CM;Luzaga
+19163;ES-GU;ES-CM;Luzón
+19165;ES-GU;ES-CM;Majaelrayo
+19166;ES-GU;ES-CM;Málaga del Fresno
+19167;ES-GU;ES-CM;Malaguilla
+19168;ES-GU;ES-CM;Mandayona
+19169;ES-GU;ES-CM;Mantiel
+19170;ES-GU;ES-CM;Maranchón
+19171;ES-GU;ES-CM;Marchamalo
+19172;ES-GU;ES-CM;Masegoso de Tajuña
+19173;ES-GU;ES-CM;Matarrubia
+19174;ES-GU;ES-CM;Matillas
+19175;ES-GU;ES-CM;Mazarete
+19176;ES-GU;ES-CM;Mazuecos
+19177;ES-GU;ES-CM;Medranda
+19178;ES-GU;ES-CM;Megina
+19179;ES-GU;ES-CM;Membrillera
+19181;ES-GU;ES-CM;Miedes de Atienza
+19182;ES-GU;ES-CM;La Mierla
+19183;ES-GU;ES-CM;Milmarcos
+19184;ES-GU;ES-CM;Millana
+19185;ES-GU;ES-CM;La Miñosa
+19186;ES-GU;ES-CM;Mirabueno
+19187;ES-GU;ES-CM;Miralrío
+19188;ES-GU;ES-CM;Mochales
+19189;ES-GU;ES-CM;Mohernando
+19190;ES-GU;ES-CM;Molina de Aragón
+19191;ES-GU;ES-CM;Monasterio
+19192;ES-GU;ES-CM;Mondéjar
+19193;ES-GU;ES-CM;Montarrón
+19194;ES-GU;ES-CM;Moratilla de los Meleros
+19195;ES-GU;ES-CM;Morenilla
+19196;ES-GU;ES-CM;Muduex
+19197;ES-GU;ES-CM;Las Navas de Jadraque
+19198;ES-GU;ES-CM;Negredo
+19199;ES-GU;ES-CM;Ocentejo
+19200;ES-GU;ES-CM;El Olivar
+19201;ES-GU;ES-CM;Olmeda de Cobeta
+19202;ES-GU;ES-CM;La Olmeda de Jadraque
+19203;ES-GU;ES-CM;El Ordial
+19204;ES-GU;ES-CM;Orea
+19208;ES-GU;ES-CM;Pálmaces de Jadraque
+19209;ES-GU;ES-CM;Pardos
+19210;ES-GU;ES-CM;Paredes de Sigüenza
+19211;ES-GU;ES-CM;Pareja
+19212;ES-GU;ES-CM;Pastrana
+19213;ES-GU;ES-CM;El Pedregal
+19214;ES-GU;ES-CM;Peñalén
+19215;ES-GU;ES-CM;Peñalver
+19216;ES-GU;ES-CM;Peralejos de las Truchas
+19217;ES-GU;ES-CM;Peralveche
+19218;ES-GU;ES-CM;Pinilla de Jadraque
+19219;ES-GU;ES-CM;Pinilla de Molina
+19220;ES-GU;ES-CM;Pioz
+19221;ES-GU;ES-CM;Piqueras
+19222;ES-GU;ES-CM;El Pobo de Dueñas
+19223;ES-GU;ES-CM;Poveda de la Sierra
+19224;ES-GU;ES-CM;Pozo de Almoguera
+19225;ES-GU;ES-CM;Pozo de Guadalajara
+19226;ES-GU;ES-CM;Prádena de Atienza
+19227;ES-GU;ES-CM;Prados Redondos
+19228;ES-GU;ES-CM;Puebla de Beleña
+19229;ES-GU;ES-CM;Puebla de Valles
+19230;ES-GU;ES-CM;Quer
+19231;ES-GU;ES-CM;Rebollosa de Jadraque
+19232;ES-GU;ES-CM;El Recuenco
+19233;ES-GU;ES-CM;Renera
+19234;ES-GU;ES-CM;Retiendas
+19235;ES-GU;ES-CM;Riba de Saelices
+19237;ES-GU;ES-CM;Rillo de Gallo
+19238;ES-GU;ES-CM;Riofrío del Llano
+19239;ES-GU;ES-CM;Robledillo de Mohernando
+19240;ES-GU;ES-CM;Robledo de Corpes
+19241;ES-GU;ES-CM;Romanillos de Atienza
+19242;ES-GU;ES-CM;Romanones
+19243;ES-GU;ES-CM;Rueda de la Sierra
+19244;ES-GU;ES-CM;Sacecorbo
+19245;ES-GU;ES-CM;Sacedón
+19246;ES-GU;ES-CM;Saelices de la Sal
+19247;ES-GU;ES-CM;Salmerón
+19248;ES-GU;ES-CM;San Andrés del Congosto
+19249;ES-GU;ES-CM;San Andrés del Rey
+19250;ES-GU;ES-CM;Santiuste
+19251;ES-GU;ES-CM;Saúca
+19252;ES-GU;ES-CM;Sayatón
+19254;ES-GU;ES-CM;Selas
+19255;ES-GU;ES-CM;Setiles
+19256;ES-GU;ES-CM;Sienes
+19257;ES-GU;ES-CM;Sigüenza
+19258;ES-GU;ES-CM;Solanillos del Extremo
+19259;ES-GU;ES-CM;Somolinos
+19260;ES-GU;ES-CM;El Sotillo
+19261;ES-GU;ES-CM;Sotodosos
+19262;ES-GU;ES-CM;Tamajón
+19263;ES-GU;ES-CM;Taragudo
+19264;ES-GU;ES-CM;Taravilla
+19265;ES-GU;ES-CM;Tartanedo
+19266;ES-GU;ES-CM;Tendilla
+19267;ES-GU;ES-CM;Terzaga
+19268;ES-GU;ES-CM;Tierzo
+19269;ES-GU;ES-CM;La Toba
+19270;ES-GU;ES-CM;Tordelrábano
+19271;ES-GU;ES-CM;Tordellego
+19272;ES-GU;ES-CM;Tordesilos
+19274;ES-GU;ES-CM;Torija
+19277;ES-GU;ES-CM;Torrecuadrada de Molina
+19278;ES-GU;ES-CM;Torrecuadradilla
+19279;ES-GU;ES-CM;Torre del Burgo
+19280;ES-GU;ES-CM;Torrejón del Rey
+19281;ES-GU;ES-CM;Torremocha de Jadraque
+19282;ES-GU;ES-CM;Torremocha del Campo
+19283;ES-GU;ES-CM;Torremocha del Pinar
+19284;ES-GU;ES-CM;Torremochuela
+19285;ES-GU;ES-CM;Torrubia
+19286;ES-GU;ES-CM;Tórtola de Henares
+19287;ES-GU;ES-CM;Tortuera
+19288;ES-GU;ES-CM;Tortuero
+19289;ES-GU;ES-CM;Traíd
+19290;ES-GU;ES-CM;Trijueque
+19291;ES-GU;ES-CM;Trillo
+19293;ES-GU;ES-CM;Uceda
+19294;ES-GU;ES-CM;Ujados
+19296;ES-GU;ES-CM;Utande
+19297;ES-GU;ES-CM;Valdarachas
+19298;ES-GU;ES-CM;Valdearenas
+19299;ES-GU;ES-CM;Valdeavellano
+19300;ES-GU;ES-CM;Valdeaveruelo
+19301;ES-GU;ES-CM;Valdeconcha
+19302;ES-GU;ES-CM;Valdegrudas
+19303;ES-GU;ES-CM;Valdelcubo
+19304;ES-GU;ES-CM;Valdenuño Fernández
+19305;ES-GU;ES-CM;Valdepeñas de la Sierra
+19306;ES-GU;ES-CM;Valderrebollo
+19307;ES-GU;ES-CM;Valdesotos
+19308;ES-GU;ES-CM;Valfermoso de Tajuña
+19309;ES-GU;ES-CM;Valhermoso
+19310;ES-GU;ES-CM;Valtablado del Río
+19311;ES-GU;ES-CM;Valverde de los Arroyos
+19314;ES-GU;ES-CM;Viana de Jadraque
+19317;ES-GU;ES-CM;Villanueva de Alcorón
+19318;ES-GU;ES-CM;Villanueva de Argecilla
+19319;ES-GU;ES-CM;Villanueva de la Torre
+19321;ES-GU;ES-CM;Villares de Jadraque
+19322;ES-GU;ES-CM;Villaseca de Henares
+19323;ES-GU;ES-CM;Villaseca de Uceda
+19324;ES-GU;ES-CM;Villel de Mesa
+19325;ES-GU;ES-CM;Viñuelas
+19326;ES-GU;ES-CM;Yebes
+19327;ES-GU;ES-CM;Yebra
+19329;ES-GU;ES-CM;Yélamos de Abajo
+19330;ES-GU;ES-CM;Yélamos de Arriba
+19331;ES-GU;ES-CM;Yunquera de Henares
+19332;ES-GU;ES-CM;La Yunta
+19333;ES-GU;ES-CM;Zaorejas
+19334;ES-GU;ES-CM;Zarzuela de Jadraque
+19335;ES-GU;ES-CM;Zorita de los Canes
+19901;ES-GU;ES-CM;Semillas
+-342516;ES-GU;ES-CM;Comunidad de Albalate de Zorita e Illana
+45001;ES-TO;ES-CM;Ajofrín
+45002;ES-TO;ES-CM;Alameda de la Sagra
+45003;ES-TO;ES-CM;Albarreal de Tajo
+45004;ES-TO;ES-CM;Alcabón
+45005;ES-TO;ES-CM;Alcañizo
+45006;ES-TO;ES-CM;Alcaudete de la Jara
+45007;ES-TO;ES-CM;Alcolea de Tajo
+45008;ES-TO;ES-CM;Aldea en Cabo
+45009;ES-TO;ES-CM;Aldeanueva de Barbarroya
+45010;ES-TO;ES-CM;Aldeanueva de San Bartolomé
+45011;ES-TO;ES-CM;Almendral de la Cañada
+45012;ES-TO;ES-CM;Almonacid de Toledo
+45013;ES-TO;ES-CM;Almorox
+45014;ES-TO;ES-CM;Añover de Tajo
+45015;ES-TO;ES-CM;Arcicóllar
+45016;ES-TO;ES-CM;Argés
+45017;ES-TO;ES-CM;Azután
+45018;ES-TO;ES-CM;Barcience
+45019;ES-TO;ES-CM;Bargas
+45020;ES-TO;ES-CM;Belvís de la Jara
+45021;ES-TO;ES-CM;Borox
+45022;ES-TO;ES-CM;Buenaventura
+45023;ES-TO;ES-CM;Burguillos de Toledo
+45024;ES-TO;ES-CM;Burujón
+45025;ES-TO;ES-CM;Cabañas de la Sagra
+45026;ES-TO;ES-CM;Cabañas de Yepes
+45027;ES-TO;ES-CM;Cabezamesada
+45028;ES-TO;ES-CM;Calera y Chozas
+45029;ES-TO;ES-CM;Caleruela
+45030;ES-TO;ES-CM;Calzada de Oropesa
+45031;ES-TO;ES-CM;Camarena
+45032;ES-TO;ES-CM;Camarenilla
+45033;ES-TO;ES-CM;El Campillo de la Jara
+45034;ES-TO;ES-CM;Camuñas
+45035;ES-TO;ES-CM;Cardiel de los Montes
+45036;ES-TO;ES-CM;Carmena
+45037;ES-TO;ES-CM;El Carpio de Tajo
+45038;ES-TO;ES-CM;Carranque
+45039;ES-TO;ES-CM;Carriches
+45040;ES-TO;ES-CM;El Casar de Escalona
+45041;ES-TO;ES-CM;Casarrubios del Monte
+45042;ES-TO;ES-CM;Casasbuenas
+45043;ES-TO;ES-CM;Castillo de Bayuela
+45045;ES-TO;ES-CM;Cazalegas
+45046;ES-TO;ES-CM;Cebolla
+45047;ES-TO;ES-CM;Cedillo del Condado
+45048;ES-TO;ES-CM;Los Cerralbos
+45049;ES-TO;ES-CM;Cervera de los Montes
+45050;ES-TO;ES-CM;Ciruelos
+45051;ES-TO;ES-CM;Cobeja
+45052;ES-TO;ES-CM;Cobisa
+45053;ES-TO;ES-CM;Consuegra
+45054;ES-TO;ES-CM;Corral de Almaguer
+45055;ES-TO;ES-CM;Cuerva
+45056;ES-TO;ES-CM;Chozas de Canales
+45057;ES-TO;ES-CM;Chueca
+45058;ES-TO;ES-CM;Domingo Pérez
+45059;ES-TO;ES-CM;Dosbarrios
+45060;ES-TO;ES-CM;Erustes
+45061;ES-TO;ES-CM;Escalona
+45062;ES-TO;ES-CM;Escalonilla
+45063;ES-TO;ES-CM;Espinoso del Rey
+45064;ES-TO;ES-CM;Esquivias
+45065;ES-TO;ES-CM;La Estrella
+45066;ES-TO;ES-CM;Fuensalida
+45067;ES-TO;ES-CM;Gálvez
+45068;ES-TO;ES-CM;Garciotum
+45069;ES-TO;ES-CM;Gerindote
+45070;ES-TO;ES-CM;Guadamur
+45071;ES-TO;ES-CM;La Guardia
+45072;ES-TO;ES-CM;Las Herencias
+45073;ES-TO;ES-CM;Herreruela de Oropesa
+45074;ES-TO;ES-CM;Hinojosa de San Vicente
+45075;ES-TO;ES-CM;Hontanar
+45076;ES-TO;ES-CM;Hormigos
+45077;ES-TO;ES-CM;Huecas
+45078;ES-TO;ES-CM;Huerta de Valdecarábanos
+45079;ES-TO;ES-CM;La Iglesuela del Tiétar
+45080;ES-TO;ES-CM;Illán de Vacas
+45081;ES-TO;ES-CM;Illescas
+45082;ES-TO;ES-CM;Lagartera
+45083;ES-TO;ES-CM;Layos
+45084;ES-TO;ES-CM;Lillo
+45085;ES-TO;ES-CM;Lominchar
+45086;ES-TO;ES-CM;Lucillos
+45087;ES-TO;ES-CM;Madridejos
+45088;ES-TO;ES-CM;Magán
+45089;ES-TO;ES-CM;Malpica de Tajo
+45090;ES-TO;ES-CM;Manzaneque
+45091;ES-TO;ES-CM;Maqueda
+45092;ES-TO;ES-CM;Marjaliza
+45093;ES-TO;ES-CM;Marrupe
+45094;ES-TO;ES-CM;Mascaraque
+45095;ES-TO;ES-CM;La Mata
+45096;ES-TO;ES-CM;Mazarambroz
+45097;ES-TO;ES-CM;Mejorada
+45098;ES-TO;ES-CM;Menasalbas
+45099;ES-TO;ES-CM;Méntrida
+45100;ES-TO;ES-CM;Mesegar de Tajo
+45101;ES-TO;ES-CM;Miguel Esteban
+45102;ES-TO;ES-CM;Mocejón
+45103;ES-TO;ES-CM;Mohedas de la Jara
+45104;ES-TO;ES-CM;Montearagón
+45105;ES-TO;ES-CM;Montesclaros
+45106;ES-TO;ES-CM;Mora
+45107;ES-TO;ES-CM;Nambroca
+45108;ES-TO;ES-CM;La Nava de Ricomalillo
+45109;ES-TO;ES-CM;Navahermosa
+45110;ES-TO;ES-CM;Navalcán
+45111;ES-TO;ES-CM;Navalmoralejo
+45112;ES-TO;ES-CM;Los Navalmorales
+45113;ES-TO;ES-CM;Los Navalucillos
+45114;ES-TO;ES-CM;Navamorcuende
+45115;ES-TO;ES-CM;Noblejas
+45116;ES-TO;ES-CM;Noez
+45117;ES-TO;ES-CM;Nombela
+45118;ES-TO;ES-CM;Novés
+45119;ES-TO;ES-CM;Numancia de la Sagra
+45120;ES-TO;ES-CM;Nuño Gómez
+45121;ES-TO;ES-CM;Ocaña
+45122;ES-TO;ES-CM;Olías del Rey
+45123;ES-TO;ES-CM;Ontígola
+45124;ES-TO;ES-CM;Orgaz
+45125;ES-TO;ES-CM;Oropesa
+45126;ES-TO;ES-CM;Otero
+45127;ES-TO;ES-CM;Palomeque
+45128;ES-TO;ES-CM;Pantoja
+45129;ES-TO;ES-CM;Paredes de Escalona
+45130;ES-TO;ES-CM;Parrillas
+45131;ES-TO;ES-CM;Pelahustán
+45132;ES-TO;ES-CM;Pepino
+45133;ES-TO;ES-CM;Polán
+45134;ES-TO;ES-CM;Portillo de Toledo
+45135;ES-TO;ES-CM;La Puebla de Almoradiel
+45136;ES-TO;ES-CM;La Puebla de Montalbán
+45137;ES-TO;ES-CM;La Pueblanueva
+45138;ES-TO;ES-CM;El Puente del Arzobispo
+45139;ES-TO;ES-CM;Puerto de San Vicente
+45140;ES-TO;ES-CM;Pulgar
+45141;ES-TO;ES-CM;Quero
+45142;ES-TO;ES-CM;Quintanar de la Orden
+45143;ES-TO;ES-CM;Quismondo
+45144;ES-TO;ES-CM;El Real de San Vicente
+45145;ES-TO;ES-CM;Recas
+45146;ES-TO;ES-CM;Retamoso de la Jara
+45147;ES-TO;ES-CM;Rielves
+45148;ES-TO;ES-CM;Robledo del Mazo
+45149;ES-TO;ES-CM;El Romeral
+45150;ES-TO;ES-CM;San Bartolomé de las Abiertas
+45151;ES-TO;ES-CM;San Martín de Montalbán
+45152;ES-TO;ES-CM;San Martín de Pusa
+45153;ES-TO;ES-CM;San Pablo de los Montes
+45154;ES-TO;ES-CM;San Román de los Montes
+45155;ES-TO;ES-CM;Santa Ana de Pusa
+45156;ES-TO;ES-CM;Santa Cruz de la Zarza
+45157;ES-TO;ES-CM;Santa Cruz del Retamar
+45158;ES-TO;ES-CM;Santa Olalla
+45159;ES-TO;ES-CM;Sartajada
+45160;ES-TO;ES-CM;Segurilla
+45161;ES-TO;ES-CM;Seseña
+45162;ES-TO;ES-CM;Sevilleja de la Jara
+45163;ES-TO;ES-CM;Sonseca
+45164;ES-TO;ES-CM;Sotillo de las Palomas
+45165;ES-TO;ES-CM;Talavera de la Reina
+45166;ES-TO;ES-CM;Tembleque
+45167;ES-TO;ES-CM;El Toboso
+45168;ES-TO;ES-CM;Toledo
+45169;ES-TO;ES-CM;Torralba de Oropesa
+45170;ES-TO;ES-CM;Torrecilla de la Jara
+45171;ES-TO;ES-CM;La Torre de Esteban Hambrán
+45172;ES-TO;ES-CM;Torrico
+45173;ES-TO;ES-CM;Torrijos
+45174;ES-TO;ES-CM;Totanés
+45175;ES-TO;ES-CM;Turleque
+45176;ES-TO;ES-CM;Ugena
+45177;ES-TO;ES-CM;Urda
+45179;ES-TO;ES-CM;Valdeverdeja
+45180;ES-TO;ES-CM;Valmojado
+45181;ES-TO;ES-CM;Velada
+45182;ES-TO;ES-CM;Las Ventas con Peña Aguilera
+45183;ES-TO;ES-CM;Las Ventas de Retamosa
+45184;ES-TO;ES-CM;Las Ventas de San Julián
+45185;ES-TO;ES-CM;Villacañas
+45186;ES-TO;ES-CM;La Villa de Don Fadrique
+45187;ES-TO;ES-CM;Villafranca de los Caballeros
+45188;ES-TO;ES-CM;Villaluenga de la Sagra
+45189;ES-TO;ES-CM;Villamiel de Toledo
+45190;ES-TO;ES-CM;Villaminaya
+45191;ES-TO;ES-CM;Villamuelas
+45192;ES-TO;ES-CM;Villanueva de Alcardete
+45193;ES-TO;ES-CM;Villanueva de Bogas
+45194;ES-TO;ES-CM;Villarejo de Montalbán
+45195;ES-TO;ES-CM;Villarrubia de Santiago
+45196;ES-TO;ES-CM;Villaseca de la Sagra
+45197;ES-TO;ES-CM;Villasequilla
+45198;ES-TO;ES-CM;Villatobas
+45199;ES-TO;ES-CM;El Viso de San Juan
+45200;ES-TO;ES-CM;Los Yébenes
+45201;ES-TO;ES-CM;Yeles
+45202;ES-TO;ES-CM;Yepes
+45203;ES-TO;ES-CM;Yuncler
+45204;ES-TO;ES-CM;Yunclillos
+45205;ES-TO;ES-CM;Yuncos
+45901;ES-TO;ES-CM;Santo Domingo-Caudilla

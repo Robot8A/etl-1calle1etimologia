@@ -34,9 +34,12 @@ function sum_reports() {
 }
 
 function log() {
-  echo
-  echo "$1"
-  echo
+  local columns=$(tput cols)
+  local text="$1"
+
+  printf '=%.0s' $(seq 1 ${columns})
+  printf "%*s\n" $(((${#text}+$columns)/2)) "$text"
+  printf '=%.0s' $(seq 1 ${columns})
 }
 
 # update the databases

@@ -7,9 +7,9 @@ __root="$(cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")" && pwd)"
 
 # merge reports by CCAA with their features
 function generate_reports() {
-#  for i in AN AR AS CB CE CL CM CN CT EX GA IB MC MD ML NC PV RI VC; do
+  for i in AN AR AS CB CE CL CM CN CT EX GA IB MC MD ML NC PV RI VC; do
 #  missing Ceuta & Melilla
-  for i in AN AR AS CB CL CM CN CT EX GA IB MC MD NC PV RI VC; do
+#  for i in AN AR AS CB CL CM CN CT EX GA IB MC MD NC PV RI VC; do
     "${__root}/bin/merge" --reports "$(grep -lnrw "${__root}/reports" -e ES-"${i}")" --feature "${__root}/features/municipios/${i}.feature.geojson" --name "$1/${i}.topo.json";
     sum_reports "${i}" > "${__root}/${i}.agg"
   done

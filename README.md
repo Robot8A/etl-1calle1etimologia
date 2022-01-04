@@ -50,7 +50,7 @@ Funciona de igual manera que `bin/report`: acepta un parámetro de entrada `loca
 
 La opción `-a`, o también `--admin`, sirve para agrupar el parámetro de entrada según se indique. Si no se especifica, el archivo resultante esta dividido por municipios. Acepta __ccaa__ y __prov__, los cuales dividirán la entrada en comunidad autónoma o provincia.
 
-La opción `-a`, o también `--tolerance`, especifica el nivel de detalle del GeoJSON. Corresponde con la función __ST_Simplify__ de PostGIS. Acepta valores entre 0 y 1, donde _1_ es mínimo nivel de detalle. Por defecto es de _0.001_.
+La opción `-t`, o también `--tolerance`, especifica el nivel de detalle del GeoJSON. Corresponde con la función __ST_Simplify__ de PostGIS. Acepta valores entre 0 y 1, donde _1_ es mínimo nivel de detalle. Por defecto es de _0.001_.
 
 ```sh
 $ bin/feature prov                 # Divisiones municipales cada provincia: A.municipios.geojson, AB.municipios.geojson...
@@ -62,7 +62,7 @@ $ bin/feature -t 0.01 -a prov VA   # Divisiones provinciales para Valladolid con
 #### **bin/merge -r|--reports _csv_ -g|--feature _feature_ [-f|--format _format_] [-n|--name _name_]**
 Genera un fichero [TopoJSON](https://github.com/topojson/topojson-specification/blob/master/README.md) a partir de uno (o varios) CSV y el GeoJSON que se especifique. El archivo _1calle1nombre.json_ resultante se crea en la carpeta raíz del proyecto. Este comando utiliza _node_ para ejecutar la herramienta [mapshaper](https://mapshaper.org/).
 
-Los parámetros `-r`, también se puede escribir `--reports`, y `-f`, o `--feature` en su versión larga, son obligatorios; donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos, --_globbing_-- para indicar más de un elemento, o bien, pasarle una expresión, siempre envolviendo el argumento entre comillas dobles) y `feature` la ruta del GeoJSON en concreto. El parámetro `-f` o `--format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson). Por último, el parámetro opcional `-n` o `--name` para cambiar el nombre al archivo resultante, que por defecto es _1calle1nombre.json_
+Los parámetros `-r`, también se puede escribir `--reports`, y `-g`, o `--feature` en su versión larga, son obligatorios; donde `csv` es la ruta de archivo CSV (se pueden usar asteriscos, --_globbing_-- para indicar más de un elemento, o bien, pasarle una expresión, siempre envolviendo el argumento entre comillas dobles) y `feature` la ruta del GeoJSON en concreto. El parámetro `-f` o `--format` es opcional, si queremos el resultado en topojson o geojson (por defecto, topojson). Por último, el parámetro opcional `-n` o `--name` para cambiar el nombre al archivo resultante, que por defecto es _1calle1nombre.json_
 
 ```sh
 $ bin/merge -r reports/202001/CL.csv -g features/CL.geojson       # Output en TopoJSON

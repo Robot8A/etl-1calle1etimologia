@@ -73,7 +73,7 @@ rm --force "${tmpfile}"
 awk '(NR == 1) || (FNR > 1)' "${reports[@]}" > "${tmpfile}"
 
 # run mapshaper transforming the data
-npx -q mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name,prov calc='tmp = collect({ [date]: percentage }), tmp2 = Object.entries((tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {})), values = Object.fromEntries((tmp2 || []).sort().filter((_,i) => i > 0 ? (tmp2 || [])[i - 1]?.[1] !== (tmp2 || [])[i][1] : true))' -filter-fields id,name,prov,values -o format="${format}" "${name}"
+npx -y mapshaper -i "${feature}" -clean -join "${tmpfile}" string-fields=id keys=id,id fields=id,name,prov calc='tmp = collect({ [date]: percentage }), tmp2 = Object.entries((tmp || []).reduce((acc, item) => ({ ...acc, ...item }), {})), values = Object.fromEntries((tmp2 || []).sort().filter((_,i) => i > 0 ? (tmp2 || [])[i - 1]?.[1] !== (tmp2 || [])[i][1] : true))' -filter-fields id,name,prov,values -o format="${format}" "${name}"
 
 rm --force "${tmpfile}"
 

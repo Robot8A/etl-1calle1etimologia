@@ -40,6 +40,12 @@ function log() {
   printf '=%.0s' $(seq 1 ${columns})
 }
 
+# create database
+createdb --username="${PGUSER:-$(whoami)}" "${PGDATABASE:-osm}"
+# create extensions
+psql --username="${PGUSER:-$(whoami)}" --dbname="${PGDATABASE:-osm}" --command 'CREATE EXTENSION IF NOT EXISTS postgis;' --quiet
+psql --username="${PGUSER:-$(whoami)}" --dbname="${PGDATABASE:-osm}" --command 'CREATE EXTENSION IF NOT EXISTS unaccent;' --quiet
+
 # update the databases
 STEP=${STEP:-0}
 [ "${STEP}" -gt 0 ] && log "Saltándose el primer paso..." || log "Actualizando la base de datos"
@@ -54,6 +60,9 @@ if [ "${STEP}" -gt 0 ] || "${__root}/bin/updatedb"; then
     log "Creando ficheros topojson"
 
     generate_reports "${output}"
+
+    # remove database
+    dropdb --username="${PGUSER:-$(whoami)}" "${PGDATABASE:-osm}"
   else
     echo "Error en report"
     exit 1;

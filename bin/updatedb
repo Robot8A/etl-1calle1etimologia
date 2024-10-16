@@ -31,6 +31,6 @@ if [[ -z $1 ]]; then
 fi
 
 # load the dumps into osm database
-osm2pgsql --create --slim --cache=4096 --multi-geometry --proj=4326 --database="${PGDATABASE:-osm}" --username="${PGUSER:-$(whoami)}" --style="${__root}/config/1calle1nombre.style" "${output}"
+osm2pgsql --create --slim --cache=4096 --multi-geometry --proj=4326 --database="${PGDATABASE:-osm}" --user="${PGUSER:-$(whoami)}" --style="${__root}/config/1calle1nombre.style" "${output}"
 
 exit $?;

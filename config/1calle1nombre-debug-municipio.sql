@@ -19,6 +19,7 @@ WITH municipios AS (
     highway IN (
       'residential', 'living_street', 'pedestrian'
     )
+    AND junction IS NULL
 )
 SELECT
   municipios.id AS id

@@ -62,6 +62,7 @@ WITH municipios AS (
     highway IN (
       'residential', 'living_street', 'pedestrian'
     )
+    AND junction IS NULL
 )
 , results AS (
   SELECT

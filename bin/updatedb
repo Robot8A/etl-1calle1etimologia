@@ -37,6 +37,6 @@ psql --username="${PGUSER:-$(whoami)}" --dbname="${PGDATABASE:-osm}" --command '
 psql --username="${PGUSER:-$(whoami)}" --dbname="${PGDATABASE:-osm}" --command 'CREATE EXTENSION IF NOT EXISTS unaccent;' --quiet
 
 # load the dumps into osm database
-osm2pgsql --create --slim --cache=4096 --multi-geometry --proj=4326 --database="${PGDATABASE:-osm}" --user="${PGUSER:-$(whoami)}" --style="${__root}/config/1calle1nombre.style" "${output}"
+osm2pgsql --create --slim --drop --cache=4096 --multi-geometry --proj=4326 --database="${PGDATABASE:-osm}" --user="${PGUSER:-$(whoami)}" --style="${__root}/config/1calle1nombre.style" "${output}"
 
 exit $?;

@@ -13,4 +13,4 @@ RUN service postgresql start \
 COPY . /root
 WORKDIR /root
 
-ENTRYPOINT service postgresql start && bash
+ENTRYPOINT ["/bin/sh", "-c", "service postgresql start && bash"]

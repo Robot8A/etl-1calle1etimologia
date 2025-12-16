@@ -18,9 +18,7 @@ jobs:
     - name: Generate full report
       run: |
         docker run --rm \
-          -v $(pwd):/app \
-          -w /app \
-          etl-1calle1etimologia bin/generator .
+        etl-1calle1etimologia bin/generator
 
     - name: Upload generated files
       uses: actions/upload-artifact@v4

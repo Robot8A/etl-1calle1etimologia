@@ -15,16 +15,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag etl-1calle1etimologia
       
-    - name: Run the Docker container (test)
-      run: docker run --rm etl-1calle1etimologia
-
-    - name: Update database  
-      run: |
-        docker run --rm \
-          -v $(pwd):/app \
-          -w /app \
-          etl-1calle1etimologia bin/updatedb
-      
     - name: Generate full report
       run: |
         docker run --rm \

@@ -15,23 +15,18 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag etl-1calle1etimologia
       
-    - name: Run the Docker container (test)
-      run: docker run --rm etl-1calle1etimologia
-
-    - name: Update database  
+    - name: Start persistent container
       run: |
-        docker run --rm \
-          -v $(pwd):/app \
+        docker run -d \
+          --name etl-container \
+          -v ${{ github.workspace }}:/app \
           -w /app \
-          etl-1calle1etimologia bin/updatedb
+          etl-1calle1etimologia \
+          tail -f /dev/null
       
     - name: Generate full report
-      run: |
-        docker run --rm \
-          -v $(pwd):/app \
-          -w /app \
-          etl-1calle1etimologia bin/generator .
-
+      run: docker exec etl-container bin/generator .
+      
     - name: Upload generated files
       uses: actions/upload-artifact@v4
       with:
@@ -40,3 +35,7 @@ jobs:
           reports/
           features/
         retention-days: 30
+    
+    - name: Cleanup container
+      if: always()
+      run: docker stop etl-container && docker rm etl-container

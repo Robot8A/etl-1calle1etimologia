@@ -34,4 +34,4 @@ RIGHT JOIN municipios ON
     , municipios.way
   )
 WHERE 
- streets.name IS NULL AND streets.noname IS NULL
+ streets.name:etymology:wikidata IS NULL

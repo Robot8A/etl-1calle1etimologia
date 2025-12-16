@@ -70,9 +70,9 @@ WITH municipios AS (
     , prov.id AS prov
     , ccaa.id AS ccaa
     , municipios.name
-    , sum(CASE WHEN (streets.way IS NOT NULL AND streets.name IS NULL AND streets.noname IS NULL) THEN 1 ELSE 0 END) AS incomplete
+    , sum(CASE WHEN (streets.way IS NOT NULL AND streets.name:etymology:wikidata) THEN 1 ELSE 0 END) AS incomplete
     , sum(CASE WHEN (streets.way IS NOT NULL) THEN 1 ELSE 0 END) AS total
-    , sum(CASE WHEN (streets.way IS NOT NULL AND streets.name IS NULL AND streets.noname IS NULL) THEN st_length(streets.way, TRUE) ELSE 0 END) AS length_incomplete
+    , sum(CASE WHEN (streets.way IS NOT NULL AND streets.name:etymology:wikidata) THEN st_length(streets.way, TRUE) ELSE 0 END) AS length_incomplete
     , sum(CASE WHEN (streets.way IS NOT NULL) THEN st_length(streets.way, TRUE) ELSE 0 END) AS length_total
   FROM
     streets

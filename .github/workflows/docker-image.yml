@@ -19,9 +19,7 @@ jobs:
       run: mkdir -p reports features
 
     - name: Generate full report
-      env:
-        TERM: xterm-256color
-      run: docker run --rm --name etl_run --entrypoint /bin/sh etl-1calle1etimologia -c "service postgresql start && bash bin/generator"
+      run: docker run --rm -t --name etl_run --entrypoint /bin/sh etl-1calle1etimologia -c "service postgresql start && bash bin/generator"
 
     - name: Copy outputs from container
       run: |

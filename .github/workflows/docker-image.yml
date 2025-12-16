@@ -7,12 +7,36 @@ on:
     branches: [ "main" ]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
+    
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag etl-1calle1etimologia
+      
+    - name: Run the Docker container (test)
+      run: docker run --rm etl-1calle1etimologia
+
+    - name: Update database  
+      run: |
+        docker run --rm \
+          -v $(pwd):/app \
+          -w /app \
+          etl-1calle1etimologia bin/updatedb
+      
+    - name: Generate full report
+      run: |
+        docker run --rm \
+          -v $(pwd):/app \
+          -w /app \
+          etl-1calle1etimologia bin/generator .
+
+    - name: Upload generated files
+      uses: actions/upload-artifact@v4
+      with:
+        name: etl-reports
+        path: |
+          reports/
+          features/
+        retention-days: 30

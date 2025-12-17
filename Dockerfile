@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 LABEL maintainer="aumpfbahn@gmail.com"
 
 ENV DEBIAN_FRONTEND=noninteractive

@@ -50,6 +50,7 @@ jobs:
         path: |
           reports/
           features/
+          output/
         retention-days: 30
 
     - name: Dump container logs

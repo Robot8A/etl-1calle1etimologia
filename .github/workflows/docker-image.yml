@@ -31,7 +31,7 @@ jobs:
 
     - name: Download data & setup database (only Aragón)
       run: |
-        docker exec -it etl_run sh -c "
+        docker exec -t etl_run sh -c "
           curl --fail --progress-bar --remote-name https://download.geofabrik.de/europe/spain/aragon-$(date +%y%m)01.osm.pbf &&
           bash bin/updatedb *.osm.pbf
         "

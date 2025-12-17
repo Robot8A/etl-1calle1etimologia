@@ -22,10 +22,10 @@ jobs:
       run: docker run -d --name etl_run --entrypoint /bin/sh etl-1calle1etimologia -c "service postgresql start && tail -f /dev/null"
 
     - name: Download data & setup database
-      run: docker exec etl_run "bash bin/update_db"
+      run: docker exec etl_run /bin/sh -c "bash bin/updatedb"
 
     - name: Run full analysis for Aragón
-      run: docker exec etl_run "bash bin/report AR && bash bin/feature AR"
+      run: docker exec etl_run /bin/sh -c "bash bin/report AR && bash bin/feature AR"
 
     - name: Copy outputs from container
       run: |

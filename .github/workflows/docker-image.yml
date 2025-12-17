@@ -8,31 +8,39 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     steps:
     - uses: actions/checkout@v4
     
+    - name: Create output directories
+      run: mkdir -p reports features
+
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag etl-1calle1etimologia
       
-    - name: Prepare output directories
-      run: mkdir -p reports features
-
     - name: Start ETL container
-      run: docker run -d --name etl_run --entrypoint /bin/sh etl-1calle1etimologia -c "service postgresql start && tail -f /dev/null"
-
-    - name: Download data & setup database
-      run: docker exec etl_run /bin/sh -c "bash bin/updatedb"
-
-    - name: Run full analysis for Aragón
-      run: docker exec etl_run /bin/sh -c "bash bin/report AR && bash bin/feature AR"
-
-    - name: Copy outputs from container
       run: |
-        docker cp etl_run:/app/reports ./reports || true
-        docker cp etl_run:/app/features ./features || true
+        docker run -d \
+          --name etl_run \
+          -v $(pwd)/reports:/root/reports \
+          -v $(pwd)/features:/root/features \
+          -v $(pwd)/output:/root/output \
+          --entrypoint /bin/sh \
+          etl-1calle1etimologia \
+          -c "service postgresql start && mkdir ./output && tail -f /dev/null"
+
+    - name: Download data & setup database (only Aragón)
+      run: |
+        docker exec -it etl_run sh -c "
+          curl --fail --progress-bar --remote-name https://download.geofabrik.de/europe/spain/aragon-$(date +%y%m)01.osm.pbf &&
+          bash bin/updatedb *.osm.pbf
+        "
+
+    - name: Run full analysis
+      run: docker exec -it -e STEP=1 etl_run bin/generator
 
     - name: Remove container
+      if: always()
       run: docker rm -f etl_run || true
 
     - name: Upload generated files
